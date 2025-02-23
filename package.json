@@ -1,0 +1,29 @@
+{
+    "name": "middle-earth-typing-trials",
+    "version": "1.0.0",
+    "description": "An interactive typing test using character quotes from the LotR films.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "npx @tailwindcss/cli -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch",
+        "http-server": "http-server ./src",
+        "dev": "npm-run-all --parallel watch http-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jordancrouch/middle-earth-typing-trials.git"
+    },
+    "author": "Jordan Crouch",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jordancrouch/middle-earth-typing-trials/issues"
+    },
+    "homepage": "https://github.com/jordancrouch/middle-earth-typing-trials#readme",
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.0.8",
+        "tailwindcss": "^4.0.8"
+    },
+    "dependencies": {
+        "npm-run-all": "^4.1.5"
+    }
+}
