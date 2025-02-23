@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --color-forest-green-500: oklch(0.24 0.06 134.81);
+  --color-gold-500: oklch(0.64 0.11 90.25);
+}
