@@ -1,4 +1,19 @@
 /*! tailwindcss v4.0.8 | MIT License | https://tailwindcss.com */
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Fira+Mono:wght@400;500;700&display=swap");
+@font-face {
+  font-family: "Ringbearer";
+  src: url("../fonts/RINGM___.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Albertus MT";
+  src: url("../fonts/ALBMT___.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
 @layer theme, base, components, utilities;
 @layer theme {
   :root,
@@ -23,6 +38,8 @@
     --default-mono-font-variation-settings: var(
       --font-mono--font-variation-settings
     );
+    --font-ringbearer: "Ringbearer", serif;
+    --font-albert-sans: "Albert Sans", sans-serif;
     --color-forest-green-500: oklch(0.24 0.06 134.81);
     --color-gold-500: oklch(0.64 0.11 90.25);
   }
@@ -247,6 +264,27 @@
   .z-1 {
     z-index: 1;
   }
+  .container {
+    width: 100%;
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
   .block {
     display: block;
   }
@@ -278,11 +316,20 @@
   .w-screen {
     width: 100vw;
   }
+  .max-w-\[640px\] {
+    max-width: 640px;
+  }
+  .max-w-\[1260px\] {
+    max-width: 1260px;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
   .resize {
     resize: both;
+  }
+  .flex-col {
+    flex-direction: column;
   }
   .items-center {
     align-items: center;
@@ -315,6 +362,18 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
+  .text-center {
+    text-align: center;
+  }
+  .font-albert-sans {
+    font-family: var(--font-albert-sans);
+  }
+  .font-ringbearer {
+    font-family: var(--font-ringbearer);
+  }
   .underline {
     text-decoration-line: underline;
   }
@@ -330,6 +389,16 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .sm\:py-12 {
+    @media (width >= 40rem) {
+      padding-block: calc(var(--spacing) * 12);
+    }
+  }
+  .lg\:py-16 {
+    @media (width >= 64rem) {
+      padding-block: calc(var(--spacing) * 16);
+    }
   }
   .dark\:bg-forest-green-500 {
     @media (prefers-color-scheme: dark) {
@@ -353,25 +422,37 @@
       }
     }
   }
-  .dark\:md\:bg-\[url\(\/assets\/images\/tablet-bg-img\.webp\)\] {
-    @media (prefers-color-scheme: dark) {
-      @media (width >= 48rem) {
-        background-image: url(/assets/images/tablet-bg-img.webp);
-      }
-    }
-  }
-  .dark\:lg\:bg-\[url\(\/assets\/images\/desktio-bg-img\.webp\)\] {
-    @media (prefers-color-scheme: dark) {
-      @media (width >= 64rem) {
-        background-image: url(/assets/images/desktio-bg-img.webp);
-      }
-    }
-  }
   .dark\:lg\:bg-\[url\(\/assets\/images\/desktop-bg-img\.webp\)\] {
     @media (prefers-color-scheme: dark) {
       @media (width >= 64rem) {
         background-image: url(/assets/images/desktop-bg-img.webp);
       }
+    }
+  }
+}
+@layer base {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2em;
+  }
+}
+html {
+  font-size: 20px;
+  line-height: 1.4;
+}
+@media screen and (width >= 40rem) {
+  @layer base {
+    h1 {
+      font-size: 2.6rem;
+      line-height: 1.15em;
+    }
+  }
+}
+@media screen and (width >= 64rem) {
+  @layer base {
+    h1 {
+      font-size: 3rem;
+      line-height: 1.13em;
     }
   }
 }
