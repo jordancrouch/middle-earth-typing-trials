@@ -266,10 +266,6 @@
     width: calc(var(--spacing) * 6);
     height: calc(var(--spacing) * 6);
   }
-  .size-dvh {
-    width: 100dvh;
-    height: 100dvh;
-  }
   .h-screen {
     height: 100vh;
   }
@@ -310,23 +306,11 @@
   .bg-no-repeat {
     background-repeat: no-repeat;
   }
-  .fill-gold-500 {
-    fill: var(--color-gold-500);
-  }
   .stroke-gold-500 {
     stroke: var(--color-gold-500);
   }
-  .px-2 {
-    padding-inline: calc(var(--spacing) * 2);
-  }
-  .px-4 {
-    padding-inline: calc(var(--spacing) * 4);
-  }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
-  }
-  .py-4 {
-    padding-block: calc(var(--spacing) * 4);
   }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
@@ -360,6 +344,34 @@
   .dark\:text-white {
     @media (prefers-color-scheme: dark) {
       color: var(--color-white);
+    }
+  }
+  .dark\:sm\:bg-\[url\(\/assets\/images\/tablet-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 40rem) {
+        background-image: url(/assets/images/tablet-bg-img.webp);
+      }
+    }
+  }
+  .dark\:md\:bg-\[url\(\/assets\/images\/tablet-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 48rem) {
+        background-image: url(/assets/images/tablet-bg-img.webp);
+      }
+    }
+  }
+  .dark\:lg\:bg-\[url\(\/assets\/images\/desktio-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 64rem) {
+        background-image: url(/assets/images/desktio-bg-img.webp);
+      }
+    }
+  }
+  .dark\:lg\:bg-\[url\(\/assets\/images\/desktop-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 64rem) {
+        background-image: url(/assets/images/desktop-bg-img.webp);
+      }
     }
   }
 }
