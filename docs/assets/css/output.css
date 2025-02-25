@@ -252,6 +252,9 @@
   }
 }
 @layer utilities {
+  .collapse {
+    visibility: collapse;
+  }
   .absolute {
     position: absolute;
   }
@@ -291,8 +294,26 @@
   .mb-auto {
     margin-bottom: auto;
   }
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
+  }
+  .inline-block {
+    display: inline-block;
+  }
+  .inline-flex {
+    display: inline-flex;
+  }
+  .list-item {
+    display: list-item;
+  }
+  .table {
+    display: table;
   }
   .size-5 {
     width: calc(var(--spacing) * 5);
@@ -323,6 +344,9 @@
   .max-w-\[1260px\] {
     max-width: 1260px;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
   .resize {
     resize: both;
   }
@@ -352,6 +376,10 @@
   }
   .overflow-y-scroll {
     overflow-y: scroll;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .bg-cover {
     background-size: cover;
@@ -391,6 +419,9 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .underline {
+    text-decoration-line: underline;
+  }
   .opacity-70 {
     opacity: 70%;
   }
@@ -399,6 +430,10 @@
   }
   .mix-blend-multiply {
     mix-blend-mode: multiply;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .sm\:flex-row {
     @media (width >= 40rem) {
@@ -435,9 +470,21 @@
       background-image: url(/assets/images/mobile-bg-img.webp);
     }
   }
+  .dark\:bg-\[url\(assets\/images\/mobile-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      background-image: url(assets/images/mobile-bg-img.webp);
+    }
+  }
   .dark\:text-white {
     @media (prefers-color-scheme: dark) {
       color: var(--color-white);
+    }
+  }
+  .dark\:sm\:bg-\[\/url\(assets\/images\/tablet-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 40rem) {
+        background-color: /url(assets/images/tablet-bg-img.webp);
+      }
     }
   }
   .dark\:sm\:bg-\[url\(\/assets\/images\/tablet-bg-img\.webp\)\] {
@@ -447,10 +494,31 @@
       }
     }
   }
+  .dark\:sm\:bg-\[url\(assets\/images\/tablet-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 40rem) {
+        background-image: url(assets/images/tablet-bg-img.webp);
+      }
+    }
+  }
+  .dark\:lg\:bg-\[\/url\(assets\/images\/desktop-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 64rem) {
+        background-color: /url(assets/images/desktop-bg-img.webp);
+      }
+    }
+  }
   .dark\:lg\:bg-\[url\(\/assets\/images\/desktop-bg-img\.webp\)\] {
     @media (prefers-color-scheme: dark) {
       @media (width >= 64rem) {
         background-image: url(/assets/images/desktop-bg-img.webp);
+      }
+    }
+  }
+  .dark\:lg\:bg-\[url\(assets\/images\/desktop-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 64rem) {
+        background-image: url(assets/images/desktop-bg-img.webp);
       }
     }
   }
@@ -493,7 +561,17 @@ html {
     }
   }
 }
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
