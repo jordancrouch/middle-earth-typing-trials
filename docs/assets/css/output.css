@@ -465,6 +465,16 @@
       background-color: var(--color-forest-green-500);
     }
   }
+  .dark\:bg-\[url\(\'\/assets\/images\/mobile-bg-img\.webp\'\)\] {
+    @media (prefers-color-scheme: dark) {
+      background-image: url("/assets/images/mobile-bg-img.webp");
+    }
+  }
+  .dark\:bg-\[url\(\.\.\/assets\/images\/mobile-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      background-image: url(../assets/images/mobile-bg-img.webp);
+    }
+  }
   .dark\:bg-\[url\(\/assets\/images\/mobile-bg-img\.webp\)\] {
     @media (prefers-color-scheme: dark) {
       background-image: url(/assets/images/mobile-bg-img.webp);
@@ -487,6 +497,20 @@
       }
     }
   }
+  .dark\:sm\:bg-\[url\(\'\/assets\/images\/tablet-bg-img\.webp\'\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 40rem) {
+        background-image: url("/assets/images/tablet-bg-img.webp");
+      }
+    }
+  }
+  .dark\:sm\:bg-\[url\(\.\.\/assets\/images\/tablet-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 40rem) {
+        background-image: url(../assets/images/tablet-bg-img.webp);
+      }
+    }
+  }
   .dark\:sm\:bg-\[url\(\/assets\/images\/tablet-bg-img\.webp\)\] {
     @media (prefers-color-scheme: dark) {
       @media (width >= 40rem) {
@@ -505,6 +529,20 @@
     @media (prefers-color-scheme: dark) {
       @media (width >= 64rem) {
         background-color: /url(assets/images/desktop-bg-img.webp);
+      }
+    }
+  }
+  .dark\:lg\:bg-\[url\(\'\/assets\/images\/desktop-bg-img\.webp\'\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 64rem) {
+        background-image: url("/assets/images/desktop-bg-img.webp");
+      }
+    }
+  }
+  .dark\:lg\:bg-\[url\(\.\.\/assets\/images\/desktop-bg-img\.webp\)\] {
+    @media (prefers-color-scheme: dark) {
+      @media (width >= 64rem) {
+        background-image: url(../assets/images/desktop-bg-img.webp);
       }
     }
   }
