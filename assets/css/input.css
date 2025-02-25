@@ -38,22 +38,33 @@
   }
 }
 
+/* Tailwind CSS Components */
+@layer components {
+  .button {
+    background-color: var(--color-gold-500);
+    border-radius: 3px;
+    padding: 12px 24px;
+    font-weight: 600;
+  }
+
+  .button svg {
+    display: inline-block;
+  }
+}
+
 /* Update root font size used */
 html {
   font-size: 20px;
   line-height: 1.4;
 }
 
-/* Buttons */
-.button {
-  background-color: var(--color-gold-500);
-  border-radius: 3px;
-  padding: 12px 24px;
-  font-weight: 600;
-}
+/* Character Grid */
+.character-grid {
+  gap: 30px;
 
-.button svg {
-  display: inline-block;
+  .character {
+    flex: 0 1 100%;
+  }
 }
 
 /* Footer */
@@ -70,6 +81,13 @@ html {
       line-height: 1.15em;
     }
   }
+
+  /* Character Grid */
+  .character-grid {
+    .character {
+      flex-basis: calc(50% - 15px);
+    }
+  }
 }
 
 /* Small Desktop Sizes (1024px) and up */
@@ -79,6 +97,14 @@ html {
     h1 {
       font-size: 3rem;
       line-height: 1.13em;
+    }
+  }
+
+  /* Character Grid */
+  .character-grid {
+    gap: 40px;
+    .character {
+      flex-basis: calc(33.33% - 20px);
     }
   }
 }
