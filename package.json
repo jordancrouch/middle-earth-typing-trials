@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-css": "npx @tailwindcss/cli -i ./docs/assets/css/input.css -o ./docs/assets/css/output.css --watch",
-    "prettier-watch": "onchange \"./docs/**/*\" -- prettier --write --ignore-unknown {{changed}}",
-    "http-server": "http-server ./docs",
+    "watch-css": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "prettier-watch": "onchange \"./**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "http-server": "http-server",
     "dev": "npm-run-all --parallel watch-css prettier-watch http-server"
   },
   "repository": {
