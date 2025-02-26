@@ -1,4 +1,5 @@
 window.addEventListener("load", function () {
+  /*
   this.document.getElementById("characters").addEventListener("click", (e) => {
     e.preventDefault();
     this.fetch("/test")
@@ -12,4 +13,5 @@ window.addEventListener("load", function () {
         console.log(data);
       });
   });
+  */
 });

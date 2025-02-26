@@ -64,6 +64,18 @@ html {
 
   .character {
     flex: 0 1 100%;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .character:hover,
+  .character:focus,
+  .character:focus-visible,
+  .character:focus-within,
+  .character:target {
+    p {
+      opacity: 1;
+    }
   }
 }
 
@@ -104,7 +116,7 @@ html {
   .character-grid {
     gap: 40px;
     .character {
-      flex-basis: calc(33.33% - 20px);
+      flex-basis: calc(33.33% - (80px / 3));
     }
   }
 }
