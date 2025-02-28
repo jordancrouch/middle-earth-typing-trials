@@ -313,9 +313,6 @@
   .flex {
     display: flex;
   }
-  .grid {
-    display: grid;
-  }
   .hidden {
     display: none;
   }
@@ -635,6 +632,9 @@ html {
     flex: 0 1 100%;
     border-radius: 6px;
     overflow: hidden;
+  }
+  .character img {
+    pointer-events: none;
   }
   .character:hover,
   .character:focus,

@@ -68,6 +68,10 @@ html {
     overflow: hidden;
   }
 
+  .character img {
+    pointer-events: none;
+  }
+
   .character:hover,
   .character:focus,
   .character:focus-visible,
