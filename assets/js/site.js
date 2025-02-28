@@ -8,10 +8,14 @@ window.addEventListener("DOMContentLoaded", () => {
   };
 
   if (charactersButton) {
-    const charactersLink = charactersButton.getAttribute("href");
+    const currentURL = window.location.href;
+    let charactersLink = charactersButton.getAttribute("href");
+    if (!currentURL.includes("localhost")) {
+      charactersLink = "/middle-earth-typing-trials" + charactersLink;
+    }
     charactersButton.addEventListener("click", (e) => {
       e.preventDefault();
-      this.fetch(charactersButton.getAttribute("href"))
+      this.fetch(charactersLink)
         .then((response) => {
           if (response.ok) {
             return response.text();
