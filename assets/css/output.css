@@ -313,9 +313,6 @@
   .flex {
     display: flex;
   }
-  .grid {
-    display: grid;
-  }
   .hidden {
     display: none;
   }
@@ -585,46 +582,6 @@
       @media (width >= 64rem) {
         background-image: url("../images/desktop-bg-img.webp");
       }
-    }
-  }
-  .\[\@media\(min-height\:800px\)\]\:mb-0 {
-    @media (min-height: 800px) {
-      margin-bottom: calc(var(--spacing) * 0);
-    }
-  }
-  .\[\@media\(min-height\:800px\)\]\:h-full {
-    @media (min-height: 800px) {
-      height: 100%;
-    }
-  }
-  .\[\@media\(min-height\:800px\)\]\:justify-center {
-    @media (min-height: 800px) {
-      justify-content: center;
-    }
-  }
-  .\[\@media\(min-height\:800px\)\]\:pt-0 {
-    @media (min-height: 800px) {
-      padding-top: calc(var(--spacing) * 0);
-    }
-  }
-  .\[\@media\(min-height\:820px\)\]\:mb-0 {
-    @media (min-height: 820px) {
-      margin-bottom: calc(var(--spacing) * 0);
-    }
-  }
-  .\[\@media\(min-height\:820px\)\]\:h-full {
-    @media (min-height: 820px) {
-      height: 100%;
-    }
-  }
-  .\[\@media\(min-height\:820px\)\]\:justify-center {
-    @media (min-height: 820px) {
-      justify-content: center;
-    }
-  }
-  .\[\@media\(min-height\:820px\)\]\:pt-0 {
-    @media (min-height: 820px) {
-      padding-top: calc(var(--spacing) * 0);
     }
   }
   .\[\@media\(min-height\:850px\)\]\:mb-0 {
