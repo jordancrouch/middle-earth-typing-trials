@@ -39,6 +39,8 @@ jobs:
         env:
           ONE_API_KEY: ${{ secrets.ONE_API }}
         run: |
+          mkdir -p ./_site/assets/js
+          chmod -R 755 ./_site/assets/js
           echo "export const ONE_API = '${ONE_API_KEY}';" > ./_site/assets/js/config.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
