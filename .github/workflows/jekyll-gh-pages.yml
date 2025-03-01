@@ -34,7 +34,7 @@ jobs:
         env:
           ONE_API_KEY: ${{ secrets.ONE_API }}
         run: |
-          echo "export const ONE_API = '${ONE_API_KEY}';" > ./_site/assets/js/config.js
+          echo "export const ONE_API = '${ONE_API_KEY}';" > ./_site/js/config.js
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
