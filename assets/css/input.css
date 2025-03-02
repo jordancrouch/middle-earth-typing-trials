@@ -83,6 +83,21 @@ html {
   }
 }
 
+/* Text Container */
+#text-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+  .word {
+    margin: 0.25em 0.3em;
+
+    .letter {
+      display: inline-block;
+    }
+  }
+}
+
 /* Footer */
 #footer {
   border-top: 1px solid #ffffff1a;
