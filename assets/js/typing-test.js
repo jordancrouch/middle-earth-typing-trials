@@ -24,8 +24,8 @@ export class TypingTest {
   eventListeners() {
     this.testInner.addEventListener("click", this.focusOnInput);
     this.testInner.addEventListener("touch", this.focusOnInput);
-    // this.textInput.addEventListener("input", this.onInputChange);
-    this.textInput.addEventListener("keydown", this.onInputChange);
+    this.textInput.addEventListener("input", this.onInputChange);
+    // this.textInput.addEventListener("change", this.onInputChange);
   }
 
   // Event handler to focus back on input element.
@@ -66,8 +66,8 @@ export class TypingTest {
 
   // Event handler for input change.
   onInputChange = (e) => {
-    /*
     if (e !== undefined) {
+      console.log(e);
       let input = "";
       // If text input, set text data to variable.
       if (e.inputType === "insertText") {
@@ -87,124 +87,104 @@ export class TypingTest {
         }
       }
       this.textProgress(input);
-    }
-    */
-    if (e !== undefined) {
-      let input = "";
-      console.log(e.key);
-      // If text input, set text data to variable.
-      if (e.key !== " ") {
-        if (e.key.length === 1) {
-          input = e.key;
-        } else if (e.key === "Backspace") {
-          input = "delete";
-          // Prevent negative index.
-          if (this.letterIndex !== 0) {
-            this.letterIndex--;
-          }
-        }
-      } else if (e.key === " ") {
-        input = "space";
-      }
-      // If backspace, set input as 'delete' and decrement letter index.
-      this.textProgress(input);
+      // console.log(`Input: ${input}`);
+      // console.log(`Word index: ${this.wordIndex}`);
+      // console.log(`Letter index: ${this.letterIndex}`);
     }
   };
 
   // Function to track progress of text.
   textProgress(input) {
-    if (input !== "") {
-      let text = this.textContainer;
-      let words = text.childNodes;
-      let wordIndex = this.wordIndex;
-      let letterIndex = this.letterIndex;
-      let currentWord = words[wordIndex];
-      let letters = currentWord.childNodes;
-      let currentWordLength = letters.length;
-      let currentLetter = letters[letterIndex];
+    let text = this.textContainer;
+    let words = text.childNodes;
+    let wordIndex = this.wordIndex;
+    let letterIndex = this.letterIndex;
+    let currentWord = words[wordIndex];
+    let letters = currentWord.childNodes;
+    let currentWordLength = letters.length;
+    let currentLetter = letters[letterIndex];
 
-      if (!currentWord.classList.contains("active")) {
-        currentWord.classList.add("active");
+    if (!currentWord.classList.contains("active")) {
+      currentWord.classList.add("active");
+    }
+
+    // Check to make sure that the current letter index is less than the word length.
+    if (letterIndex <= currentWordLength) {
+      let currentLetterText = "";
+
+      // If the letter index matches a letter key.
+      if (letterIndex < currentWordLength) {
+        currentLetterText = currentLetter.innerHTML;
+        // If the letter index matches the word length, it's one more than the last letter
+        // due to 0-based indexing. Set the current letter text to 'space'.
+      } else if (letterIndex === currentWordLength) {
+        currentLetterText = "space";
       }
 
-      // Check to make sure that the current letter index is less than the word length.
-      if (letterIndex <= currentWordLength) {
-        let currentLetterText = "";
-
-        // If the letter index matches a letter key.
-        if (letterIndex < currentWordLength) {
-          currentLetterText = currentLetter.innerHTML;
-          // If the letter index matches the word length, it's one more than the last letter
-          // due to 0-based indexing. Set the current letter text to 'space'.
-        } else if (letterIndex === currentWordLength) {
-          currentLetterText = "space";
-        }
-
-        // Check if the current letter text is not 'space'.
-        if (currentLetterText !== "space") {
-          // Correct input, add correct class and increment letter index.
-          if (currentLetterText === input) {
-            currentLetter.classList.add("correct");
-            this.letterIndex++;
-            // If input is delete, remove correct or incorrect class.
-          } else if (input === "delete") {
-            // If current word is not the first word and the letter index is 0 (start of word).
-            if (this.wordIndex > 0 && this.letterIndex === 0) {
-              // If the previous word contains an error.
-              if (words[this.wordIndex - 1].classList.contains("error")) {
-                if (currentWord.classList.contains("active")) {
-                  currentWord.classList.remove("active");
-                }
-                this.wordIndex--;
-                currentWord = words[this.wordIndex];
-                if (!currentWord.classList.contains("active")) {
-                  currentWord.classList.add("active");
-                }
-                this.letterIndex = currentWord.childNodes.length + 1;
+      // Check if the current letter text is not 'space'.
+      if (currentLetterText !== "space") {
+        // Correct input, add correct class and increment letter index.
+        if (currentLetterText === input) {
+          currentLetter.classList.add("correct");
+          this.letterIndex++;
+          // If input is delete, remove correct or incorrect class.
+        } else if (input === "delete") {
+          // If current word is not the first word and the letter index is 0 (start of word).
+          if (this.wordIndex > 0 && this.letterIndex === 0) {
+            // If the previous word contains an error.
+            if (words[this.wordIndex - 1].classList.contains("error")) {
+              if (currentWord.classList.contains("active")) {
+                currentWord.classList.remove("active");
               }
-            }
-            if (currentLetter.classList.contains("correct")) {
-              currentLetter.classList.remove("correct");
-            } else if (currentLetter.classList.contains("incorrect")) {
-              if (currentLetter.classList.contains("extra")) {
-                currentLetter.remove();
+              this.wordIndex--;
+              currentWord = words[this.wordIndex];
+              if (!currentWord.classList.contains("active")) {
+                currentWord.classList.add("active");
               }
-              currentLetter.classList.remove("incorrect");
-            }
-            // If incorrect input, add incorrect class and increment letter index.
-          } else if (currentLetterText !== input) {
-            currentLetter.classList.add("incorrect");
-            this.letterIndex++;
-          }
-        } else if (currentLetterText === "space") {
-          if (input === "space") {
-            // Add error class if any letters in the word are incorrect.
-            letters.forEach((letter) => {
-              if (letter.classList.contains("incorrect")) {
-                if (!currentWord.classList.contains("error")) {
-                  currentWord.classList.add("error");
-                }
-              } else {
-                if (!currentWord.classList.contains("typed")) {
-                  currentWord.classList.add("typed");
-                }
-              }
-            });
-            // Remove active class from current word, increment word index and reset letter index.
-            currentWord.classList.remove("active");
-            this.wordIndex++;
-            this.letterIndex = 0;
-          } else {
-            if (input.length === 1) {
-              let newLetter = document.createElement("div");
-              newLetter.classList.add("letter", "incorrect", "extra");
-              newLetter.innerHTML = input;
-              currentWord.appendChild(newLetter);
-              this.letterIndex++;
+              this.letterIndex = currentWord.childNodes.length + 1;
             }
           }
-          // TODO: Else statement for incorrect input, appending the input to the end of the current word.
+          if (currentLetter.classList.contains("correct")) {
+            currentLetter.classList.remove("correct");
+          } else if (currentLetter.classList.contains("incorrect")) {
+            if (currentLetter.classList.contains("extra")) {
+              currentLetter.remove();
+            }
+            currentLetter.classList.remove("incorrect");
+          }
+          // If incorrect input, add incorrect class and increment letter index.
+        } else if (currentLetterText !== input) {
+          currentLetter.classList.add("incorrect");
+          this.letterIndex++;
         }
+      } else if (currentLetterText === "space") {
+        if (input === "space") {
+          // Add error class if any letters in the word are incorrect.
+          letters.forEach((letter) => {
+            if (letter.classList.contains("incorrect")) {
+              if (!currentWord.classList.contains("error")) {
+                currentWord.classList.add("error");
+              }
+            } else {
+              if (!currentWord.classList.contains("typed")) {
+                currentWord.classList.add("typed");
+              }
+            }
+          });
+          // Remove active class from current word, increment word index and reset letter index.
+          currentWord.classList.remove("active");
+          this.wordIndex++;
+          this.letterIndex = 0;
+        } else {
+          if (input.length === 1) {
+            let newLetter = document.createElement("div");
+            newLetter.classList.add("letter", "incorrect", "extra");
+            newLetter.innerHTML = input;
+            currentWord.appendChild(newLetter);
+            this.letterIndex++;
+          }
+        }
+        // TODO: Else statement for incorrect input, appending the input to the end of the current word.
       }
     }
   }
