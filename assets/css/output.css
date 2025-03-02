@@ -336,6 +336,9 @@
   .flex {
     display: flex;
   }
+  .grid {
+    display: grid;
+  }
   .hidden {
     display: none;
   }
@@ -474,6 +477,12 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-forest-green-500 {
+    background-color: var(--color-forest-green-500);
+  }
+  .bg-\[url\(\'\.\.\/images\/mobile-bg-img\.webp\'\)\] {
+    background-image: url("../images/mobile-bg-img.webp");
+  }
   .bg-cover {
     background-size: cover;
   }
@@ -542,6 +551,9 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .underline {
     text-decoration-line: underline;
@@ -682,6 +694,11 @@
       justify-content: flex-start;
     }
   }
+  .sm\:bg-\[url\(\'\.\.\/images\/tablet-bg-img\.webp\'\)\] {
+    @media (width >= 40rem) {
+      background-image: url("../images/tablet-bg-img.webp");
+    }
+  }
   .sm\:py-12 {
     @media (width >= 40rem) {
       padding-block: calc(var(--spacing) * 12);
@@ -706,6 +723,11 @@
     @media (width >= 40rem) {
       font-size: var(--text-base);
       line-height: var(--leading-loose);
+    }
+  }
+  .lg\:bg-\[url\(\'\.\.\/images\/desktop-bg-img\.webp\'\)\] {
+    @media (width >= 64rem) {
+      background-image: url("../images/desktop-bg-img.webp");
     }
   }
   .lg\:py-16 {
