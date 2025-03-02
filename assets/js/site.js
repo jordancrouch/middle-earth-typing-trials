@@ -23,17 +23,29 @@ window.addEventListener("load", () => {
 
   // Event handler to get character names.
   const getCharacterNames = (e) => {
-    const characterName = e.target.getAttribute("data-name");
-    console.log(characterName);
-    // TODO: save selected character name to a variable.
+    if (e !== undefined) {
+      const characterName = e.target.getAttribute("data-name");
+      console.log(characterName);
+      // TODO: save selected character name to a variable.
+    }
   };
 
-  // Iterate over the character cards and add event listeners to each.
-  Array.from(characterCards).forEach((character) => {
-    character.addEventListener("click", getCharacterNames);
-    character.addEventListener("touch", getCharacterNames);
-    // TODO: add event listener for return/enter key press when character is focused.
-  });
+  // Function to add event listeners to character cards.
+  const addCharacterEventListeners = () => {
+    // Iterate over the character cards and add event listeners to each.
+    if (characterCards !== null) {
+      Array.from(characterCards).forEach((character) => {
+        character.addEventListener("click", getCharacterNames);
+        character.addEventListener("touch", getCharacterNames);
+        // TODO: add event listener for return/enter key press when character is focused.
+      });
+    }
+  };
+
+  // Add event listeners to character cards if page is access directly.
+  if (characterCards !== null) {
+    addCharacterEventListeners();
+  }
 
   // Fetch the characters page and replace the current page with the new page
   // if the characters button exists and is clicked.
@@ -64,6 +76,7 @@ window.addEventListener("load", () => {
           updatedHeader.insertAdjacentElement("afterend", newMain);
         })
         .then(() => {
+          addCharacterEventListeners();
           getCharacterNames();
         });
     });
@@ -78,10 +91,12 @@ window.addEventListener("load", () => {
   const quotes = new Quotes();
 
   const testWrapper = document.getElementById("typing-test-wrapper");
-  const textContainer = testWrapper.querySelector("#text-container");
-  if (textContainer !== null) {
-    textContainer.innerHTML = quotes.processedQuotes;
+  if (testWrapper !== null) {
+    const textContainer = testWrapper.querySelector("#text-container");
+    if (textContainer !== null) {
+      textContainer.innerHTML = quotes.processedQuotes;
 
-    const test = new TypingTest(testWrapper);
+      const test = new TypingTest(testWrapper);
+    }
   }
 });
