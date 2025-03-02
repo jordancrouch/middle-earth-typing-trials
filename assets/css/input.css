@@ -93,7 +93,17 @@ html {
     margin: 0.25em 0.3em;
 
     .letter {
+      opacity: 0.5;
       display: inline-block;
+    }
+
+    .letter.correct {
+      opacity: 1;
+    }
+
+    .letter.incorrect {
+      color: red;
+      opacity: 1;
     }
   }
 }
