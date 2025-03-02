@@ -105,6 +105,10 @@ html {
       color: red;
       opacity: 1;
     }
+
+    .letter.incorrect.extra {
+      opacity: 0.5;
+    }
   }
 }
 
