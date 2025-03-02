@@ -1,5 +1,6 @@
 import { Character } from "./characters.js";
 import { Quotes } from "./quotes.js";
+import { TypingTest } from "./typing-test.js";
 
 window.addEventListener("load", () => {
   /* Set up variables */
@@ -76,8 +77,11 @@ window.addEventListener("load", () => {
 
   const quotes = new Quotes();
 
-  const textContainer = document.getElementById("text-container");
+  const testWrapper = document.getElementById("typing-test-wrapper");
+  const textContainer = testWrapper.querySelector("#text-container");
   if (textContainer !== null) {
     textContainer.innerHTML = quotes.processedQuotes;
+
+    const test = new TypingTest(testWrapper);
   }
 });

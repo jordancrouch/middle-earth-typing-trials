@@ -1644,6 +1644,8 @@ export class Quotes {
   }
 
   // Sort quote data into an array of quotes.
+  // TODO: only process a certain number of quotes at a time.
+  // Add a check to see how many are left, if less than a certain number, fetch a new quote.
   getAllQuotes() {
     const quotes = this.quoteData.docs;
     const allQuotes = [];
@@ -1666,8 +1668,7 @@ export class Quotes {
       quote.map((word) => {
         // Wrap the letters in separate divs before wrapping the word in a div.
         let wrappedLetters = this.processLetters(word);
-        // console.log(wrappedLetters);
-
+        // Wrap the returned wrapped letters in a containing 'words' div.
         let wrappedWord = this.textWrap(
           "<div class='word'>",
           wrappedLetters,
@@ -1677,7 +1678,7 @@ export class Quotes {
       });
     });
     words = words.join("");
-    console.log(words);
+
     return words;
   }
 
@@ -1695,7 +1696,6 @@ export class Quotes {
     });
     letters = letters.join("");
 
-    // console.log(letters);
     return letters;
   }
 }
