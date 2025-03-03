@@ -177,8 +177,12 @@ export class TypingTest {
               if (!currentWord.classList.contains("error")) {
                 currentWord.classList.add("error");
               }
-              // If no errors, add 'typed' class to word so it can't be navigated back to.
+              // If no errors, remove error class and add 'typed' class so the word
+              // cannot be navigated back to.
             } else {
+              if (currentWord.classList.contains("error")) {
+                currentWord.classList.remove("error");
+              }
               if (!currentWord.classList.contains("typed")) {
                 currentWord.classList.add("typed");
               }
