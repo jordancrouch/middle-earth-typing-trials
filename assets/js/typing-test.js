@@ -11,13 +11,13 @@ export class TypingTest {
     this.wordIndex = 0;
     this.letterIndex = 0;
     this.currentWordLength = 0;
-    this.previousValue = "";
     this.previousValueLength = 0;
     this.focusInputOnLoad();
     this.eventListeners();
     this.setFocusInterval();
   }
 
+  // Set focus on input element.
   focusInputOnLoad() {
     this.textInput.focus();
   }
@@ -27,10 +27,9 @@ export class TypingTest {
     this.testInner.addEventListener("click", this.focusOnInput);
     this.testInner.addEventListener("touch", this.focusOnInput);
     this.textInput.addEventListener("input", this.onInputChange);
-    // this.textInput.addEventListener("change", this.onInputChange);
   }
 
-  // Event handler to focus back on input element.
+  // Event handler to focus back on input element when it's out of focus.
   focusOnInput = (e) => {
     this.textInput.focus();
     this.checkInputFocus();
@@ -43,7 +42,7 @@ export class TypingTest {
     }, this.intervalTime);
   }
 
-  // Check if input is in focus.
+  // Check if input is in focus and display warning if not.
   checkInputFocus() {
     let activeElement = document.activeElement;
     let input = this.textInput;
@@ -67,60 +66,33 @@ export class TypingTest {
   }
 
   // Event handler for input change.
-  // TODO: Figure out what event needs to be used for desktop AND mobile.
   onInputChange = (e) => {
-    let previousValue = this.previousValue;
     let previousValueLength = this.previousValueLength;
     const currentValue = e.target.value;
     const currentValueLength = currentValue.length;
 
+    // If the current value length is greater than the previous value length something has been added.
     if (currentValueLength > previousValueLength) {
       const input = currentValue.slice(-1);
+      // Check if the input is a space.
       if (input === " ") {
         this.textProgress("space");
+        // If not a space, the input is text.
       } else {
         this.textProgress(input);
       }
-      this.previousValue = currentValue;
+      // Update the previous value length with the new current value length ready for next input.
       this.previousValueLength = currentValueLength;
+      // If the current value length is less than the previous value length, something has been deleted.
     } else if (currentValueLength < previousValueLength) {
+      // Check to prevent negative index.
       if (this.letterIndex !== 0) {
         this.letterIndex--;
       }
       this.textProgress("delete");
-      this.previousValue = "";
       this.previousValueLength = currentValueLength;
     }
   };
-
-  /*
-  if (e !== undefined) {
-    console.log(e);
-    let input = "";
-    // If text input, set text data to variable.
-    if (e.inputType === "insertText") {
-      if (e.data !== " ") {
-        if (e.data.length === 1) {
-          input = e.data;
-        }
-      } else if (e.data === " ") {
-        input = "space";
-      }
-      // If backspace, set input as 'delete' and decrement letter index.
-    } else if (e.inputType === "deleteContentBackward") {
-      input = "delete";
-      // Prevent negative index.
-      if (this.letterIndex !== 0) {
-        this.letterIndex--;
-      }
-    }
-    this.textProgress(input);
-  }
-    */
-
-  // console.log(`Input: ${input}`);
-  // console.log(`Word index: ${this.wordIndex}`);
-  // console.log(`Letter index: ${this.letterIndex}`);
 
   // Function to track progress of text.
   textProgress(input) {
@@ -133,6 +105,7 @@ export class TypingTest {
     let currentWordLength = letters.length;
     let currentLetter = letters[letterIndex];
 
+    // Check if the current word is not active, add active class.
     if (!currentWord.classList.contains("active")) {
       currentWord.classList.add("active");
     }
@@ -141,7 +114,8 @@ export class TypingTest {
     if (letterIndex <= currentWordLength) {
       let currentLetterText = "";
 
-      // If the letter index matches a letter key.
+      // If the letter index is less than the word length, set the current letter text to the
+      // innerHTML of the current letter.
       if (letterIndex < currentWordLength) {
         currentLetterText = currentLetter.innerHTML;
         // If the letter index matches the word length, it's one more than the last letter
@@ -150,7 +124,7 @@ export class TypingTest {
         currentLetterText = "space";
       }
 
-      // Check if the current letter text is not 'space'.
+      // Check if the current letter text is not a 'space'.
       if (currentLetterText !== "space") {
         // Correct input, add correct class and increment letter index.
         if (currentLetterText === input) {
@@ -158,24 +132,32 @@ export class TypingTest {
           this.letterIndex++;
           // If input is delete, remove correct or incorrect class.
         } else if (input === "delete") {
-          // If current word is not the first word and the letter index is 0 (start of word).
+          // If current word is not the first word and the letter index is 0 (start of word)...
           if (this.wordIndex > 0 && this.letterIndex === 0) {
-            // If the previous word contains an error.
+            // Check if the previous word contains an error.
             if (words[this.wordIndex - 1].classList.contains("error")) {
+              // Remove active class from current word.
               if (currentWord.classList.contains("active")) {
                 currentWord.classList.remove("active");
               }
+              // Decre,eent word index and set current word to the previous word.
               this.wordIndex--;
               currentWord = words[this.wordIndex];
+              // If the new current word (previous word) does not contain the active class
+              // then add it.
               if (!currentWord.classList.contains("active")) {
                 currentWord.classList.add("active");
               }
+              // Set the letter index to the length of the current word.
               this.letterIndex = currentWord.childNodes.length + 1;
             }
           }
+          // If the current letter contains the correct class, remove it.
           if (currentLetter.classList.contains("correct")) {
             currentLetter.classList.remove("correct");
+            // If the current letter contains the incorrect class, remove it.
           } else if (currentLetter.classList.contains("incorrect")) {
+            // If the current letter is an 'extra' incorrectly typed letter, remove it.
             if (currentLetter.classList.contains("extra")) {
               currentLetter.remove();
             }
@@ -186,6 +168,7 @@ export class TypingTest {
           currentLetter.classList.add("incorrect");
           this.letterIndex++;
         }
+        // If the current letter text is a 'space'.
       } else if (currentLetterText === "space") {
         if (input === "space") {
           // Add error class if any letters in the word are incorrect.
@@ -194,6 +177,7 @@ export class TypingTest {
               if (!currentWord.classList.contains("error")) {
                 currentWord.classList.add("error");
               }
+              // If no errors, add 'typed' class to word so it can't be navigated back to.
             } else {
               if (!currentWord.classList.contains("typed")) {
                 currentWord.classList.add("typed");
@@ -204,6 +188,8 @@ export class TypingTest {
           currentWord.classList.remove("active");
           this.wordIndex++;
           this.letterIndex = 0;
+          // If an additional word is typed at the end of a word where a space should be
+          // add it to the end of the current word.
         } else {
           if (input.length === 1) {
             let newLetter = document.createElement("div");
@@ -213,7 +199,6 @@ export class TypingTest {
             this.letterIndex++;
           }
         }
-        // TODO: Else statement for incorrect input, appending the input to the end of the current word.
       }
     }
   }
