@@ -11,6 +11,8 @@ export class TypingTest {
     this.wordIndex = 0;
     this.letterIndex = 0;
     this.currentWordLength = 0;
+    this.previousValue = "";
+    this.previousValueLength = 0;
     this.focusInputOnLoad();
     this.eventListeners();
     this.setFocusInterval();
@@ -65,33 +67,60 @@ export class TypingTest {
   }
 
   // Event handler for input change.
+  // TODO: Figure out what event needs to be used for desktop AND mobile.
   onInputChange = (e) => {
-    if (e !== undefined) {
-      console.log(e);
-      let input = "";
-      // If text input, set text data to variable.
-      if (e.inputType === "insertText") {
-        if (e.data !== " ") {
-          if (e.data.length === 1) {
-            input = e.data;
-          }
-        } else if (e.data === " ") {
-          input = "space";
-        }
-        // If backspace, set input as 'delete' and decrement letter index.
-      } else if (e.inputType === "deleteContentBackward") {
-        input = "delete";
-        // Prevent negative index.
-        if (this.letterIndex !== 0) {
-          this.letterIndex--;
-        }
+    let previousValue = this.previousValue;
+    let previousValueLength = this.previousValueLength;
+    const currentValue = e.target.value;
+    const currentValueLength = currentValue.length;
+
+    if (currentValueLength > previousValueLength) {
+      const input = currentValue.slice(-1);
+      if (input === " ") {
+        this.textProgress("space");
+      } else {
+        this.textProgress(input);
       }
-      this.textProgress(input);
-      // console.log(`Input: ${input}`);
-      // console.log(`Word index: ${this.wordIndex}`);
-      // console.log(`Letter index: ${this.letterIndex}`);
+      this.previousValue = currentValue;
+      this.previousValueLength = currentValueLength;
+    } else if (currentValueLength < previousValueLength) {
+      if (this.letterIndex !== 0) {
+        this.letterIndex--;
+      }
+      this.textProgress("delete");
+      this.previousValue = "";
+      this.previousValueLength = currentValueLength;
     }
   };
+
+  /*
+  if (e !== undefined) {
+    console.log(e);
+    let input = "";
+    // If text input, set text data to variable.
+    if (e.inputType === "insertText") {
+      if (e.data !== " ") {
+        if (e.data.length === 1) {
+          input = e.data;
+        }
+      } else if (e.data === " ") {
+        input = "space";
+      }
+      // If backspace, set input as 'delete' and decrement letter index.
+    } else if (e.inputType === "deleteContentBackward") {
+      input = "delete";
+      // Prevent negative index.
+      if (this.letterIndex !== 0) {
+        this.letterIndex--;
+      }
+    }
+    this.textProgress(input);
+  }
+    */
+
+  // console.log(`Input: ${input}`);
+  // console.log(`Word index: ${this.wordIndex}`);
+  // console.log(`Letter index: ${this.letterIndex}`);
 
   // Function to track progress of text.
   textProgress(input) {
