@@ -85,7 +85,8 @@ export class TypingTest {
       this.previousValueLength = currentValueLength;
       // If the current value length is less than the previous value length, something has been deleted.
     } else if (currentValueLength < previousValueLength) {
-      // Check to prevent negative index.
+      // Check to prevent negative index, decrement letter index here so 'current letter'
+      // becomes the 'previous letter'.
       if (this.letterIndex !== 0) {
         this.letterIndex--;
       }
@@ -105,6 +106,7 @@ export class TypingTest {
     let currentWordLength = letters.length;
     let currentLetter = letters[letterIndex];
 
+    console.log("Letter Index: ", this.letterIndex);
     // Check if the current word is not active, add active class.
     if (!currentWord.classList.contains("active")) {
       currentWord.classList.add("active");
@@ -133,14 +135,24 @@ export class TypingTest {
           // If input is delete, remove correct or incorrect class.
         } else if (input === "delete") {
           // If current word is not the first word and the letter index is 0 (start of word)...
+          // TODO: Fix when deleting back to the start of a word that you can type again.
           if (this.wordIndex > 0 && this.letterIndex === 0) {
-            // Check if the previous word contains an error.
-            if (words[this.wordIndex - 1].classList.contains("error")) {
+            if (currentLetter.classList.contains("correct")) {
+              currentLetter.classList.remove("correct");
+              // If the current letter contains the incorrect class, remove it.
+            } else if (currentLetter.classList.contains("incorrect")) {
+              // If the current letter is an 'extra' incorrectly typed letter, remove it.
+              if (currentLetter.classList.contains("extra")) {
+                currentLetter.remove();
+              }
+              currentLetter.classList.remove("incorrect");
+              // Check if the previous word contains an error.
+            } else if (words[this.wordIndex - 1].classList.contains("error")) {
               // Remove active class from current word.
               if (currentWord.classList.contains("active")) {
                 currentWord.classList.remove("active");
               }
-              // Decre,eent word index and set current word to the previous word.
+              // Decrement word index and set current word to the previous word.
               this.wordIndex--;
               currentWord = words[this.wordIndex];
               // If the new current word (previous word) does not contain the active class
@@ -149,19 +161,20 @@ export class TypingTest {
                 currentWord.classList.add("active");
               }
               // Set the letter index to the length of the current word.
-              this.letterIndex = currentWord.childNodes.length + 1;
+              this.letterIndex = currentWord.childNodes.length;
             }
-          }
-          // If the current letter contains the correct class, remove it.
-          if (currentLetter.classList.contains("correct")) {
-            currentLetter.classList.remove("correct");
-            // If the current letter contains the incorrect class, remove it.
-          } else if (currentLetter.classList.contains("incorrect")) {
-            // If the current letter is an 'extra' incorrectly typed letter, remove it.
-            if (currentLetter.classList.contains("extra")) {
-              currentLetter.remove();
+          } else {
+            // If the current letter contains the correct class, remove it.
+            if (currentLetter.classList.contains("correct")) {
+              currentLetter.classList.remove("correct");
+              // If the current letter contains the incorrect class, remove it.
+            } else if (currentLetter.classList.contains("incorrect")) {
+              // If the current letter is an 'extra' incorrectly typed letter, remove it.
+              if (currentLetter.classList.contains("extra")) {
+                currentLetter.remove();
+              }
+              currentLetter.classList.remove("incorrect");
             }
-            currentLetter.classList.remove("incorrect");
           }
           // If incorrect input, add incorrect class and increment letter index.
         } else if (currentLetterText !== input) {
@@ -185,6 +198,9 @@ export class TypingTest {
               }
               if (!currentWord.classList.contains("typed")) {
                 currentWord.classList.add("typed");
+              }
+              if (!words[this.wordIndex + 1].classList.contains("active")) {
+                words[this.wordIndex + 1].classList.add("active");
               }
             }
           });
