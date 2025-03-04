@@ -1677,8 +1677,10 @@ export class Quotes {
         words.push(wrappedWord);
       });
     });
-    words = words.join("");
 
+    // TODO: Add a check to see how many words are left, if less than a certain number, fetch a new quote.
+    let first50Words = words.slice(0, 50);
+    words = first50Words.join("");
     return words;
   }
 

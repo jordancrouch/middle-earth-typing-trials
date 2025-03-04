@@ -93,6 +93,9 @@ export class TypingTest {
       this.textProgress("delete");
       this.previousValueLength = currentValueLength;
     }
+
+    // TODO: Add function to check if the second line is complete and delete the first line,
+    // to move the remaining words up.
   };
 
   // Function to track progress of text.
@@ -106,7 +109,6 @@ export class TypingTest {
     let currentWordLength = letters.length;
     let currentLetter = letters[letterIndex];
 
-    console.log("Letter Index: ", this.letterIndex);
     // Check if the current word is not active, add active class.
     if (!currentWord.classList.contains("active")) {
       currentWord.classList.add("active");
@@ -185,6 +187,7 @@ export class TypingTest {
       } else if (currentLetterText === "space") {
         if (input === "space") {
           // Add error class if any letters in the word are incorrect.
+          // TODO: Ensure that the error class remains when navigating to next word.
           letters.forEach((letter) => {
             if (letter.classList.contains("incorrect")) {
               if (!currentWord.classList.contains("error")) {
