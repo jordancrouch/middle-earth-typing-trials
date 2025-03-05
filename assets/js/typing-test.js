@@ -108,6 +108,7 @@ export class TypingTest {
     let letters = currentWord.childNodes;
     let currentWordLength = letters.length;
     let currentLetter = letters[letterIndex];
+    let wordError = false;
 
     // Check if the current word is not active, add active class.
     if (!currentWord.classList.contains("active")) {
@@ -150,6 +151,10 @@ export class TypingTest {
               currentLetter.classList.remove("incorrect");
               // Check if the previous word contains an error.
             } else if (words[this.wordIndex - 1].classList.contains("error")) {
+              // Remove typed class from previous word.
+              if (words[this.wordIndex - 1].classList.contains("typed")) {
+                words[this.wordIndex - 1].classList.remove("typed");
+              }
               // Remove active class from current word.
               if (currentWord.classList.contains("active")) {
                 currentWord.classList.remove("active");
@@ -186,29 +191,37 @@ export class TypingTest {
         // If the current letter text is a 'space'.
       } else if (currentLetterText === "space") {
         if (input === "space") {
-          // Add error class if any letters in the word are incorrect.
-          // TODO: Ensure that the error class remains when navigating to next word.
+          // Check if the current word contains any incorrect letters and set wordError to true.
           letters.forEach((letter) => {
             if (letter.classList.contains("incorrect")) {
-              if (!currentWord.classList.contains("error")) {
-                currentWord.classList.add("error");
-              }
-              // If no errors, remove error class and add 'typed' class so the word
-              // cannot be navigated back to.
-            } else {
-              if (currentWord.classList.contains("error")) {
-                currentWord.classList.remove("error");
-              }
-              if (!currentWord.classList.contains("typed")) {
-                currentWord.classList.add("typed");
-              }
-              if (!words[this.wordIndex + 1].classList.contains("active")) {
-                words[this.wordIndex + 1].classList.add("active");
-              }
+              wordError = true;
             }
           });
-          // Remove active class from current word, increment word index and reset letter index.
-          currentWord.classList.remove("active");
+
+          // If the word contains an error, add error class to the word.
+          if (wordError === true) {
+            if (!currentWord.classList.contains("error")) {
+              currentWord.classList.add("error");
+            }
+            // If no errors, remove error class if it exists so it can't be navigated back to.
+          } else if (wordError === false) {
+            if (currentWord.classList.contains("error")) {
+              currentWord.classList.remove("error");
+            }
+          }
+          // Add typed class to current word if it doesn't already have it.
+          if (!currentWord.classList.contains("typed")) {
+            currentWord.classList.add("typed");
+          }
+          // If the next word is not active, add active class.
+          if (!words[this.wordIndex + 1].classList.contains("active")) {
+            words[this.wordIndex + 1].classList.add("active");
+          }
+          // Remove active class from current word.
+          if (currentWord.classList.contains("active")) {
+            currentWord.classList.remove("active");
+          }
+          // Increment word index and set letter index to 0.
           this.wordIndex++;
           this.letterIndex = 0;
           // If an additional word is typed at the end of a word where a space should be
