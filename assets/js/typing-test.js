@@ -12,9 +12,11 @@ export class TypingTest {
     this.letterIndex = 0;
     this.currentWordLength = 0;
     this.previousValueLength = 0;
+    this.caret = el.querySelector("#caret");
     this.focusInputOnLoad();
     this.eventListeners();
     this.setFocusInterval();
+    this.setCaretPosition();
   }
 
   // Set focus on input element.
@@ -109,10 +111,15 @@ export class TypingTest {
     let currentWordLength = letters.length;
     let currentLetter = letters[letterIndex];
     let wordError = false;
+    let removedWords = [];
+    let wordsToRemove = [];
+    let caret = this.caret;
 
     // Check if the current word is not active, add active class.
     if (!currentWord.classList.contains("active")) {
       currentWord.classList.add("active");
+      caret.style.left = currentWord.offsetLeft + "px";
+      caret.style.top = currentWord.offsetTop + "px";
     }
 
     // Check to make sure that the current letter index is less than the word length.
@@ -135,18 +142,27 @@ export class TypingTest {
         if (currentLetterText === input) {
           currentLetter.classList.add("correct");
           this.letterIndex++;
+          this.moveCaret(currentLetter, "forward", "letter");
+
           // If input is delete, remove correct or incorrect class.
         } else if (input === "delete") {
           // If current word is not the first word and the letter index is 0 (start of word)...
-          // TODO: Fix when deleting back to the start of a word that you can type again.
           if (this.wordIndex > 0 && this.letterIndex === 0) {
             if (currentLetter.classList.contains("correct")) {
               currentLetter.classList.remove("correct");
+              this.moveCaret(currentLetter, "backward", "letter");
               // If the current letter contains the incorrect class, remove it.
             } else if (currentLetter.classList.contains("incorrect")) {
               // If the current letter is an 'extra' incorrectly typed letter, remove it.
               if (currentLetter.classList.contains("extra")) {
+                this.moveCaret(
+                  currentLetter.previousSibling,
+                  "backward",
+                  "extra",
+                );
                 currentLetter.remove();
+              } else {
+                this.moveCaret(currentLetter, "backward", "letter");
               }
               currentLetter.classList.remove("incorrect");
               // Check if the previous word contains an error.
@@ -169,16 +185,25 @@ export class TypingTest {
               }
               // Set the letter index to the length of the current word.
               this.letterIndex = currentWord.childNodes.length;
+              this.moveCaret(currentWord, "backward", "word");
             }
           } else {
             // If the current letter contains the correct class, remove it.
             if (currentLetter.classList.contains("correct")) {
               currentLetter.classList.remove("correct");
+              this.moveCaret(currentLetter, "backward", "letter");
               // If the current letter contains the incorrect class, remove it.
             } else if (currentLetter.classList.contains("incorrect")) {
               // If the current letter is an 'extra' incorrectly typed letter, remove it.
               if (currentLetter.classList.contains("extra")) {
+                this.moveCaret(
+                  currentLetter.previousSibling,
+                  "backward",
+                  "extra",
+                );
                 currentLetter.remove();
+              } else {
+                this.moveCaret(currentLetter, "backward", "letter");
               }
               currentLetter.classList.remove("incorrect");
             }
@@ -187,6 +212,7 @@ export class TypingTest {
         } else if (currentLetterText !== input) {
           currentLetter.classList.add("incorrect");
           this.letterIndex++;
+          this.moveCaret(letters[letterIndex], "forward", "letter");
         }
         // If the current letter text is a 'space'.
       } else if (currentLetterText === "space") {
@@ -226,6 +252,15 @@ export class TypingTest {
           this.letterIndex = 0;
           // If an additional word is typed at the end of a word where a space should be
           // add it to the end of the current word.
+
+          // TODO: when navigating to first word of third line, delete the first line of words.
+          wordIndex = this.wordIndex;
+          currentWord = words[wordIndex];
+          if (currentWord.offsetTop === 131 && currentWord.offsetLeft === 8) {
+            console.log("ready to delete words");
+          }
+
+          this.moveCaret(currentWord, "forward", "word");
         } else {
           if (input.length === 1) {
             let newLetter = document.createElement("div");
@@ -233,8 +268,78 @@ export class TypingTest {
             newLetter.innerHTML = input;
             currentWord.appendChild(newLetter);
             this.letterIndex++;
+            this.moveCaret(newLetter, "forward", "letter");
           }
         }
+      }
+    }
+  }
+
+  // Set caret position.
+  setCaretPosition() {
+    let caret = this.caret;
+    let caretWidth = caret.style.width;
+    let text = this.textContainer;
+    let words = text.childNodes;
+    let wordIndex = this.wordIndex;
+    let letterIndex = this.letterIndex;
+    let currentWord = words[wordIndex];
+    let letters = currentWord.childNodes;
+    let currentLetter = letters[letterIndex];
+
+    caret.style.height = currentLetter.offsetHeight + "px";
+    caret.style.left = currentWord.offsetLeft - caretWidth / 2 + "px";
+    caret.style.top = currentWord.offsetTop + "px";
+  }
+
+  // Move caret forward or backward.
+  moveCaret(element, direction, type) {
+    let caret = this.caret;
+    let caretWidth = caret.style.width;
+    let elementWidth = element.offsetWidth;
+    let text = this.textContainer;
+    let words = text.childNodes;
+    let wordIndex = this.wordIndex;
+    let letterIndex = this.letterIndex;
+    let currentWord = words[wordIndex];
+    let letters = currentWord.childNodes;
+    let currentLetter = letters[letterIndex];
+
+    if (direction === "forward") {
+      if (type === "letter") {
+        caret.style.left =
+          element.offsetLeft + elementWidth - caretWidth / 2 + "px";
+        caret.style.top = element.offsetTop + "px";
+      } else if (type === "word") {
+        caret.style.left = element.offsetLeft + "px";
+        caret.style.top = element.offsetTop + "px";
+      }
+    } else if (direction === "backward") {
+      if (type === "letter") {
+        if (letterIndex !== letters.length - 1) {
+          caret.style.left =
+            element.nextSibling.offsetLeft -
+            elementWidth -
+            caretWidth / 2 +
+            "px";
+          caret.style.top = element.nextSibling.offsetTop + "px";
+        } else if (letterIndex === 0) {
+          caret.style.left = element.offsetLeft - caretWidth / 2 + "px";
+          caret.style.top = element.offsetTop + "px";
+        } else {
+          caret.style.left =
+            element.previousSibling.offsetLeft +
+            elementWidth -
+            caretWidth / 2 +
+            "px";
+          caret.style.top = element.offsetTop + "px";
+        }
+      } else if (type === "word") {
+        caret.style.left = element.offsetLeft + element.offsetWidth + "px";
+        caret.style.top = element.offsetTop + "px";
+      } else if (type === "extra") {
+        caret.style.left = element.offsetLeft + elementWidth + "px";
+        caret.style.top = element.offsetTop + "px";
       }
     }
   }

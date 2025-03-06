@@ -52,6 +52,19 @@
   }
 }
 
+/* Animation */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Update root font size used */
 html {
   font-size: 20px;
@@ -88,6 +101,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  scrollbar-width: 0;
 
   .word {
     margin: 0.25em 0.3em;
@@ -112,8 +126,24 @@ html {
   }
 }
 
+#text-container::-webkit-scrollbar {
+  display: none;
+}
+
 #text-container.blur {
   filter: blur(5px);
+}
+
+#caret {
+  width: 0.15em;
+  height: 1.2em;
+  background-color: var(--color-gold-500);
+  top: 0;
+  left: 0;
+  animation: blink 1s infinite;
+  border-radius: 1px;
+  transform-origin: top left;
+  transition: all 0.1s ease;
 }
 
 /* Footer */
