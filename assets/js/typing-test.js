@@ -13,6 +13,8 @@ export class TypingTest {
     this.currentWordLength = 0;
     this.previousValueLength = 0;
     this.caret = el.querySelector("#caret");
+    this.wordsToRemove = [];
+    this.removedWords = [];
     this.focusInputOnLoad();
     this.eventListeners();
     this.setFocusInterval();
@@ -95,9 +97,6 @@ export class TypingTest {
       this.textProgress("delete");
       this.previousValueLength = currentValueLength;
     }
-
-    // TODO: Add function to check if the second line is complete and delete the first line,
-    // to move the remaining words up.
   };
 
   // Function to track progress of text.
@@ -114,10 +113,10 @@ export class TypingTest {
     let wordStyles = getComputedStyle(currentWord);
     let wordHeight =
       currentWord.offsetHeight +
-      parseInt(wordStyles.marginTop) +
-      parseInt(wordStyles.marginBottom);
-    let removedWords = [];
-    let wordsToRemove = [];
+      parseFloat(wordStyles.marginTop) +
+      parseFloat(wordStyles.marginBottom);
+    let wordsToRemove = this.wordsToRemove;
+    let removedWords = this.removedWords;
     let caret = this.caret;
 
     // Check if the current word is not active, add active class.
@@ -255,17 +254,47 @@ export class TypingTest {
           // Increment word index and set letter index to 0.
           this.wordIndex++;
           this.letterIndex = 0;
-          // If an additional word is typed at the end of a word where a space should be
-          // add it to the end of the current word.
-
-          // TODO: when navigating to first word of third line, delete the first line of words.
           wordIndex = this.wordIndex;
           currentWord = words[wordIndex];
-          if (currentWord.offsetTop === 131 && currentWord.offsetLeft === 8) {
-            console.log("ready to delete words");
-          }
 
           this.moveCaret(currentWord, "forward", "word");
+
+          // If the next word is the first word of a line and the word is in the second row.
+          if (
+            currentWord.offsetLeft ===
+              Math.ceil(parseFloat(wordStyles.marginLeft)) &&
+            this.letterIndex === 0 &&
+            currentWord.offsetTop ===
+              wordHeight * 2 + parseInt(wordStyles.marginTop)
+          ) {
+            // Iterate over each word.
+            words.forEach((word) => {
+              // If the word is in the first row, add it to the wordsToRemove array.
+              if (
+                word.offsetTop <
+                wordHeight + parseInt(wordStyles.marginTop)
+              ) {
+                wordsToRemove.push(word);
+              }
+            });
+            // Iterate over the wordsToRemove array, add it to the removedWord array
+            // and remove the word from the text container.
+            wordsToRemove.forEach((word) => {
+              removedWords.push(word);
+              word.remove();
+            });
+            // Subtract the amount of words removed from the word index.
+            this.wordIndex = wordIndex - wordsToRemove.length;
+            // Update the caret position.
+            this.setCaretPosition();
+            // Reset the wordsToRemove array.
+            this.wordsToRemove = [];
+            // Update the removedWords property with the removed words.
+            this.removedWords = removedWords;
+          }
+
+          // If an additional word is typed at the end of a word where a space should be
+          // add it to the end of the current word.
         } else {
           if (input.length === 1) {
             let newLetter = document.createElement("div");
@@ -278,15 +307,6 @@ export class TypingTest {
         }
       }
     }
-
-    // TODO: function to save words and remove them from the text area when reaching the ~3rd line.
-    if (
-      currentWord.offsetLeft === 6 &&
-      currentWord.offsetTop === wordHeight * 2
-    ) {
-    }
-    console.log(currentWord.offsetTop);
-    console.log(wordHeight);
   }
 
   // Set caret position.
