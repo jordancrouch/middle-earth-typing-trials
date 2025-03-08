@@ -262,10 +262,10 @@ export class TypingTest {
           // If the next word is the first word of a line and the word is in the second row.
           if (
             currentWord.offsetLeft ===
-              Math.ceil(parseFloat(wordStyles.marginLeft)) &&
+              Math.round(parseFloat(wordStyles.marginLeft)) &&
             this.letterIndex === 0 &&
             currentWord.offsetTop ===
-              wordHeight * 2 + parseInt(wordStyles.marginTop)
+              Math.round(wordHeight * 2 + parseInt(wordStyles.marginTop))
           ) {
             // Iterate over each word.
             words.forEach((word) => {
