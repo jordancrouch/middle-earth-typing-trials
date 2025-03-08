@@ -6,7 +6,11 @@ export class TypingTest {
     this.textInput = document.querySelector("#text-input");
     this.textContainer = el.querySelector("#text-container");
     this.focusWarning = el.querySelector("#focus-warning");
-    this.intervalTime = 2000;
+    this.timerText = el.querySelector("#timer");
+    this.timerInterval = null;
+    this.testTimer = 30;
+    this.timerRunning = false;
+    this.intervalTime = 1000;
     this.inputEvents = 0;
     this.wordIndex = 0;
     this.letterIndex = 0;
@@ -59,6 +63,12 @@ export class TypingTest {
         this.focusWarning.classList.add("opacity-0");
       }
     } else if (activeElement !== input) {
+      // Pause timer.
+      this.pauseTimer();
+      this.testTimer = parseInt(
+        document.querySelector("#timer").textContent.slice(0, -1),
+      );
+
       if (!textContainer.classList.contains("blur")) {
         textContainer.classList.add("blur");
       }
@@ -74,6 +84,11 @@ export class TypingTest {
     let previousValueLength = this.previousValueLength;
     const currentValue = e.target.value;
     const currentValueLength = currentValue.length;
+
+    // Start the timer if it is not already running.
+    if (!this.timerRunning) {
+      this.startTimer(this.testTimer, this.timerText);
+    }
 
     // If the current value length is greater than the previous value length something has been added.
     if (currentValueLength > previousValueLength) {
@@ -385,5 +400,26 @@ export class TypingTest {
         caret.style.top = element.offsetTop + "px";
       }
     }
+  }
+
+  // Timer function.
+  startTimer(duration, element) {
+    this.timerRunning = true;
+    let time = duration - 1,
+      seconds;
+    this.timerInterval = setInterval(() => {
+      seconds = parseInt(time % 60, 10);
+      element.textContent = seconds + "s";
+
+      if (--time < 0) {
+        clearInterval(this.timerInterval);
+      }
+    }, 1000);
+  }
+
+  // Pause timer function.
+  pauseTimer() {
+    this.timerRunning = false;
+    clearInterval(this.timerInterval);
   }
 }
