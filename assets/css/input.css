@@ -17,6 +17,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Albertus MT Light";
+  src: url("../fonts/ALBMTL__.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
 /* Tailwind CSS */
 @import "tailwindcss";
 
@@ -24,6 +32,7 @@
 @theme {
   --font-ringbearer: "Ringbearer", serif;
   --font-albertus-mt: "Albertus MT", serif;
+  --font-albertus-mt-light: "Albertus MT Light", serif;
   --font-albert-sans: "Albert Sans", sans-serif;
   --font-fira-mono: "Fira Mono", monospace;
   --color-forest-green-500: oklch(0.24 0.06 134.81);
@@ -45,6 +54,11 @@
     border-radius: 3px;
     padding: 12px 24px;
     font-weight: 600;
+  }
+
+  .button.button-outline {
+    background-color: transparent;
+    border: 1px solid var(--color-gold-500);
   }
 
   .button svg {

@@ -65,6 +65,7 @@ export class TypingTest {
     } else if (activeElement !== input) {
       // Pause timer.
       this.pauseTimer();
+      // Update the test timer with the current timer value.
       this.testTimer = parseInt(
         document.querySelector("#timer").textContent.slice(0, -1),
       );
@@ -405,12 +406,16 @@ export class TypingTest {
   // Timer function.
   startTimer(duration, element) {
     this.timerRunning = true;
+    // Set the time to the duration minus 1 to match the interval time.
     let time = duration - 1,
       seconds;
     this.timerInterval = setInterval(() => {
+      // Calculate the minutes and seconds.
       seconds = parseInt(time % 60, 10);
       element.textContent = seconds + "s";
 
+      // Decrement time and check if the time is less than 0. If so, clear the interval.
+      // TODO: add function to show results when timer reaches 0.
       if (--time < 0) {
         clearInterval(this.timerInterval);
       }
