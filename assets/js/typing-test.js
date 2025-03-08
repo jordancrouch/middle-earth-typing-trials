@@ -111,6 +111,11 @@ export class TypingTest {
     let currentWordLength = letters.length;
     let currentLetter = letters[letterIndex];
     let wordError = false;
+    let wordStyles = getComputedStyle(currentWord);
+    let wordHeight =
+      currentWord.offsetHeight +
+      parseInt(wordStyles.marginTop) +
+      parseInt(wordStyles.marginBottom);
     let removedWords = [];
     let wordsToRemove = [];
     let caret = this.caret;
@@ -273,6 +278,15 @@ export class TypingTest {
         }
       }
     }
+
+    // TODO: function to save words and remove them from the text area when reaching the ~3rd line.
+    if (
+      currentWord.offsetLeft === 6 &&
+      currentWord.offsetTop === wordHeight * 2
+    ) {
+    }
+    console.log(currentWord.offsetTop);
+    console.log(wordHeight);
   }
 
   // Set caret position.
@@ -305,17 +319,23 @@ export class TypingTest {
     let letters = currentWord.childNodes;
     let currentLetter = letters[letterIndex];
 
+    // If the direction is forward.
     if (direction === "forward") {
+      // If the type is letter, set the caret position to the left of the current letter.
       if (type === "letter") {
         caret.style.left =
           element.offsetLeft + elementWidth - caretWidth / 2 + "px";
         caret.style.top = element.offsetTop + "px";
+        // If the type is word, set the caret position to the left of the current word.
       } else if (type === "word") {
         caret.style.left = element.offsetLeft + "px";
         caret.style.top = element.offsetTop + "px";
       }
+      // If the direction is backward.
     } else if (direction === "backward") {
+      // If the type is letter, set the caret position to the right of the current letter.
       if (type === "letter") {
+        // If the letter is not the last letter in the word.
         if (letterIndex !== letters.length - 1) {
           caret.style.left =
             element.nextSibling.offsetLeft -
@@ -323,6 +343,7 @@ export class TypingTest {
             caretWidth / 2 +
             "px";
           caret.style.top = element.nextSibling.offsetTop + "px";
+          // If the letter is the first letter in the word.
         } else if (letterIndex === 0) {
           caret.style.left = element.offsetLeft - caretWidth / 2 + "px";
           caret.style.top = element.offsetTop + "px";
@@ -334,9 +355,11 @@ export class TypingTest {
             "px";
           caret.style.top = element.offsetTop + "px";
         }
+        // If the type is word, set the caret position to the right of the current word.
       } else if (type === "word") {
         caret.style.left = element.offsetLeft + element.offsetWidth + "px";
         caret.style.top = element.offsetTop + "px";
+        // If the type is an extra letter, set the caret position to the right of the current letter.
       } else if (type === "extra") {
         caret.style.left = element.offsetLeft + elementWidth + "px";
         caret.style.top = element.offsetTop + "px";
