@@ -160,11 +160,6 @@ html {
   transition: all 0.1s ease;
 }
 
-/* Footer */
-#footer {
-  border-top: 1px solid #ffffff1a;
-}
-
 /* Small Tablet Sizes (640px) and up */
 @media screen and (width >= 40rem) {
   /* Tailwind CSS Base Styles */
