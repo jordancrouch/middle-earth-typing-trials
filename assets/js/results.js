@@ -5,12 +5,14 @@ export class Results {
     this.loadResultsHTML(data);
   }
 
+  // Convert string to HTML.
   stringToHTML(text) {
     let parser = new DOMParser();
     let doc = parser.parseFromString(text, "text/html");
     return doc.body;
   }
 
+  // Load the results html file and replace the current header and main elements.
   loadResultsHTML(data) {
     fetch("results.html")
       .then((response) => {
@@ -33,6 +35,7 @@ export class Results {
       });
   }
 
+  // Process the results data.
   processResults(data) {
     console.log(data);
 
@@ -44,43 +47,78 @@ export class Results {
     let raw = document.getElementById("raw");
     let time = document.getElementById("time");
     let totalCorrectWordCharacters = 0;
+    let totalWordCharacters = 0;
 
     let testTimer = data.testTimer;
     let removedWords = data.removedWords;
     let remainingWords = data.textContainer.childNodes;
 
+    // Iterate over the removed (completed) words.
     removedWords.map((word) => {
-      // Iterate through correct words.
-      if (!word.classList.contains("error")) {
-        Array.from(word.childNodes).forEach((char) => {
-          totalCorrectWordCharacters++;
-        });
-
-        // Additional increment added for space character.
-        totalCorrectWordCharacters++;
-      }
-    });
-
-    Array.from(remainingWords).forEach((word) => {
-      // Iterate over correct remaining words.
-      if (!word.classList.contains("error")) {
-        Array.from(word.childNodes).forEach((char) => {
-          if (char.classList.contains("correct")) {
-            totalCorrectWordCharacters++;
-          }
-        });
-
-        // If word has been fully typed correctly, additional
-        // increment added for space character.
-        if (word.classList.contains("typed")) {
+      // Iterate over the characters in the word.
+      Array.from(word.childNodes).forEach(() => {
+        // Check if word has been typed correctly. If so, increment correct word characters.
+        if (!word.classList.contains("error")) {
           totalCorrectWordCharacters++;
         }
+        // Increment total word characters for raw WPM calculation.
+        totalWordCharacters++;
+      });
+
+      // Additional increment added for space character per (completed) word.
+      totalCorrectWordCharacters++;
+      totalWordCharacters++;
+    });
+
+    // Iterate over the remaining words.
+    Array.from(remainingWords).forEach((word) => {
+      // Iterate over the characters in the word.
+      Array.from(word.childNodes).forEach((char) => {
+        // Check if the word has either been typed, or is the active word.
+        if (
+          word.classList.contains("typed") ||
+          word.classList.contains("active")
+        ) {
+          // If the word doesn't have an error, add the correct characters to the total.
+          if (!word.classList.contains("error")) {
+            if (char.classList.contains("correct")) {
+              totalCorrectWordCharacters++;
+              totalWordCharacters++;
+              // Increment total word characters for raw WPM calculation.
+            } else if (char.classList.contains("incorrect")) {
+              totalWordCharacters++;
+            }
+            // Increment total word characters for incorrect words/characters
+            // for raw WPM calculation.
+          } else if (word.classList.contains("error")) {
+            if (
+              char.classList.contains("correct") ||
+              char.classList.contains("incorrect")
+            ) {
+              totalWordCharacters++;
+            }
+          }
+        }
+      });
+
+      // Additional increment added for space character per completed word.
+      if (word.classList.contains("typed")) {
+        totalCorrectWordCharacters++;
+        totalWordCharacters++;
       }
     });
 
-    // Calculate WPM
-    // Total correct characters divided by 5, divided by test time,
-    // multiplied by 60 to standardise to words per minute.
-    wpm.textContent = (totalCorrectWordCharacters / 5 / testTimer) * 60;
+    // Display the results.
+    wpm.textContent = this.calculateWPM(totalCorrectWordCharacters, testTimer);
+    raw.textContent = this.calculateWPM(totalWordCharacters, testTimer);
+    console.log(totalCorrectWordCharacters);
+    console.log(totalWordCharacters);
+  }
+
+  // Calculate WPM
+  // Total characters divided by 5, divided by test time, multiplied by 60
+  // to standardise result to words per minute.
+  calculateWPM(characters, time) {
+    return (characters / 5 / time) * 60;
   }
 }
