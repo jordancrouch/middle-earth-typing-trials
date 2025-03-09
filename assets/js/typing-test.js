@@ -1,3 +1,5 @@
+import { Results } from "./results.js";
+
 // Typing Test Class.
 export class TypingTest {
   constructor(el) {
@@ -7,6 +9,7 @@ export class TypingTest {
     this.textContainer = el.querySelector("#text-container");
     this.focusWarning = el.querySelector("#focus-warning");
     this.timerText = el.querySelector("#timer");
+    this.focusInterval = null;
     this.timerInterval = null;
     this.testTimer = 30;
     this.timerRunning = false;
@@ -45,7 +48,7 @@ export class TypingTest {
 
   // Set interval to check if input is in focus.
   setFocusInterval() {
-    window.setInterval(() => {
+    this.focusInterval = setInterval(() => {
       this.checkInputFocus();
     }, this.intervalTime);
   }
@@ -417,9 +420,11 @@ export class TypingTest {
       // Decrement time and check if the time is less than 0. If so, clear the interval.
       // TODO: add function to show results when timer reaches 0.
       if (--time < 0) {
+        clearInterval(this.focusInterval);
         clearInterval(this.timerInterval);
+        const results = new Results(this);
       }
-    }, 1000);
+    }, this.intervalTime);
   }
 
   // Pause timer function.
