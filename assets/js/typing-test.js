@@ -22,6 +22,8 @@ export class TypingTest {
     this.caret = el.querySelector("#caret");
     this.wordsToRemove = [];
     this.removedWords = [];
+    this.totalInputs = 0;
+    this.correctInputs = 0;
     this.focusInputOnLoad();
     this.eventListeners();
     this.setFocusInterval();
@@ -166,6 +168,8 @@ export class TypingTest {
           currentLetter.classList.add("correct");
           this.letterIndex++;
           this.moveCaret(currentLetter, "forward", "letter");
+          this.correctInputs++;
+          this.totalInputs++;
 
           // If input is delete, remove correct or incorrect class.
         } else if (input === "delete") {
@@ -231,11 +235,13 @@ export class TypingTest {
               currentLetter.classList.remove("incorrect");
             }
           }
-          // If incorrect input, add incorrect class and increment letter index.
+          // If incorrect input add incorrect class, increment letter index,
+          // move caret to the next letter and increment total inputs.
         } else if (currentLetterText !== input) {
           currentLetter.classList.add("incorrect");
           this.letterIndex++;
           this.moveCaret(letters[letterIndex], "forward", "letter");
+          this.totalInputs++;
         }
         // If the current letter text is a 'space'.
       } else if (currentLetterText === "space") {
@@ -270,12 +276,14 @@ export class TypingTest {
           if (currentWord.classList.contains("active")) {
             currentWord.classList.remove("active");
           }
-          // Increment word index and set letter index to 0.
+          // Increment word index, set letter index to 0, increment inputs,
+          // update word index and current word, move caret to the next word.
           this.wordIndex++;
           this.letterIndex = 0;
+          this.correctInputs++;
+          this.totalInputs++;
           wordIndex = this.wordIndex;
           currentWord = words[wordIndex];
-
           this.moveCaret(currentWord, "forward", "word");
 
           // If the next word is the first word of a line and the word is in the second row.
@@ -312,7 +320,7 @@ export class TypingTest {
             this.removedWords = removedWords;
           }
 
-          // If an additional word is typed at the end of a word where a space should be
+          // If an additional letter is typed at the end of a word where a space should be
           // add it to the end of the current word.
         } else {
           if (input.length === 1) {
@@ -322,6 +330,7 @@ export class TypingTest {
             currentWord.appendChild(newLetter);
             this.letterIndex++;
             this.moveCaret(newLetter, "forward", "letter");
+            this.totalInputs++;
           }
         }
       }

@@ -110,15 +110,26 @@ export class Results {
 
     // Display the results.
     wpm.textContent = this.calculateWPM(totalCorrectWordCharacters, testTimer);
+    accuracy.textContent =
+      this.calculateAccuracy(data.correctInputs, data.totalInputs) + "%";
+    // Calculate the total words by dividing the total correct word characters by 5.
+    words.textContent = Math.round(totalCorrectWordCharacters / 5);
+    characters.textContent = totalCorrectWordCharacters;
+    // Calculate the total errors by subtracting the total correct inputs from the total inputs.
+    errors.textContent = data.totalInputs - data.correctInputs;
+    time.textContent = testTimer + "s";
     raw.textContent = this.calculateWPM(totalWordCharacters, testTimer);
-    console.log(totalCorrectWordCharacters);
-    console.log(totalWordCharacters);
   }
 
   // Calculate WPM
   // Total characters divided by 5, divided by test time, multiplied by 60
   // to standardise result to words per minute.
   calculateWPM(characters, time) {
-    return (characters / 5 / time) * 60;
+    return Math.round((characters / 5 / time) * 60);
+  }
+
+  // Calculate accuracy by dividing the correct characters by the total characters.
+  calculateAccuracy(correct, total) {
+    return Math.round((correct / total) * 100);
   }
 }
