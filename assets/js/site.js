@@ -4,10 +4,7 @@ import { TypingTest } from "./typing-test.js";
 
 window.addEventListener("load", () => {
   /* Set up variables */
-  // Get the 'choose a character' button.
   const charactersButton = document.getElementById("characters-button");
-  // Get all the character cards.
-  const characterCards = document.getElementsByClassName("character");
 
   // Function to check if the current location is localhost.
   const isProduction = () => {
@@ -20,32 +17,6 @@ window.addEventListener("load", () => {
     let doc = parser.parseFromString(text, "text/html");
     return doc.body;
   };
-
-  // Event handler to get character names.
-  const getCharacterNames = (e) => {
-    if (e !== undefined) {
-      const characterName = e.target.getAttribute("data-name");
-      console.log(characterName);
-      // TODO: save selected character name to a variable.
-    }
-  };
-
-  // Function to add event listeners to character cards.
-  const addCharacterEventListeners = () => {
-    // Iterate over the character cards and add event listeners to each.
-    if (characterCards !== null) {
-      Array.from(characterCards).forEach((character) => {
-        character.addEventListener("click", getCharacterNames);
-        character.addEventListener("touch", getCharacterNames);
-        // TODO: add event listener for return/enter key press when character is focused.
-      });
-    }
-  };
-
-  // Add event listeners to character cards if page is access directly.
-  if (characterCards !== null) {
-    addCharacterEventListeners();
-  }
 
   // Fetch the characters page and replace the current page with the new page
   // if the characters button exists and is clicked.
@@ -76,18 +47,12 @@ window.addEventListener("load", () => {
           updatedHeader.insertAdjacentElement("afterend", newMain);
         })
         .then(() => {
-          addCharacterEventListeners();
-          getCharacterNames();
+          let characters = new Character();
         });
     });
   }
 
-  // Get the character names
-  // getCharacterNames();
-  // const character = new Character("gandalf");
-  // console.log(character);
-  // console.log(character.getCharacterQuotes());
-
+  /*
   const quotes = new Quotes();
 
   const testWrapper = document.getElementById("typing-test-wrapper");
@@ -99,4 +64,5 @@ window.addEventListener("load", () => {
       const test = new TypingTest(testWrapper);
     }
   }
+    */
 });

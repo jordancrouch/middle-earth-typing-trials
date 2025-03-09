@@ -37,8 +37,6 @@ export class Results {
 
   // Process the results data.
   processResults(data) {
-    console.log(data);
-
     let wpm = document.getElementById("wpm");
     let accuracy = document.getElementById("accuracy");
     let words = document.getElementById("words");

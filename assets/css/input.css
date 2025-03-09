@@ -110,6 +110,19 @@ html {
   }
 }
 
+/* Start Button */
+.character-grid:has(
+    > .character:focus,
+    > .character:focus-visible,
+    > .character:focus-within,
+    > .character:target
+  )
+  + #start-button-container {
+  bottom: calc(var(--spacing) * 8);
+  visibility: visible;
+  opacity: 1;
+}
+
 /* Text Container */
 #text-container {
   display: flex;

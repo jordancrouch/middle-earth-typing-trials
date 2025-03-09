@@ -1,6 +1,9 @@
+import { TypingTest } from "./typing-test.js";
+
 // Quotes Class.
 export class Quotes {
   constructor(data) {
+    /*
     this.quoteData = {
       docs: [
         {
@@ -1616,7 +1619,47 @@ export class Quotes {
       page: 1,
       pages: 1,
     };
+    */
+    this.quoteData = data;
     this.processedQuotes = this.processQuotes();
+    this.loadTypingTest(data);
+  }
+
+  // Function to convert a string to HTML.
+  stringToHTML(text) {
+    let parser = new DOMParser();
+    let doc = parser.parseFromString(text, "text/html");
+    return doc.body;
+  }
+
+  loadTypingTest(data) {
+    fetch("typing-test.html")
+      .then((response) => {
+        if (response.ok) {
+          return response.text();
+        }
+        throw response;
+      })
+      .then((text) => {
+        let html = this.stringToHTML(text);
+        let testWrapper = html.querySelector("#typing-test-wrapper");
+        let currentHeader = document.getElementById("header");
+        let currentMain = document.getElementById("main");
+        currentHeader.replaceWith(testWrapper);
+        currentMain.remove();
+      })
+      .then(() => {
+        document.getElementById("text-container").innerHTML =
+          this.processedQuotes;
+      })
+      .then(() => {
+        const test = new TypingTest(
+          document.getElementById("typing-test-wrapper"),
+        );
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }
 
   shuffleArray(array) {
