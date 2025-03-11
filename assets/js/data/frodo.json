@@ -1,0 +1,1612 @@
+{
+  "docs": [
+    {
+      "_id": "5cd96e05de30eff6ebcce7f6",
+      "dialog": "Gandalf?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce7f6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce7f7",
+      "dialog": "Oooohhh!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce7f7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce7fb",
+      "dialog": "Gimli!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce7fb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce805",
+      "dialog": "No, it isn't. It isn't midday yet. The days are growing darker.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce805"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce807",
+      "dialog": "What about you?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce807"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce809",
+      "dialog": "Sam!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce809"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce80a",
+      "dialog": "Aragorn!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce80a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce810",
+      "dialog": "And thus it was a Fourth Age of Middle Earth began. And the Fellowship of the Ring, though eternally bound by friendship and love was ended. Thirteen months to the day since Gandalf sent us on our long journey we find ourselves looking upon a familiar sight.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce810"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce812",
+      "dialog": "We were home.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce812"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce81a",
+      "dialog": "For what?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce81a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce821",
+      "dialog": "How do you pick up the threads of an old life? How do you go on, when in your heart you begin to understand there is no going back? There are some things that time cannot mend. Some hurts that go too deep, that have taken hold.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce821"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce823",
+      "dialog": "It's been four years to the day since Weathertop, Sam. It's never really healed.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce823"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce826",
+      "dialog": "Not quite. There's room for a little more.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce826"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce827",
+      "dialog": "Bilbo once told me his part in this tale would end. That each of us must come and go in the telling. Bilbo's story was now over. There would be no more journeys for him, save one.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce827"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce828",
+      "dialog": "To the harbour, Bilbo. The elves have accorded you a special honour. A place on the last ship to leave Middle Earth.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce828"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce837",
+      "dialog": "I'm sorry uncle. I'm afraid I lost it.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce837"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce840",
+      "dialog": "We set out to save the Shire, Sam, and it has been saved. But not for me.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce840"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce847",
+      "dialog": "The last pages are for you Sam.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce847"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce84a",
+      "dialog": "My dear Sam, you cannot always be torn in two. You will have to be one and whole for many years. You have so much to enjoy and to be and to do. Your part in the story will go on.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce84a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce872",
+      "dialog": "Sam! Help me!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce872"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce87a",
+      "dialog": "It's so heavy!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce87a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce87c",
+      "dialog": "Hit me! Hit me Sam! Start fighting!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce87c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce87d",
+      "dialog": "Go Sam. Now!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce87d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce886",
+      "dialog": "I can't! I can't! I can't manage the Ring, Sam. It's such a weight to carry. It's such a weight.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce886"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce88a",
+      "dialog": "There will be none left for the return journey.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce88a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8c3",
+      "dialog": "What is this place?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8c3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8c4",
+      "dialog": "I can't go back.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8c4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8c5",
+      "dialog": "What's that smell.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8c5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8c7",
+      "dialog": "Now that I'm here I don't think I want to.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8c7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8ca",
+      "dialog": "Smeagol?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8ca"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8d0",
+      "dialog": "Ah aah! Its sticky, what is it?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8d0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8d5",
+      "dialog": "Smeagol? SMEAGOL! SMEAGOL!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8d5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8d6",
+      "dialog": "Sam.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8d6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8da",
+      "dialog": "Aiya E'rendil Elenion Ancalim'",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8da"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8de",
+      "dialog": "I have to destroy it Smeagol. I have to destroy it for both our sakes.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8de"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8e1",
+      "dialog": "I'm so sorry Sam. I'm so sorry.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8e1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8e2",
+      "dialog": "NO!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce8e2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce989",
+      "dialog": "It's dark still.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce989"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce98c",
+      "dialog": "What? That's all we have left!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce98c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce993",
+      "dialog": "He doesn't eat it. He can't have taken it.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce993"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce999",
+      "dialog": "Stop it!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce999"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce99c",
+      "dialog": "Sam, no!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce99c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce99e",
+      "dialog": "Get away!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce99e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9a1",
+      "dialog": "I'm all right.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9a1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9a4",
+      "dialog": "Sam!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9a4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9b1",
+      "dialog": "No Sam! It's you! I'm sorry Sam.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9b1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9b3",
+      "dialog": "You can't help me any more.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9b3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9b5",
+      "dialog": "Go home.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9b5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9cd",
+      "dialog": "What?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9cd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9cf",
+      "dialog": "Well, you've left out one of the chief characters: \"Samwise the Brave.\" I want to hear more about Sam.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9cf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9d0",
+      "dialog": "Frodo wouldn't have got far without Sam.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9d0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9d1",
+      "dialog": "Smeagol?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9d1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9d2",
+      "dialog": "So was l.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9d2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9e8",
+      "dialog": "Smeagol?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcce9e8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea12",
+      "dialog": "Gollum says there's a path near Minas Morgul that climbs up into the mountains.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea12"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea19",
+      "dialog": "I must.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea19"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea1b",
+      "dialog": "Thank you.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea1b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea24",
+      "dialog": "It's calling to him, Sam. His Eye is almost on me.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea24"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea2d",
+      "dialog": "They're here.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea2d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea2f",
+      "dialog": "They've come.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea2f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea6f",
+      "dialog": "I can't do this, Sam.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea6f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea73",
+      "dialog": "What are we holding on to, Sam?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea73"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea86",
+      "dialog": "The Ring will not save Gondor. It has only the power to destroy. Please, Iet me go.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea86"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea8b",
+      "dialog": "Faramir! You must let me go!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccea8b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaf2",
+      "dialog": "Wait. This creature is bound to me. And I to him. He is our guide. Please......Iet me go down to him.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceaf2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaf3",
+      "dialog": "Smeagol. Master is here. Come, Smeagol. Trust master. Come.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceaf3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaf5",
+      "dialog": "Don't hurt him! Smeagol, don't struggle. Smeagol, listen to me.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceaf5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaf6",
+      "dialog": "Smeagol, you must trust master. Follow me. Come on. Come. Come, Smeagol. Nice Smeagol. That's it. Come on.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceaf6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb17",
+      "dialog": "No!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceb17"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb21",
+      "dialog": "I can't. You were right, Sam. You tried to tell me but, I'm sorry. The Ring's taking me, Sam. If I put it on, he'll find me. He'll see.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceb21"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb23",
+      "dialog": "We are Hobbits of the Shire. Frodo Baggins is my name, and this is Samwise Gamgee.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceb23"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb28",
+      "dialog": "There was no other. We set out from Rivendell with seven companions. One we lost in Moria. Two were my kin. A Dwarf there was also. And an Elf and two Men. Aragorn, son of Arathorn, and Boromir of Gondor.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceb28"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb33",
+      "dialog": "Yes. For my part.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceb33"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb39",
+      "dialog": "Dead? How? When?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceb39"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb3b",
+      "dialog": "If something has happened to Boromir, we would have you tell us.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceb3b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceba3",
+      "dialog": "Call him names. Run him down all the time.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceba3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceba5",
+      "dialog": "Why do you do that?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceba5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceba6",
+      "dialog": "You have no idea what it did to him, what it's still doing to him. I want to help him, Sam.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceba6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebbb",
+      "dialog": "We've got to get moving. Come on, Sam.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccebbb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebbe",
+      "dialog": "Smeagol?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccebbe"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebbf",
+      "dialog": "We've lingered here too long.Come on, Sam.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccebbf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebc1",
+      "dialog": "We are bound to an errand of secrecy. Those that claim to oppose the enemy would do well not to hinder us.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccebc1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebc4",
+      "dialog": "Because I have to believe he can come back.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccebc4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebc7",
+      "dialog": "What do you know about it? Nothing! I'm sorry, Sam. I don't know why I said that.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccebc7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebc9",
+      "dialog": "I know what I have to do, Sam. The Ring was entrusted to me. It's my task. Mine! My own!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccebc9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec0a",
+      "dialog": "No Sam. I can't recall the taste of food, nor the sound of water or the touch of grass. I'm naked in the dark. There's' there's nothing, no veil between me and the wheel of fire. I can see him with my waking eyes!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec0a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec16",
+      "dialog": "I did.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec16"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec19",
+      "dialog": "You swore! You swore on the precious!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec19"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec1c",
+      "dialog": "Sam, no!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec1c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec3b",
+      "dialog": "I'm here Sam!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec3b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec3e",
+      "dialog": "The Ring is mine!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec3e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec56",
+      "dialog": "Smeagol promised!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec56"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec5e",
+      "dialog": "Now!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec5e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec65",
+      "dialog": "Are you saying there's another wayinto Mordor?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec65"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec66",
+      "dialog": "I do not ask you to come with me, Sam.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec66"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec68",
+      "dialog": "He's led us this far, Sam.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec68"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec6a",
+      "dialog": "He's been true to his word.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec6a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec89",
+      "dialog": "Gandalf!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec89"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec8f",
+      "dialog": "Gandalf!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec8f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec93",
+      "dialog": "It's gone. It's done.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec93"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec95",
+      "dialog": "I can see the Shire. The Brandywine River. Bag End. Gandalf's fireworks. The lights on the party tree.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec95"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec97",
+      "dialog": "I'm glad to be with you Samwise Gamgee here at the end of all things. They hug.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccec97"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecbf",
+      "dialog": "Lead the way, Smeagol.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecbf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecd2",
+      "dialog": "Sam!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecd2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecd3",
+      "dialog": "Oh Sam, I'm so sorry. Sorry for everything.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecd3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccece8",
+      "dialog": "Here.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccece8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecef",
+      "dialog": "Gandalf!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecef"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecf2",
+      "dialog": "Don't touch me!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecf2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecf3",
+      "dialog": "Nothing.Just a dream.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecf3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecf5",
+      "dialog": "No!Gandalf!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecf5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecf6",
+      "dialog": "No! Don't look down, Sam!Just keep going!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecf6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecf8",
+      "dialog": "What's in this?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecf8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecfa",
+      "dialog": "Roast chicken?!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccecfa"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced01",
+      "dialog": "I think I've found the bottom.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced01"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced30",
+      "dialog": "It's too late. It's over. They've taken it Sam, they took the Ring!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced30"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced36",
+      "dialog": "There are so many of them. We'll never get through unseen.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced36"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced37",
+      "dialog": "It's Him, the Eye!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced37"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced3c",
+      "dialog": "Give it to me! Give me the Ring Sam. Sam! Give me the Ring. You must understand. The Ring is my burden. It will destroy you Sam.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced3c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced4d",
+      "dialog": "Gollum?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced4d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced4f",
+      "dialog": "Gollum!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced4f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced53",
+      "dialog": "What did you say?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced53"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced55",
+      "dialog": "Who are you?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced55"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced5b",
+      "dialog": "It's just a feeling. I don't think I'll be coming back.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced5b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced5e",
+      "dialog": "I think these lands were once part of the Kingdom of Gondor.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced5e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced61",
+      "dialog": "Who is she? This woman you sing of?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced61"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced65",
+      "dialog": "What happened to her?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced65"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced68",
+      "dialog": "Long ago, when there was a King.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced68"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced74",
+      "dialog": "We can't leave this here for someoneto follow us down.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced74"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced76",
+      "dialog": "It is special. It's a little bit of home.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced76"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced77",
+      "dialog": "Sam. My dear Sam.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced77"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced79",
+      "dialog": "Real Elvish rope.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced79"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced7a",
+      "dialog": "He didn't mean for a lot of things to happen, Sam, but they did.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced7a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced7b",
+      "dialog": "What food have we got left?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced7b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced7e",
+      "dialog": "Nothing ever dampens your spiritsdoes it, Sam?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced7e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced80",
+      "dialog": "Its so light!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced80"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced83",
+      "dialog": "It's getting heavier.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcced83"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedd4",
+      "dialog": "Gandalf told me you wereone of the river-folk.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccedd4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedd6",
+      "dialog": "He said your life was a sad story.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccedd6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedd8",
+      "dialog": "You were not so very different from a Hobbit once. Were you? Smeagol.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccedd8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedda",
+      "dialog": "That was your name once, wasn't it? A long time ago.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccedda"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccede2",
+      "dialog": "Aagh!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccede2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccede3",
+      "dialog": "Aagh!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccede3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedfe",
+      "dialog": "What are you doing?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccedfe"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee12",
+      "dialog": "It's because we've been here before. We're going in circles.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee12"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee14",
+      "dialog": "Yes, I can smell it. We're not alone.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee14"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee19",
+      "dialog": "This is Sting. You've seen it before, haven't you, Gollum? Release him or I'll cut your throat.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee19"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee1d",
+      "dialog": "Maybe he does deserve to die. But now that I see him, I do pity him.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee1d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee23",
+      "dialog": "What are you talking about?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee23"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee24",
+      "dialog": "What did he say?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee24"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee29",
+      "dialog": "Mordor, Gandalf, is it left or right?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee29"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee7e",
+      "dialog": "They're calling me.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee7e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee7f",
+      "dialog": "Put it out you fools! Put it out!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee7f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee83",
+      "dialog": "Oh Sam!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee83"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee89",
+      "dialog": "GANDALF!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee89"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee8c",
+      "dialog": "Go!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccee8c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceea0",
+      "dialog": "Better than it was.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceea0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceea2",
+      "dialog": "Who then do I trust?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceea2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceea4",
+      "dialog": "What do you mean?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceea4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceeaf",
+      "dialog": "There's no promise you can make that I can trust.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceeaf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceeb5",
+      "dialog": "Sam!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceeb5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceeb9",
+      "dialog": "You've been there before?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceeb9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceebb",
+      "dialog": "You will lead us to the Black Gate.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceebb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceebf",
+      "dialog": "The Ring is treacherous.It will hold you to your word.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceebf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceec0",
+      "dialog": "You know the way to Mordor?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceec0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceec4",
+      "dialog": "What's the meaning of this?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceec4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceecb",
+      "dialog": "Sam! We're still in The Shire. What could possibly happen!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceecb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef12",
+      "dialog": "I can feel his blade.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccef12"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef18",
+      "dialog": "What was that about?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccef18"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef22",
+      "dialog": "Go on Sam, ask Rosie for a dance.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccef22"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef50",
+      "dialog": "It's a riddle!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccef50"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef51",
+      "dialog": "Speak friend... and enter. What's the elvish word for friend?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccef51"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef68",
+      "dialog": "I think we should get off the road.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccef68"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef6a",
+      "dialog": "Get off the road! Quick!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccef6a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef73",
+      "dialog": "Nothing",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccef73"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef9d",
+      "dialog": "And proud of it! Cheers Gaffer!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccef9d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefa3",
+      "dialog": "Don't worry Sam, Rosie knows an idiot when she sees one!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccefa3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefa5",
+      "dialog": "Goodnight, Sam.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccefa5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefa7",
+      "dialog": "Ha! What are you doing!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccefa7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefad",
+      "dialog": "Oh no you don't, Go on.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccefad"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefb8",
+      "dialog": "Nothing. There's nothing, Wait. There are markings, it's some form of Elvish. I can't read it.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccefb8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefc1",
+      "dialog": "Bilbo have you been at the Gaffers homebrew?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccefc1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefd4",
+      "dialog": "You're late!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccefd4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceff8",
+      "dialog": "I have to leave the Shire. Sam and I must get to Bree.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceff8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceffe",
+      "dialog": "No!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebcceffe"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf008",
+      "dialog": "We will go through the Mines.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf008"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf010",
+      "dialog": "Mordor!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf010"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf018",
+      "dialog": "Bilbo! Bilbo! Watch out for the dragon",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf018"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf01b",
+      "dialog": "Speech!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf01b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf02e",
+      "dialog": "Its wonderful to see you Gandalf.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf02e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf034",
+      "dialog": "You know Bilbo he's got the whole place in an uproar.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf034"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf035",
+      "dialog": "Half the Shire's been invited. And the rest of them are turning up anyway.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf035"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf037",
+      "dialog": "To tell you the truth, Bilbo has been acting a bit odd lately. I mean, more than usual. He's taken to locking himself in his study. He spends hours and hours poring over old maps when he thinks I'm not looking.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf037"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf03c",
+      "dialog": "He's up to something. All right then, keep your secrets!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf03c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf04f",
+      "dialog": "Strider!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf04f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf05b",
+      "dialog": "How far to the nearest crossing?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf05b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf05f",
+      "dialog": "Come on!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf05f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf060",
+      "dialog": "We wish to at the Inn. Our business is our own.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf060"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf063",
+      "dialog": "Excuse me?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf063"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf066",
+      "dialog": "We're heading for the Prancing Pony.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf066"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf06f",
+      "dialog": "But I know you have something to do with it.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf06f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf074",
+      "dialog": "Before you came along we Bagginses were very well thought of.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf074"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf077",
+      "dialog": "Whatever you did, you've been officially labelled as a 'disturber of the peace.'",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf077"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf079",
+      "dialog": "We never had any adventures, or did anything unexpected.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf079"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf07c",
+      "dialog": "Gandalf, I'm glad you're back.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf07c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf07f",
+      "dialog": "No Sam! Leave him alone!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf07f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf084",
+      "dialog": "Sam!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf084"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf086",
+      "dialog": "I'm not sending him away.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf086"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf088",
+      "dialog": "We can't do this by ourselves Sam. Not without a guide. I need you on my side.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf088"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf08d",
+      "dialog": "If you scare him off then we are lost!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf08d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf091",
+      "dialog": "There's something down there.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf091"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf094",
+      "dialog": "Gollum!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf094"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf096",
+      "dialog": "He escaped the dungeons of Barad-D'r!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf096"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf09a",
+      "dialog": "Underhill, my name's Underhill",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf09a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf09c",
+      "dialog": "We're friends of Gandalf the Grey. Can you tell him we've arrived?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf09c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf09d",
+      "dialog": "It's a pity Bilbo didnt kill him when he had the chance",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf09d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf09f",
+      "dialog": "Sam. He'll be here. He'll come.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf09f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0a2",
+      "dialog": "I wish the Ring had never come to me. I wish none of this had happened.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf0a2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0b9",
+      "dialog": "I know Sam, I know. Trust me. Come Smeagol.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf0b9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0d2",
+      "dialog": "Strider",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf0d2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0d5",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf0d5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0d9",
+      "dialog": "Excuse me. That man in the corner. Who is he?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf0d9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0dd",
+      "dialog": "What do you want?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf0dd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0e7",
+      "dialog": "I carry nothing",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf0e7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0fe",
+      "dialog": "Yes",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf0fe"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf102",
+      "dialog": "Who are you?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf102"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf107",
+      "dialog": "I think a servant of the enemy would look fairer, but feel fouler.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf107"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf109",
+      "dialog": "We have no choice but to trust him",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf109"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf10d",
+      "dialog": "Where are you taking us?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf10d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf110",
+      "dialog": "What are they?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc15",
+      "id": "5cd96e05de30eff6ebccf110"
+    }
+  ],
+  "total": 229,
+  "limit": 1000,
+  "offset": 0,
+  "page": 1,
+  "pages": 1
+}

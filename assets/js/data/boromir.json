@@ -1,0 +1,296 @@
+{
+  "docs": [
+    {
+      "_id": "5cd96e05de30eff6ebcceaca",
+      "dialog": "This city was once the jewel of our kingdom. A place of light and beauty and music. And so it shall be once more!Let the armies of Mordor know this: Never again will the land of my people fall into enemy hands. This city of Osgiliath has been reclaimed,for Gondor!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceaca"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccead0",
+      "dialog": "For Gondor!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccead0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccead1",
+      "dialog": "Remember today, little brother. Today, life is good.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccead1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccead2",
+      "dialog": "What?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccead2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccead4",
+      "dialog": "One moment of peace, can he not give us that?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccead4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccead6",
+      "dialog": "Father!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccead6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccead7",
+      "dialog": "Leaves more time for drinking! Break out the ale! These men are thirsty!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccead7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccead9",
+      "dialog": "They exaggerate. The victory belongs to Faramir also.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccead9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceadf",
+      "dialog": "For Gondor!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceadf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceae1",
+      "dialog": "You give him no credit, and yet he tries to do your will.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceae1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceae3",
+      "dialog": "Gondor.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceae3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceae5",
+      "dialog": "No. My place is here with my people. Not in Rivendell.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceae5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceae7",
+      "dialog": "He loves you, Father.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceae7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceae9",
+      "dialog": "The One Ring. lsildur's Bane.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceae9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaec",
+      "dialog": "Remember today, little brother.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceaec"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec8b",
+      "dialog": "No! No!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccec8b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced88",
+      "dialog": "You are no elf",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcced88"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced89",
+      "dialog": "Then we are here on a common purpose, friend.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcced89"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced8a",
+      "dialog": "The shards of Narsil, The blade that cut the Ring from Sauron's hand, Ah!Its still sharp, but no more than a broken heirloom",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcced8a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced8f",
+      "dialog": "Who are you?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcced8f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee2e",
+      "dialog": "Good, very good.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccee2e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee35",
+      "dialog": "Sorry!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccee35"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee3d",
+      "dialog": "So it's true",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccee3d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee42",
+      "dialog": "In a dream, I saw the Eastern sky grow dark. In the West a pale light lingered. A voice was crying, your doom is near at hand, Isildur's bane is found, Isildur's Bane.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccee42"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceece",
+      "dialog": "It's moving fast, against the wind.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceece"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceed1",
+      "dialog": "Hurry!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceed1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceed8",
+      "dialog": "It is a strange fate that we should suffer so much fear and doubt over so small a thing,such a little thing",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceed8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceedb",
+      "dialog": "As you wish! I care not.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceedb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceee0",
+      "dialog": "Aragorn! This is Isildur's heir?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceee0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceee4",
+      "dialog": "Gondor has no King. Gondor needs no King.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceee4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceee7",
+      "dialog": "Aye it is a gift! A gift to the foes of Mordor. Why not use this Ring?, Long has my father, the Steward of Gondor kept the forces of Mordor at bay. By the blood of our people are your lands kept safe. Give Gondor the weapon of the enemy, let us use it against him!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceee7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceee8",
+      "dialog": "and what would a ranger know of this matter?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebcceee8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef77",
+      "dialog": "We must get off the mountain! Make for the Gap of Rohan and take the west road to my city!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccef77"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef81",
+      "dialog": "And if we fail what then? What happens when Sauron takes back what is his?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccef81"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef87",
+      "dialog": "One does not simply walk into Mordor. Its black gates are guarded by more than just orcs. There is evil there that does not sleep and the great eye is ever watchful. Tis a barren wasteland, riddled with fire and ash and dust. The very air you breathe is a poisonous fume. Not with ten thousand men could you do this. It is folly",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccef87"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefe7",
+      "dialog": "Now get out of here! Get out!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccefe7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefe9",
+      "dialog": "This isn't a mine, it's a tomb.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccefe9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefea",
+      "dialog": "We make for the gap of Rohan. We should never have come here",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccefea"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf005",
+      "dialog": "We cannot stay here!This will be the death of the hobbits!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccf005"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf05c",
+      "dialog": "Legolas!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccf05c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0f9",
+      "dialog": "They have a cave troll!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc57",
+      "id": "5cd96e05de30eff6ebccf0f9"
+    }
+  ],
+  "total": 41,
+  "limit": 1000,
+  "offset": 0,
+  "page": 1,
+  "pages": 1
+}

@@ -3,10 +3,10 @@ import { Quotes } from "./quotes.js";
 
 // Character Class.
 export class Character {
-  constructor(name) {
+  constructor() {
     this.characterCards = document.getElementsByClassName("character");
     this.startButton = document.getElementById("start-button");
-    this.name = name;
+    this.name = "";
     this.id = "";
     this.getCharacterNames = this.getCharacterNames.bind(this);
     this.getCharacterQuotes = this.getCharacterQuotes.bind(this);
@@ -20,13 +20,14 @@ export class Character {
       Array.from(this.characterCards).forEach((character) => {
         character.addEventListener("click", this.getCharacterNames);
         character.addEventListener("touch", this.getCharacterNames);
-        // TODO: add event listener for return/enter key press when character is focused.
+        // TODO: add event listener for key press (tab) when character is focused.
       });
     }
 
     if (this.startButton !== null) {
       this.startButton.addEventListener("click", this.getCharacterQuotes);
       this.startButton.addEventListener("touch", this.getCharacterQuotes);
+      // TODO: add event listener for key press (enter/return) when character is selected.
     }
   }
 
@@ -34,6 +35,7 @@ export class Character {
   getCharacterNames = (e) => {
     if (e !== undefined) {
       const characterName = e.target.getAttribute("data-name");
+      this.name = characterName;
       this.getCharacterID(characterName);
       // TODO: save selected character name to a variable.
     }
@@ -50,7 +52,7 @@ export class Character {
       gollum: "Gollum",
       legolas: "Legolas",
       "merry-and-pippin": ["Meriadoc Brandybuck", "Peregrin Took"],
-      sam: "Samwise Gamgee",
+      samwise: "Samwise Gamgee",
     };
 
     // Iterate over character IDs and set the ID for the specified character.
@@ -80,7 +82,7 @@ export class Character {
       headers: headers,
     };
 
-    const fetchQuotes = async (id) => {
+    const fetchQuotes = async (name, id) => {
       try {
         const url = `https://the-one-api.dev/v2/character?name=${id}`;
         const response = await fetch(url, options);
@@ -92,14 +94,26 @@ export class Character {
         return new Quotes(quoteData);
       } catch (error) {
         console.error(error.message);
+
+        // Fallback to local JSON data.
+        // TODO: create/update object property to show icon
+        // front-end that local data is being used.
+        try {
+          const localResponse = await fetch(`./assets/js/data/${name}.json`);
+          const localData = await localResponse.json();
+          console.log("Using local data:", localData);
+          return new Quotes(localData);
+        } catch (localError) {
+          console.error(localError.message);
+        }
       }
     };
 
     if (size === 1) {
-      return await fetchQuotes(this.id);
+      return await fetchQuotes(this.name, this.id);
     } else if (size > 1) {
       const promises = Object.keys(this.id).map((key) =>
-        fetchQuotes(this.id[key]),
+        fetchQuotes(this.name, this.id[key]),
       );
       return await Promise.all(promises);
     }

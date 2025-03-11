@@ -1,0 +1,2130 @@
+{
+  "docs": [
+    {
+      "_id": "5cd96e05de30eff6ebcce7f8",
+      "dialog": "Frodo!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce7f8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce817",
+      "dialog": "It's good. Definitely from the Shire. Longbottom leaf eh?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce817"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce819",
+      "dialog": "Mmmm, Green Dragon!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce819"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce81c",
+      "dialog": "Welcome, my lords to Isengard!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce81c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce81f",
+      "dialog": "Only, you've never done a hard day's work.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce81f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce82b",
+      "dialog": "We're under orders from Treebeard who's taken over management of Isengard.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce82b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8a3",
+      "dialog": "No!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce8a3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8bb",
+      "dialog": "DEEEEAAATH!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce8bb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8ee",
+      "dialog": "My lady. You are fair and brave and have much to live for, and many who love you. I know it is too late to turn aside. I know there is not much point now in hoping. If I were a knight of Rohan capable of great deeds'but I'm not. I'm a Hobbit. And I know I can't save Middle Earth. I just want to help my friends; Frodo, Sam, Pippin. More than anything I wish I could see them again.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce8ee"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8f4",
+      "dialog": "All my friends have gone to battle. I would be ashamed to be left behind.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce8f4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8f6",
+      "dialog": "I want to fight!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce8f6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8f9",
+      "dialog": "My lady!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce8f9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8fa",
+      "dialog": "To battle",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce8fa"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce937",
+      "dialog": "I'm ready! Sorry. It isn't all that dangerous. It's not even sharp.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce937"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9fd",
+      "dialog": "He doesn't look too happy, does he?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce9fd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9ff",
+      "dialog": "Still, I suppose the view would be quite nice from up there.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcce9ff"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea03",
+      "dialog": "Good luck trying to find something decent around here. Probably only dead rats and mouldy bread.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea03"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea04",
+      "dialog": "Saruman's storeroom!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea04"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea06",
+      "dialog": "It can't be.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea06"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea0a",
+      "dialog": "Nothing. The world's back to normal, that's all.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea0a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea0c",
+      "dialog": "Share it? No. No. Dead plant and all that. Don't think he'd understand. Could be a distant relative.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea0c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea0e",
+      "dialog": "Exactly. Bar-hrum.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea0e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea0f",
+      "dialog": "Longbottom Leaf. The finest pipe-weed in South Farthing.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea0f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea5a",
+      "dialog": "Pippin! Hold on!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea5a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea82",
+      "dialog": "Are you mad? We'll be caught.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea82"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea9b",
+      "dialog": "Yes!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccea9b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaa2",
+      "dialog": "Where are they going?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceaa2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceab2",
+      "dialog": "And what about Saruman? Have you come to a decision about him?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceab2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceab5",
+      "dialog": "Yes?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceab5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceab8",
+      "dialog": "Hasty? Our friends are out there. They need our help. They cannot fight this war on their own.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceab8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceac5",
+      "dialog": "How can that be your decision?!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceac5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceac8",
+      "dialog": "The fires of Isengard will spread and the woods of Tuckborough and Buckland will burn. And all that was once green and good in this world will be gone. There won't be a Shire, Pippin.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceac8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceacc",
+      "dialog": "But you're part of this world! Aren't you?!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceacc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceacf",
+      "dialog": "You must help. Please. You must do something.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceacf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb58",
+      "dialog": "What's that?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceb58"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb5a",
+      "dialog": "A gathering of what?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceb5a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec28",
+      "dialog": "Trees. Climb a tree.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec28"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec36",
+      "dialog": "Isengard?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec36"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec6b",
+      "dialog": "I knew you'd find me.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec6b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec6f",
+      "dialog": "Are you going to leave me?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec6f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec78",
+      "dialog": "He's gone.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec78"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec85",
+      "dialog": "Aaagh!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec85"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec86",
+      "dialog": "A tree-herder. A shepherd of the forest.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec86"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec88",
+      "dialog": "We're not Orcs! We're Hobbits!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec88"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec90",
+      "dialog": "It's Saruman's army. The war has started.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec90"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec9a",
+      "dialog": "Frodo!Frodo!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccec9a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceca7",
+      "dialog": "I think we might have made a mistake leaving the Shire, Pippin.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceca7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecaa",
+      "dialog": "It's the trees.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccecaa"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecb9",
+      "dialog": "Hello? Treebeard? Where has he gone?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccecb9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecbb",
+      "dialog": "Did you hear that? There it is again. Something's not right here. Not right at all.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccecbb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecbd",
+      "dialog": "You just said something...Treeish.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccecbd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecc0",
+      "dialog": "You!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccecc0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecc2",
+      "dialog": "Than me!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccecc2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecc4",
+      "dialog": "Pippin, everyone knows I'm the tall one. You're the short one.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccecc4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecc6",
+      "dialog": "You're taller.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccecc6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccece5",
+      "dialog": "No! You don't understand. We're Hobbits! Halflings! Shire-folk!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccece5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccece6",
+      "dialog": "Saruman.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccece6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced09",
+      "dialog": "You remember the Old Forest on the borders of Buckland? Folk used to say there was something in the water that made the trees grow tall and come alive.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcced09"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced0b",
+      "dialog": "Trees that could whisper......talk to each other......even move.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcced0b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced1a",
+      "dialog": "Ssh!As soon as they find out we don'twe're dead.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcced1a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced23",
+      "dialog": "Three-foot-eight. You did something.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcced23"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced2a",
+      "dialog": "Aaagh!It's got my leg!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcced2a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced31",
+      "dialog": "I want some!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcced31"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced64",
+      "dialog": "What are they eating when they can't get hobbit?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcced64"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced97",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcced97"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced9b",
+      "dialog": "Pippin. Let's go.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcced9b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedab",
+      "dialog": "Excuse me! I have a sword. Please accept it! I offer you my service Theoden King.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccedab"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedb1",
+      "dialog": "Why is that?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccedb1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedb6",
+      "dialog": "Can't say that I have. You, Pip?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccedb6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedfa",
+      "dialog": "My tomato's burst!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccedfa"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedfc",
+      "dialog": "Tomatoes, sausages, nice crispy bacon.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccedfc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedfd",
+      "dialog": "OK. Want a tomato Sam?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccedfd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee01",
+      "dialog": "They're close!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccee01"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee2c",
+      "dialog": "You look good Pippin.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccee2c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee2f",
+      "dialog": "Get him!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccee2f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee97",
+      "dialog": "Who is she?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccee97"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceeac",
+      "dialog": "What do you suppose that means?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceeac"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceec2",
+      "dialog": "Hello Frodo!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceec2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceec5",
+      "dialog": "Hold these.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceec5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceeca",
+      "dialog": "Dunno why he's so upset! Its only a couple of carrots.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceeca"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceeda",
+      "dialog": "and these",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceeda"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceef8",
+      "dialog": "The belt! Run!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceef8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef64",
+      "dialog": "Yes Pippin, my point is, he's clearly over reacting! Run!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccef64"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef65",
+      "dialog": "What? It was just a detour. A shortcut!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccef65"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef69",
+      "dialog": "Oh! I think I've broken something",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccef69"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef76",
+      "dialog": "What was that!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccef76"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefaf",
+      "dialog": "No no! the big one, big one!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccefaf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefb6",
+      "dialog": "Quickly!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccefb6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefe0",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccefe0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefe3",
+      "dialog": "Thank you! I win!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccefe3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefeb",
+      "dialog": "Hello, Pip.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccefeb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefed",
+      "dialog": "See? I fooled you too.Don't worry about me, Pippin.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccefed"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceff4",
+      "dialog": "I'm fine. lt was just an act.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceff4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceff6",
+      "dialog": "That black rider was looking for something. Or someone. Frodo?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceff6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceff9",
+      "dialog": "Right. Bucklebury Ferry. Follow me.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceff9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceffb",
+      "dialog": "Frodo, this way. Follow me.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceffb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceffc",
+      "dialog": "Follow me. Run!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebcceffc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf003",
+      "dialog": "Get the rope Sam.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf003"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf00b",
+      "dialog": "ls it much further?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf00b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf013",
+      "dialog": "You're supposed to stick it in the ground.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf013"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf015",
+      "dialog": "Outside.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf015"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf01a",
+      "dialog": "That was good!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf01a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf049",
+      "dialog": "Frodo! Frodo!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf049"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf04d",
+      "dialog": "Aragorn!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf04d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf04e",
+      "dialog": "Frodo!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf04e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf054",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf054"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf05e",
+      "dialog": "The Brandywine Bridge, twenty miles.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf05e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf089",
+      "dialog": "No.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf089"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf08f",
+      "dialog": "What!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf08f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0a1",
+      "dialog": "This my friend, is a pint!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0a1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0a5",
+      "dialog": "hmmmhmmm",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0a5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0bc",
+      "dialog": "What are you doing?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0bc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0bd",
+      "dialog": "Pippin! Are you mad?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0bd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0bf",
+      "dialog": "Put it back!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0bf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0c0",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0c0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0c1",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0c1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0c3",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0c3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0c4",
+      "dialog": "No!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0c4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0c5",
+      "dialog": "He's remembered",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0c5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0eb",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0eb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0ee",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0ee"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0ef",
+      "dialog": "Help! Gandalf help!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0ef"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0f0",
+      "dialog": "Help him!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0f0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0f3",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf0f3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf106",
+      "dialog": "How do we know this Strider is a friend of Gandalf?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf106"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf108",
+      "dialog": "He's foul enough",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf108"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf124",
+      "dialog": "Don't think he knows about second breakfast Pippin",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf124"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf126",
+      "dialog": "I wouldn't count on it",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf126"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf127",
+      "dialog": "Pippin!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf127"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf12b",
+      "dialog": "Why did you look? Why do you always have to look?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf12b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf12e",
+      "dialog": "Come on!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf12e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf131",
+      "dialog": "Here, something for the road.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf131"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf133",
+      "dialog": "I know you've run out. You smoke too much Pippin.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf133"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf137",
+      "dialog": "Don't you understand? The enemy thinks you have the ring! He is going to be looking for you Pip. They have to get you out of here.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf137"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf138",
+      "dialog": "I don't know! I don't know whats going to happen.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf138"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf13a",
+      "dialog": "You never can!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf13a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf13e",
+      "dialog": "He's always followed me everywhere I went since before we were tweens. I would get him into the worst sort of trouble but I was always there to get him out. Now he's gone. Just like Frodo and Sam.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf13e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf140",
+      "dialog": "Foolhardy maybe. He's a Took!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfc7c",
+      "id": "5cd96e05de30eff6ebccf140"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce811",
+      "dialog": "Alright!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce811"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce818",
+      "dialog": "uhh huh, I feel like I'm back at the Green Dragon.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce818"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce81e",
+      "dialog": "Hmm?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce81e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce820",
+      "dialog": "Ahaha!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce820"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce824",
+      "dialog": "A mug of ale in my hand. Putting my feet up on a settle after a hard day's work.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce824"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce82f",
+      "dialog": "We are sitting on a field of victory enjoying a few well earned comforts, The salted pork is particularly good.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce82f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce84c",
+      "dialog": "I didn't think it would end this way.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce84c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce851",
+      "dialog": "What? Gandalf? See what?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce851"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce859",
+      "dialog": "Well, that's not so bad.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce859"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce880",
+      "dialog": "Gandalf! Gandalf! Denethor has lost his mind. He's burning Faramir alive!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce880"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce88d",
+      "dialog": "AAAAhhh!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce88d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce88f",
+      "dialog": "Gandalf!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce88f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce890",
+      "dialog": "Where are they?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce890"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8a8",
+      "dialog": "Frodo!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce8a8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8a9",
+      "dialog": "Frodo!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce8a9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8bc",
+      "dialog": "NO! Aaahhh",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce8bc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce92c",
+      "dialog": "My lord!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce92c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce933",
+      "dialog": "He needs medicine my lord!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce933"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce938",
+      "dialog": "He's alive!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce938"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce947",
+      "dialog": "They called us out to fight.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce947"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce95a",
+      "dialog": "I didn't think they would find any livery that would fit me.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce95a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce95c",
+      "dialog": "This was yours?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce95c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce961",
+      "dialog": "What were you thinking Peregrin Took? What service can a Hobbit offer such a great lord of men?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce961"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce972",
+      "dialog": "Well, I'm taller than you were then. Though, I'm not likely to grow anymore, except sideways.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce972"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce976",
+      "dialog": "I think you have strength of a different kind. And one day your father will see it.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce976"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce97d",
+      "dialog": "Here do I swear fealty and service to Gondor in peace or war, in living or dying, from, ' from this hour henceforth until my lord release me or death take me.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce97d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9ab",
+      "dialog": "You've seen Frodo and Sam?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce9ab"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9b7",
+      "dialog": "Well, yes. At least well enough for my own people. But we have no songs for great halls and evil times.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce9b7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9bd",
+      "dialog": "What does that mean? What's wrong? He looks at Gandalf.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce9bd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9c8",
+      "dialog": "Home is behind, The world ahead, And there are many paths to tread, Through shadow, to the edge of night, Until the stars are all alight. Mist and shadow cloud and shade, All shall fade, All shall, 'fade.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce9c8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9fe",
+      "dialog": "Not too happy at all, Merry.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcce9fe"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea02",
+      "dialog": "No, it isn't. I'm starving.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea02"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea05",
+      "dialog": "I don't believe it.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea05"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea07",
+      "dialog": "lt is!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea07"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea08",
+      "dialog": "Oh, yes. It's a quality establishment. I hear the staff are very good.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea08"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea09",
+      "dialog": "What are you doing?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea09"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea0b",
+      "dialog": "It's perfect. One barrel each. Wait. Do you think we should share it with Treebeard?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea0b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea0d",
+      "dialog": "I get it. Don't be hasty.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea0d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea57",
+      "dialog": "Yes!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea57"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea83",
+      "dialog": "No, we won't. Not this time.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea83"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea88",
+      "dialog": "Yes. Exactly. If we go south, we can slip past Saruman unnoticed. The closer we are to danger, the farther we are from harm. It's the last thing he'll expect.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea88"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea89",
+      "dialog": "Wait! Stop! Stop! Turn around. Turn around. Take us south.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea89"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea97",
+      "dialog": "I'm sorry, Treebeard.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea97"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea99",
+      "dialog": "Look! The trees! They're moving!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccea99"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceab0",
+      "dialog": "Merry.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceab0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceab3",
+      "dialog": "Well, that's good news.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceab3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceac7",
+      "dialog": "Maybe Treebeard's right. We don't belong here, Merry. It's too big for us. What can we do in the end? We've got the Shire. Maybe we should go home.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceac7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec25",
+      "dialog": "Did we lose him? I think we lost him.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec25"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec34",
+      "dialog": "Look. There's smoke to the south.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec34"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec38",
+      "dialog": "The eagles! The eagles are coming!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec38"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec3c",
+      "dialog": "What is it?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec3c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec6c",
+      "dialog": "Merry!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec6c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec6e",
+      "dialog": "Yes.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec6e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec70",
+      "dialog": "No Merry, I'm going to look after you.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec70"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec73",
+      "dialog": "Merry! Merry it's me. It's Pippin!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec73"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec79",
+      "dialog": "Merry!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec79"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec7d",
+      "dialog": "Run, Merry!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec7d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec80",
+      "dialog": "It's talking, Merry.The tree is talking.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec80"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec84",
+      "dialog": "And whose side are you on?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec84"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec8d",
+      "dialog": "Don't talk to it, Merry. Don't encourage it!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec8d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec92",
+      "dialog": "Frodo.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccec92"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceca8",
+      "dialog": "Merry! Merry!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceca8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceca9",
+      "dialog": "What's making that noise?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceca9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecb4",
+      "dialog": "Merry!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccecb4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecbc",
+      "dialog": "I had the loveliest dream last night. There was this large barrelfull of pipe-weed. And we smoked all of it. And then you were sick. I'd give anything for a whiff of Old Toby.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccecbc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecc1",
+      "dialog": "Than what?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccecc1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecc3",
+      "dialog": "I've always been taller than you.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccecc3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecc5",
+      "dialog": "Please, Merry. You're what? Three-foot-six? At the most? Whereas me, I'm pushing 3'7\". 3'8\"!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccecc5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecc7",
+      "dialog": "Who?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccecc7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceccd",
+      "dialog": "No, I didn't. I was just stretching.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceccd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccece7",
+      "dialog": "The White Wizard?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccece7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced08",
+      "dialog": "What?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced08"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced0a",
+      "dialog": "Alive?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced0a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced19",
+      "dialog": "They think we have the Ring.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced19"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced25",
+      "dialog": "Merry, don't! Don't drink it!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced25"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced27",
+      "dialog": "Merry! No, Treebeard said that youshouldn't have any.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced27"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced29",
+      "dialog": "lt could well be dangerous!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced29"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced2b",
+      "dialog": "Merry!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced2b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced2c",
+      "dialog": "Help!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced2c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced2f",
+      "dialog": "Give me it back. Merry!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced2f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced33",
+      "dialog": "What's happening?!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced33"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced8c",
+      "dialog": "He's not dead. HE'S NOT DEAD, NO! NO! He's not dead.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced8c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced8e",
+      "dialog": "NO! NO!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced8e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced94",
+      "dialog": "Gandalf! Where's Gandalf?, GANDALF!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced94"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced98",
+      "dialog": "Aaaaaaaagh!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcced98"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedaf",
+      "dialog": "Why are there so few of youwhen you have lived so long? Are there Ent children?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccedaf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedb3",
+      "dialog": "Oh, I'm sorry. How did they die?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccedb3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedb8",
+      "dialog": "What do they look like?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccedb8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccede5",
+      "dialog": "So I imagine this is just a ceremonial position. I mean, they don't actually expect me to do any fighting, do they?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccede5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedeb",
+      "dialog": "There's no more stars! Is it time?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccedeb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedee",
+      "dialog": "It's so quiet.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccedee"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedf0",
+      "dialog": "I don't want to be in a battle. But waiting on the edge of one I can't escape is even worse. Is there any hope Gandalf, for Frodo and Sam?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccedf0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedfb",
+      "dialog": "Can I have some bacon?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccedfb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedff",
+      "dialog": "Is he going to die?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccedff"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee2a",
+      "dialog": "Thanks!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccee2a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee2d",
+      "dialog": "ARGH!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccee2d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee34",
+      "dialog": "For the Shire. Hold him, hold him down Merry!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccee34"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee73",
+      "dialog": "Gandalf?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccee73"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee79",
+      "dialog": "But we have the white wizard. That's got to count for something.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccee79"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee8a",
+      "dialog": "Well that's nice! That's nice! Ash on my tomatoes!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccee8a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceec1",
+      "dialog": "Frodo! Merry! Its Frodo Baggins!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceec1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceed2",
+      "dialog": "You've got my arm... argh!... you've got my arm",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceed2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceed3",
+      "dialog": "And some cabbages and those few bags of potatoes that we lifted last week. And the mushrooms the week before.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceed3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef1b",
+      "dialog": "What are they saying?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef1b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef45",
+      "dialog": "Oh you can search far and wide, you can drink the whole town dry, but you'll never find a beer so brown, but you'll never find a beer so brown, as the one we drink in our hometown, as the one we drink in our hometown! You can drink your fancy ales, you can drink them by the flagon, but the only brew for the brave and true!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef45"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef46",
+      "dialog": "Nothing's happening.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef46"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef48",
+      "dialog": "What're you going to do then?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef48"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef56",
+      "dialog": "Merry! Merry!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef56"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef5b",
+      "dialog": "Merry! Merry? Wake up!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef5b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef5d",
+      "dialog": "Stop it!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef5d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef5f",
+      "dialog": "Leave him alone!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef5f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef62",
+      "dialog": "My friend is sick.He needs water. Please!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef62"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef67",
+      "dialog": "Mushrooms!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef67"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef6d",
+      "dialog": "Ooh! that was close!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef6d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef6e",
+      "dialog": "What is going on?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccef6e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefc7",
+      "dialog": "It's the tree! Gandalf, Gandalf.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccefc7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefdc",
+      "dialog": "Comes from the Green Dragon!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccefdc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefe8",
+      "dialog": "Merry.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccefe8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceff1",
+      "dialog": "Aragorn.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceff1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceff3",
+      "dialog": "You're hurt.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceff3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceff5",
+      "dialog": "An act?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceff5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceff7",
+      "dialog": "Get down!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceff7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceffa",
+      "dialog": "Run!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceffa"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceffd",
+      "dialog": "Run Frodo!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebcceffd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefff",
+      "dialog": "Frodo!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccefff"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf007",
+      "dialog": "Frodo! Come on!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf007"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf014",
+      "dialog": "Done!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf014"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf016",
+      "dialog": "It is in the ground.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf016"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf017",
+      "dialog": "It was your idea!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf017"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf022",
+      "dialog": "Boromir died to save us my kinsman and me. He fell defending us from many foes.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf022"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf024",
+      "dialog": "I offer you my service, such as it is in payment of this debt.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf024"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf026",
+      "dialog": "Lets get another one!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf026"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf028",
+      "dialog": "The mightiest man may be slain by one arrow and Boromir was pierced by many.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf028"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf056",
+      "dialog": "Are we lost?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf056"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf058",
+      "dialog": "Frodo!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf058"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf06b",
+      "dialog": "A storm is coming.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf06b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf06d",
+      "dialog": "Well' Minas Tirith' very impressive. So where are off to next?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf06d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf071",
+      "dialog": "Why are they still guarding it?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf071"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf072",
+      "dialog": "Mordor.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf072"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf08a",
+      "dialog": "I think we are.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf08a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf08e",
+      "dialog": "Merry!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf08e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf090",
+      "dialog": "I'm hungry.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf090"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0a0",
+      "dialog": "What's that?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf0a0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0a3",
+      "dialog": "It comes in pints?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf0a3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0ae",
+      "dialog": "I'm getting one!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf0ae"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0c2",
+      "dialog": "I just want to look at it, just one more time.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf0c2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0d4",
+      "dialog": "Baggins? Sure I know a Baggins! He's over there. Frodo Baggins! He's my second cousin once removed on his mother's side, and my third cousin twice removed on his father's side, if you follow me.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf0d4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0d6",
+      "dialog": "Steady on!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf0d6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0fc",
+      "dialog": "Gandalf, forgive me!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf0fc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf101",
+      "dialog": "A tree, there was a white tree in a courtyard of stone. It was dead. The city was burning.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf101"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf119",
+      "dialog": "I saw' I saw him! I could hear his voice in my head.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf119"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf11a",
+      "dialog": "He asked me my name. I didn't answer. He hurt me!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf11a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf121",
+      "dialog": "What about breakfast?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf121"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf123",
+      "dialog": "We've had one yes. What about second breakfast?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf123"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf125",
+      "dialog": "What about elvenses? Luncheon, Afternoon Tea, Dinner? Supper! He knows about them, doesnt he?",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf125"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf129",
+      "dialog": "Where are we going?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf129"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf12c",
+      "dialog": "I don't know, I can't help it.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf12c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf12d",
+      "dialog": "And you? You're coming with me?, Merry?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf12d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf12f",
+      "dialog": "How far is Minas Tirith?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf12f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf132",
+      "dialog": "The last of the Longbottom Leaf?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf132"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf134",
+      "dialog": "I'm sorry alright? I won't do it again.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf134"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf135",
+      "dialog": "But, we'll see each other soon?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf135"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf136",
+      "dialog": "Wont we?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf136"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf139",
+      "dialog": "Merry?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf139"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf13c",
+      "dialog": "Merry!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfe2e",
+      "id": "5cd96e05de30eff6ebccf13c"
+    }
+  ],
+  "total": 303,
+  "limit": 1000,
+  "offset": 0,
+  "page": 1,
+  "pages": 1
+}

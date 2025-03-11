@@ -1,0 +1,814 @@
+{
+  "docs": [
+    {
+      "_id": "5cd96e05de30eff6ebcce7f9",
+      "dialog": "Aaaahh!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce7f9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce81d",
+      "dialog": "You young rascals. A merry hunt you've led us on and now we find you feasting and ' and smoking!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce81d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce829",
+      "dialog": "Salted pork",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce829"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce831",
+      "dialog": "Well then let's just have his head and be done with it.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce831"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce846",
+      "dialog": "I've heard enough! Shoot him! Stick an arrow in his gob!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce846"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce86f",
+      "dialog": "There's plenty for the both of us, may be best Dwarf win!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce86f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8ab",
+      "dialog": "Mind your aim.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce8ab"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8ac",
+      "dialog": "Oh! That's it, right, we warned you! Prepare to be boarded!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce8ac"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8bf",
+      "dialog": "I guess that concludes negotiations.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce8bf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8e5",
+      "dialog": "What kind of army would linger in such a place?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce8e5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8e6",
+      "dialog": "The very warmth of my blood seems stolen away.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce8e6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8f2",
+      "dialog": "Well this is a thing unheard of. An elf will go underground, where a dwarf dare not. Oh. Oh, I'd never hear the end of it.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce8f2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8fd",
+      "dialog": "What is it? What do you see?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce8fd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce8ff",
+      "dialog": "Where?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce8ff"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce903",
+      "dialog": "The dead? Summoned? I knew that! Huh. Huh. Very good. Very good. Legolas!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce903"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce914",
+      "dialog": "Ach! You waste your time Aragorn. They had no honour in life and they have none now in death.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce914"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce91b",
+      "dialog": "Stand you traitors!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce91b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce924",
+      "dialog": "That road there where does that lead?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce924"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce935",
+      "dialog": "Aragorn! Let's find some food.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce935"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce969",
+      "dialog": "Just where do you think you're off to?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce969"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce96b",
+      "dialog": "Hmmmm",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce96b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce96d",
+      "dialog": "You might as well accept it. We're going with you laddie. Aragorn smiles.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce96d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9f3",
+      "dialog": "Forty-two? That's not bad for a pointy-eared Elvish princeling. I myself am sitting pretty on 43.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce9f3"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcce9fc",
+      "dialog": "He was twitching because he's got my axe embedded in his nervous system!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcce9fc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea00",
+      "dialog": "He was already dead.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea00"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea38",
+      "dialog": "What are you doing? What are you stopping for?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea38"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea41",
+      "dialog": "The sun is rising.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea41"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea43",
+      "dialog": "Yes!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea43"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea54",
+      "dialog": "Come on. We can take them.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea54"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea55",
+      "dialog": "Toss me.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea55"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea60",
+      "dialog": "I cannot jump the distance! You'll have to toss me!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea60"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea61",
+      "dialog": "Don't tell the Elf.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea61"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea90",
+      "dialog": "You could have picked a better spot.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea90"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea91",
+      "dialog": "Well, lad, whatever luck you live by, let's hope it lasts the night.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea91"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea93",
+      "dialog": "Let's hope they last the night.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea93"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccea96",
+      "dialog": "What's happening out there?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccea96"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaa1",
+      "dialog": "Did they hit anything?,",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceaa1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaa8",
+      "dialog": "Good!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceaa8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaab",
+      "dialog": "Legolas! Two already!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceaab"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaac",
+      "dialog": "I'll have no pointy-ear outscoring me!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceaac"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceaae",
+      "dialog": "Send them to me! Come on!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceaae"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceab9",
+      "dialog": "Seventeen! Eighteen! Nineteen! Twenty! Twenty-one!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceab9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceabd",
+      "dialog": "Aragorn!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceabd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb34",
+      "dialog": "Where is he? Where is he? Get out of the way! I'm going to kill him! You are the luckiest, the canniest, and the most reckless man I ever knew. Bless you, laddie.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceb34"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceb3d",
+      "dialog": "This is no rabble of mindless Orcs. These are Uruk-hai. Their armour is thick and their shields broad.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceb3d"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebae",
+      "dialog": "Come on. Get me up here. I'm a rider. Come on!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebae"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebb2",
+      "dialog": "Forward. I mean, charge forward.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebb2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebb4",
+      "dialog": "Bring your pretty face to my axe.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebb4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebb6",
+      "dialog": "That's it! Go on!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebb6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebc6",
+      "dialog": "It's true, you don't see many Dwarf women. And in fact, they are so alike in voice and appearance that they're often mistaken for Dwarf men.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebc6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebcc",
+      "dialog": "That one counts as mine! Stinking creature.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebcc"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebce",
+      "dialog": "Tell me what happened and I will ease your passing.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebce"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebcf",
+      "dialog": "Aragorn?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebcf"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebe7",
+      "dialog": "Never thought I'd die fighting side by side with an elf.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebe7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebe9",
+      "dialog": "This, in turn, has given rise to the belief that there are no Dwarf women! And that Dwarves just spring out of holes in the ground.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebe9"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebea",
+      "dialog": "...which is, of course, ridiculous.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebea"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebec",
+      "dialog": "It's all right. Nobody panic. That was deliberate. It was deliberate.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebec"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebf2",
+      "dialog": "My lady.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebf2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebf5",
+      "dialog": "No, I couldn't. I really couldn't.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebf5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccebf7",
+      "dialog": "He fell.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccebf7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec04",
+      "dialog": "They flee to the mountains when they should stand and fight. Who will defend them if not their king?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccec04"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec0f",
+      "dialog": "Aye! I could do that.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccec0f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec5a",
+      "dialog": "That still only counts as one!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccec5a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec77",
+      "dialog": "I'm wasted on cross-country. We Dwarves are natural sprinters. Very dangerous over short distances.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccec77"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccec7b",
+      "dialog": "Three days and nights pursuit.No food. No rest.And no sign of our quarrybut what bare rock can tell.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccec7b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceca0",
+      "dialog": "Keep breathing. That's the key. Breathe.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceca0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccecb1",
+      "dialog": "Bad idea! Very handy in a tight spot these lads, despite the fact they're dead.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccecb1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced46",
+      "dialog": "Let him stay there! Let him rot! Why should we care?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcced46"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced6a",
+      "dialog": "Stay close young hobbits.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcced6a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced6c",
+      "dialog": "..and are never seen again",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcced6c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced6e",
+      "dialog": "Well! Here's one dwarf she won't ensnare so easily! I have the eyes of a hawk, and ears of a fox!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcced6e"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcced73",
+      "dialog": "Oh!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcced73"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceda0",
+      "dialog": "Give me your name, horse-masterand I shall give you mine.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceda0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedb5",
+      "dialog": "Horse men! I wish I could muster an army of Dwarves, fully armed and filthy.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccedb5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedbe",
+      "dialog": "How?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccedbe"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccedc2",
+      "dialog": "Certainty of death, small chance of success, what are we waiting for?",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccedc2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee06",
+      "dialog": "So much for the legendary courtesy of the Elves! Speak words we can also understand!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee06"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee36",
+      "dialog": "If anyone was to ask for my opinion, which I note that they're not, I'd say that we were taking the long way round. Gandalf, we could pass through the Mines of Moria. My cousin Balin would give us a royal welcome.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee36"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee44",
+      "dialog": "But there were two Hobbits. Did you see two Hobbits with them?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee44"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee47",
+      "dialog": "Dead?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee47"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee4b",
+      "dialog": "It's one of their wee belts.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee4b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee5a",
+      "dialog": "You'll find more cheer in a graveyard.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee5a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee67",
+      "dialog": "Orc blood.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee67"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee69",
+      "dialog": "The air is so close in here.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee69"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee6f",
+      "dialog": "oh!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee6f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccee71",
+      "dialog": "Talking trees.What do trees have to talk about?Except the consistencyof squirrel droppings.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccee71"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceea7",
+      "dialog": "Ah! The walls of Moria!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceea7"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceea8",
+      "dialog": "Dwarf doors are invisible when closed.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceea8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceeb1",
+      "dialog": "Ach!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceeb1"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceecd",
+      "dialog": "Nothing, its just a wisp of cloud.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceecd"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceeeb",
+      "dialog": "We failed them.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceeeb"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceeed",
+      "dialog": "Then what are we waiting for",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceeed"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceef0",
+      "dialog": "Fangorn? What madness drove them in there?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceef0"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebcceef2",
+      "dialog": "I would stay still if I were you.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebcceef2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef3c",
+      "dialog": "Last one standing wins heh heh heh!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef3c"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef3f",
+      "dialog": "And no regurgitation!",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef3f"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef41",
+      "dialog": "Heh heh heh heh,Here, here. Raaar it's the dwarves that go swimming with little, hairy women haha.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef41"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef43",
+      "dialog": "heh heh heh, what did I say? He can't hold his liquor.",
+      "movie": "5cd95395de30eff6ebccde5d",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef43"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef79",
+      "dialog": "If we cannot pass over the mountain, let us go under it! Let us go through the Mines of Moria",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef79"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef80",
+      "dialog": "And I suppose you think you're the one to do it!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef80"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef82",
+      "dialog": "I will be dead before I see the Ring in the hands of an elf!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef82"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef83",
+      "dialog": "Never trust an elf.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef83"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef94",
+      "dialog": "Gandalf.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef94"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef97",
+      "dialog": "Edoras? That is no short distance!",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef97"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccef9b",
+      "dialog": "Then we have run all this way for nothing? Are we to leave those poor Hobbits here, in this horrid, dark, dank tree-infested-- I mean, charming, quite charming forest?",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccef9b"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefe2",
+      "dialog": "Soon Mr Elf, you will enjoy the fabelled hospitality of the dwarves. Roaring fires! Malt Beer! Red Meat off the bone!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccefe2"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefe4",
+      "dialog": "Nooooo! NOOOOOOOOOOoooooooo!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccefe4"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefe5",
+      "dialog": "A Mine!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccefe5"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccefec",
+      "dialog": "This my friend is the home of my cousin Balin and they call it a Mine!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccefec"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf006",
+      "dialog": "Strong?! Oh, that's good.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccf006"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf00a",
+      "dialog": "This new Gandalf's more grumpythan the old one.",
+      "movie": "5cd95395de30eff6ebccde5b",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccf00a"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf052",
+      "dialog": "Aww that was a Kingly gift.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccf052"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0c6",
+      "dialog": "Oh!",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccf0c6"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0c8",
+      "dialog": "No, no, no",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccf0c8"
+    },
+    {
+      "_id": "5cd96e05de30eff6ebccf0fa",
+      "dialog": "Agh! Let them come There's one dwarf yet in Moria who still draws breath.",
+      "movie": "5cd95395de30eff6ebccde5c",
+      "character": "5cd99d4bde30eff6ebccfd23",
+      "id": "5cd96e05de30eff6ebccf0fa"
+    }
+  ],
+  "total": 115,
+  "limit": 1000,
+  "offset": 0,
+  "page": 1,
+  "pages": 1
+}
