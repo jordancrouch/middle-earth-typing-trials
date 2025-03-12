@@ -324,9 +324,6 @@
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
-  .isolate {
-    isolation: isolate;
-  }
   .-z-1 {
     z-index: calc(1 * -1);
   }
@@ -906,6 +903,12 @@ html {
     flex: 0 1 100%;
     border-radius: 6px;
     overflow: hidden;
+    picture.active {
+      filter: saturate(1);
+      + p {
+        opacity: 1;
+      }
+    }
   }
   .character img {
     pointer-events: none;
@@ -920,13 +923,7 @@ html {
     }
   }
 }
-.character-grid:has(
-    > .character:focus,
-    > .character:focus-visible,
-    > .character:focus-within,
-    > .character:target
-  )
-  + #start-button-container {
+.character-grid:has(> .character > picture.active) + #start-button-container {
   bottom: calc(var(--spacing) * 8);
   visibility: visible;
   opacity: 1;

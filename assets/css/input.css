@@ -93,6 +93,14 @@ html {
     flex: 0 1 100%;
     border-radius: 6px;
     overflow: hidden;
+
+    picture.active {
+      filter: saturate(1);
+
+      + p {
+        opacity: 1;
+      }
+    }
   }
 
   .character img {
@@ -111,13 +119,7 @@ html {
 }
 
 /* Start Button */
-.character-grid:has(
-    > .character:focus,
-    > .character:focus-visible,
-    > .character:focus-within,
-    > .character:target
-  )
-  + #start-button-container {
+.character-grid:has(> .character > picture.active) + #start-button-container {
   bottom: calc(var(--spacing) * 8);
   visibility: visible;
   opacity: 1;
