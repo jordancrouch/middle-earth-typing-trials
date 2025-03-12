@@ -25,6 +25,8 @@ window.addEventListener("load", () => {
     // Check if the current location is localhost, else add repo path to the characters link
     if (isProduction()) {
       charactersLink = "/middle-earth-typing-trials" + charactersLink;
+    } else {
+      charactersLink = "/" + charactersLink;
     }
     charactersButton.addEventListener("click", async (e) => {
       e.preventDefault();
