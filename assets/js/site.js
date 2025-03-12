@@ -26,27 +26,28 @@ window.addEventListener("load", () => {
     if (isProduction()) {
       charactersLink = "/middle-earth-typing-trials" + charactersLink;
     }
-    charactersButton.addEventListener("click", (e) => {
+    charactersButton.addEventListener("click", async (e) => {
       e.preventDefault();
-      fetch(charactersLink)
-        .then((response) => {
-          if (response.ok) {
-            return response.text();
-          }
-          throw response;
-        })
-        .then((text) => {
-          let html = stringToHTML(text);
-          let newHeader = html.querySelector("#header");
-          let newMain = html.querySelector("#main");
-          let currentHeader = document.getElementById("header");
-          currentHeader.replaceWith(newHeader);
-          let updatedHeader = document.getElementById("header");
-          updatedHeader.insertAdjacentElement("afterend", newMain);
-        })
-        .then(() => {
-          let characters = new Character();
-        });
+      try {
+        const response = await fetch(charactersLink);
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const text = await response.text();
+        const html = stringToHTML(text);
+        const newHeader = html.querySelector("#header");
+        const newMain = html.querySelector("#main");
+        const currentHeader = document.getElementById("header");
+        currentHeader.replaceWith(newHeader);
+        const updatedHeader = document.getElementById("header");
+        updatedHeader.insertAdjacentElement("afterend", newMain);
+
+        const characters = new Character();
+      } catch (error) {
+        console.error(error);
+      }
     });
   } else {
     // If landing directly on characters page, instantiate new Character class.

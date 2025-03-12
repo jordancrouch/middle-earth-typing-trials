@@ -325,11 +325,9 @@ export class TypingTest {
             let randomQuote = quotesInstance.getOneUnusedQuote();
             if (randomQuote) {
               randomQuote = quotesInstance.stringToHTML(randomQuote, false);
-              console.log(randomQuote);
               randomQuote.forEach((word) => {
                 text.appendChild(word);
               });
-              console.log("New quote added.");
             }
           }
 

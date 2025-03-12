@@ -123,34 +123,28 @@ export class Quotes {
   }
 
   // Load typing test HTML and populate quotes.
-  loadTypingTest() {
-    fetch("typing-test.html")
-      .then((response) => {
-        if (response.ok) {
-          return response.text();
-        }
-        throw response;
-      })
-      .then((text) => {
-        let html = this.stringToHTML(text);
-        let testWrapper = html.querySelector("#typing-test-wrapper");
-        let currentHeader = document.getElementById("header");
-        let currentMain = document.getElementById("main");
-        currentHeader.replaceWith(testWrapper);
-        currentMain.remove();
-      })
-      .then(() => {
-        document.getElementById("text-container").innerHTML =
-          this.processedQuotes;
-      })
-      .then(() => {
-        const test = new TypingTest(
-          document.getElementById("typing-test-wrapper"),
-        );
-      })
-      .catch((error) => {
-        console.error(error);
-      });
+  async loadTypingTest() {
+    try {
+      const response = await fetch("typing-test.html");
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const text = await response.text();
+      const html = this.stringToHTML(text);
+      const testWrapper = html.querySelector("#typing-test-wrapper");
+      const currentHeader = document.getElementById("header");
+      const currentMain = document.getElementById("main");
+      currentHeader.replaceWith(testWrapper);
+      currentMain.remove();
+      document.getElementById("text-container").innerHTML =
+        this.processedQuotes;
+      const test = new TypingTest(
+        document.getElementById("typing-test-wrapper"),
+      );
+    } catch {
+      console.error(error);
+    }
   }
 
   // Get one unused quote from the quote data.

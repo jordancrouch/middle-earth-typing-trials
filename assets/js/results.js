@@ -13,26 +13,25 @@ export class Results {
   }
 
   // Load the results html file and replace the current header and main elements.
-  loadResultsHTML(data) {
-    fetch("results.html")
-      .then((response) => {
-        if (response.ok) {
-          return response.text();
-        }
-        throw response;
-      })
-      .then((text) => {
-        let html = this.stringToHTML(text);
-        let newHeader = html.querySelector("#header");
-        let newMain = html.querySelector("#main");
-        let currentHeader = document.getElementById("header");
-        let currentMain = document.getElementById("main");
-        currentHeader.replaceWith(newHeader);
-        currentMain.replaceWith(newMain);
-      })
-      .then(() => {
-        this.processResults(data);
-      });
+  async loadResultsHTML(data) {
+    try {
+      const response = await fetch("results.html");
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const text = await response.text();
+      const html = this.stringToHTML(text);
+      const newHeader = html.querySelector("#header");
+      const newMain = html.querySelector("#main");
+      const currentHeader = document.getElementById("header");
+      const currentMain = document.getElementById("main");
+      currentHeader.replaceWith(newHeader);
+      currentMain.replaceWith(newMain);
+      this.processResults(data);
+    } catch (error) {
+      console.error(error);
+    }
   }
 
   // Process the results data.
