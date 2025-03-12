@@ -17,51 +17,64 @@ window.addEventListener("load", () => {
   };
 
   // Fetch the characters page and replace the current page with the new page
-  // if the characters button exists and is clicked.
-  // TODO: add touch and keypress event listeners.
-  if (charactersButton !== null) {
-    // Get the href attribute of the characters button
-    let charactersLink = charactersButton.getAttribute("href");
-    // Check if the current location is localhost, else add repo path to the characters link
-    if (isProduction()) {
-      charactersLink = "/middle-earth-typing-trials/" + charactersLink;
-    } else {
-      charactersLink = "/" + charactersLink;
-    }
-    charactersButton.addEventListener("click", async (e) => {
-      e.preventDefault();
-      try {
-        const response = await fetch(charactersLink);
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const text = await response.text();
-        const html = stringToHTML(text);
-        const newHeader = html.querySelector("#header");
-        const newMain = html.querySelector("#main");
-        const currentHeader = document.getElementById("header");
-        currentHeader.replaceWith(newHeader);
-        const updatedHeader = document.getElementById("header");
-        updatedHeader.insertAdjacentElement("afterend", newMain);
-
-        const characters = new Character();
-      } catch (error) {
-        console.error(error);
-      }
-    });
-  } else {
-    // If landing directly on characters page, instantiate new Character class.
-    if (isProduction()) {
+  const loadCharactersPage = async (e) => {
+    if (e !== undefined) {
       if (
-        window.location.pathname ===
-        "/middle-earth-typing-trials/characters.html"
+        e.type === "click" ||
+        e.type === "touchstart" ||
+        (e.type === "keydown" && e.key === "Enter")
       ) {
-        let characters = new Character();
+        e.preventDefault();
+        // Get the href attribute of the characters button
+        let charactersLink = charactersButton.getAttribute("href");
+        // Check if the current location is localhost, else add repo path to the characters link
+        if (isProduction()) {
+          charactersLink = "/middle-earth-typing-trials/" + charactersLink;
+        } else {
+          charactersLink = "/" + charactersLink;
+        }
+        try {
+          const response = await fetch(charactersLink);
+
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const text = await response.text();
+          const html = stringToHTML(text);
+          const newHeader = html.querySelector("#header");
+          const newMain = html.querySelector("#main");
+          const currentHeader = document.getElementById("header");
+          currentHeader.replaceWith(newHeader);
+          const updatedHeader = document.getElementById("header");
+          updatedHeader.insertAdjacentElement("afterend", newMain);
+
+          const characters = new Character();
+        } catch (error) {
+          console.error(error);
+        }
       }
-    } else if (window.location.pathname === "/characters.html") {
+    } else {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  };
+
+  // Add event listeners to the characters button, if it exists.
+  if (charactersButton !== null) {
+    charactersButton.addEventListener("click", loadCharactersPage);
+    charactersButton.addEventListener("touch", loadCharactersPage);
+    charactersButton.addEventListener("keydown", loadCharactersPage);
+  }
+
+  // If navigating directly on characters page, instantiate new Character class.
+  if (isProduction()) {
+    if (
+      window.location.pathname === "/middle-earth-typing-trials/characters.html"
+    ) {
       let characters = new Character();
     }
+  } else if (window.location.pathname === "/characters.html") {
+    let characters = new Character();
   }
 });
