@@ -321,7 +321,16 @@ export class TypingTest {
             this.removedWords = removedWords;
 
             // Add new quote to the text container.
-            // const quotes = getQuotesInstance();
+            const quotesInstance = getQuotesInstance();
+            let randomQuote = quotesInstance.getOneUnusedQuote();
+            if (randomQuote) {
+              randomQuote = quotesInstance.stringToHTML(randomQuote, false);
+              console.log(randomQuote);
+              randomQuote.forEach((word) => {
+                text.appendChild(word);
+              });
+              console.log("New quote added.");
+            }
           }
 
           // If an additional letter is typed at the end of a word where a space should be

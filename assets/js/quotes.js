@@ -16,35 +16,22 @@ export class Quotes {
     this.allQuotes = [];
     this.usedQuoteIndices = [];
     this.remainingQuoteIndices = [];
-    this.processedQuotes = this.processQuotes();
+    this.processedQuotes = this.processQuotes(
+      this.getRandomQuotes(this.getAllQuotes(), 10),
+    );
     this.loadTypingTest(data);
   }
 
-  // Function to convert a string to HTML.
-  stringToHTML(text) {
+  // Function to convert a string to HTML. Return body by default.
+  stringToHTML(text, returnBody = true) {
     let parser = new DOMParser();
     let doc = parser.parseFromString(text, "text/html");
-    return doc.body;
-  }
 
-  // Function to randomly shuffle an array.
-  shuffleArray(array) {
-    // Check that the array provided is an array.
-    if (Array.isArray(array)) {
-      // Fisher-Yates shuffle algorithm [https://www.geeksforgeeks.org/how-to-shuffle-an-array-using-javascript/].
-      // If array exists, loop through it in reverse.
-      for (let i = array.length - 1; i > 0; i--) {
-        // Generate random number
-        const j = Math.floor(Math.random() * (i + 1));
-
-        // Swap elements at indices i and j.
-        const temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-      }
+    if (returnBody) {
+      return doc.body;
+    } else {
+      return Array.from(doc.body.childNodes);
     }
-
-    return array;
   }
 
   // Function to create a random array up to the maximum number of remaining quotes,
@@ -83,8 +70,6 @@ export class Quotes {
   }
 
   // Sort quote data into an array of quotes.
-  // TODO: only process a certain number of quotes at a time.
-  // Add a check to see how many are left, if less than a certain number, fetch a new quote.
   getAllQuotes() {
     const quotes = this.quoteData.docs;
     const allQuotes = [];
@@ -99,12 +84,9 @@ export class Quotes {
   }
 
   // Take the new quotes array, shuffle it, and wrap each word in a div element.
-  processQuotes() {
-    let allQuotes = this.getAllQuotes();
-    // allQuotes = this.shuffleArray(allQuotes);
-    let randomQuotes = this.getRandomQuotes(allQuotes, 10);
+  processQuotes(unprocessedQuotes) {
     let words = [];
-    randomQuotes.map((quote) => {
+    unprocessedQuotes.map((quote) => {
       quote = quote.split(" ");
       quote.map((word) => {
         // Wrap the letters in separate divs before wrapping the word in a div.
@@ -119,9 +101,6 @@ export class Quotes {
       });
     });
 
-    // TODO: Add a check to see how many words are left, if less than a certain number, fetch a new quote.
-    // let first50Words = words.slice(0, 50);
-    // words = first50Words.join("");
     words = words.join("");
     return words;
   }
@@ -172,5 +151,29 @@ export class Quotes {
       .catch((error) => {
         console.error(error);
       });
+  }
+
+  // Get one unused quote from the quote data.
+  getOneUnusedQuote() {
+    // Check if there are any quotes that haven't been used already.
+    if (this.remainingQuoteIndices.length === 0) {
+      return null;
+    }
+
+    let randomIndex;
+    // Get a random index from the remaining quotes.
+    do {
+      randomIndex =
+        this.remainingQuoteIndices[
+          Math.floor(Math.random() * this.remainingQuoteIndices.length)
+        ];
+    } while (this.usedQuoteIndices.includes(randomIndex));
+    // Remove the index from the remaining quotes and add it to the used quotes.
+    this.remainingQuoteIndices = this.remainingQuoteIndices.filter(
+      (index) => index !== randomIndex,
+    );
+    this.usedQuoteIndices.push(randomIndex);
+
+    return this.processQuotes([this.quoteData.docs[randomIndex].dialog]);
   }
 }
