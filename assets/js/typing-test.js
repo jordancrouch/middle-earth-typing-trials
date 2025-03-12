@@ -1,3 +1,4 @@
+import { getQuotesInstance } from "./quotes.js";
 import { Results } from "./results.js";
 
 // Typing Test Class.
@@ -318,6 +319,9 @@ export class TypingTest {
             this.wordsToRemove = [];
             // Update the removedWords property with the removed words.
             this.removedWords = removedWords;
+
+            // Add new quote to the text container.
+            // const quotes = getQuotesInstance();
           }
 
           // If an additional letter is typed at the end of a word where a space should be

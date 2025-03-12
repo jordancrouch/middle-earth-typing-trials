@@ -1,5 +1,5 @@
 import { ONE_API } from "./config.js";
-import { Quotes } from "./quotes.js";
+import { getQuotesInstance } from "./quotes.js";
 
 // Character Class.
 export class Character {
@@ -91,7 +91,7 @@ export class Character {
         const characterURL = `https://the-one-api.dev/v2/character/${characterID}/quote`;
         const quoteResponse = await fetch(characterURL, options);
         const quoteData = await quoteResponse.json();
-        return new Quotes(quoteData);
+        return new getQuotesInstance(quoteData);
       } catch (error) {
         console.error(error.message);
 
@@ -102,7 +102,7 @@ export class Character {
           const localResponse = await fetch(`./assets/js/data/${name}.json`);
           const localData = await localResponse.json();
           console.log("Using local data:", localData);
-          return new Quotes(localData);
+          return new getQuotesInstance(localData);
         } catch (localError) {
           console.error(localError.message);
         }

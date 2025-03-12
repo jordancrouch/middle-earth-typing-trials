@@ -1,9 +1,19 @@
 import { TypingTest } from "./typing-test.js";
 
+// Quotes Instance function.
+let quotesInstance;
+export function getQuotesInstance(data) {
+  if (!quotesInstance) {
+    quotesInstance = new Quotes(data);
+  }
+  return quotesInstance;
+}
+
 // Quotes Class.
 export class Quotes {
   constructor(data) {
     this.quoteData = data;
+    this.allQuotes = [];
     this.usedQuoteIndices = [];
     this.remainingQuoteIndices = [];
     this.processedQuotes = this.processQuotes();
@@ -110,8 +120,9 @@ export class Quotes {
     });
 
     // TODO: Add a check to see how many words are left, if less than a certain number, fetch a new quote.
-    let first50Words = words.slice(0, 50);
-    words = first50Words.join("");
+    // let first50Words = words.slice(0, 50);
+    // words = first50Words.join("");
+    words = words.join("");
     return words;
   }
 

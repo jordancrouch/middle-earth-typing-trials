@@ -1,6 +1,4 @@
 import { Character } from "./characters.js";
-import { Quotes } from "./quotes.js";
-import { TypingTest } from "./typing-test.js";
 
 window.addEventListener("load", () => {
   /* Set up variables */
@@ -50,19 +48,10 @@ window.addEventListener("load", () => {
           let characters = new Character();
         });
     });
-  }
-
-  /*
-  const quotes = new Quotes();
-
-  const testWrapper = document.getElementById("typing-test-wrapper");
-  if (testWrapper !== null) {
-    const textContainer = testWrapper.querySelector("#text-container");
-    if (textContainer !== null) {
-      textContainer.innerHTML = quotes.processedQuotes;
-
-      const test = new TypingTest(testWrapper);
+  } else {
+    // If landing directly on characters page, instantiate new Character class.
+    if (window.location.pathname === "/characters.html") {
+      let characters = new Character();
     }
   }
-    */
 });
