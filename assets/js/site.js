@@ -53,7 +53,14 @@ window.addEventListener("load", () => {
     });
   } else {
     // If landing directly on characters page, instantiate new Character class.
-    if (window.location.pathname === "/characters.html") {
+    if (isProduction()) {
+      if (
+        window.location.pathname ===
+        "/middle-earth-typing-trials/characters.html"
+      ) {
+        let characters = new Character();
+      }
+    } else if (window.location.pathname === "/characters.html") {
       let characters = new Character();
     }
   }
