@@ -39,6 +39,7 @@
       class="bg-overlay bg-forest-green-500 absolute z-0 h-screen w-screen opacity-70 mix-blend-multiply"
     ></div>
     <div
+      id="wrapper"
       class="wrapper relative z-1 flex h-screen flex-col items-center overflow-y-auto"
     >
       <!-- Navigation -->
@@ -246,9 +247,10 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="size-5"
+              class="pointer-events-none size-5"
             >
               <path
+                class="pointer-events-none"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"

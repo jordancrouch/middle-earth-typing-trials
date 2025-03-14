@@ -4,36 +4,80 @@ import { getQuotesInstance } from "./quotes.js";
 // Character Class.
 export class Character {
   constructor() {
+    this.wrapperElement = document.getElementById("wrapper");
+    this.mainElement = document.getElementById("main");
+    this.charactersButton = document.getElementById("characters-button");
     this.characterCards = document.getElementsByClassName("character");
     this.startButton = document.getElementById("start-button");
     this.name = "";
     this.id = "";
+    this.loadCharactersPage = this.loadCharactersPage.bind(this);
     this.getCharacterNames = this.getCharacterNames.bind(this);
     this.getCharacterQuotes = this.getCharacterQuotes.bind(this);
     this.addEventListeners();
   }
 
+  // Function to check if the current location is localhost.
+  isProduction() {
+    return location.hostname !== "localhost";
+  }
+
+  // Function to convert a string to HTML.
+  stringToHTML(text) {
+    let parser = new DOMParser();
+    let doc = parser.parseFromString(text, "text/html");
+    return doc.body;
+  }
+
+  // Fetch the characters page and replace the current page with the new page
+  async loadCharactersPage(e) {
+    if (e.target && e.target.matches("#characters-button")) {
+      if (
+        e.type === "click" ||
+        e.type === "touchstart" ||
+        (e.type === "keydown" && e.key === "Enter")
+      ) {
+        e.preventDefault();
+        // Get the href attribute of the characters button
+        let charactersLink = this.charactersButton.getAttribute("href");
+        // Check if the current location is localhost, else add repo path to the characters link
+        if (this.isProduction()) {
+          charactersLink = "/middle-earth-typing-trials/" + charactersLink;
+        } else {
+          charactersLink = "/" + charactersLink;
+        }
+        try {
+          const response = await fetch(charactersLink);
+
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const text = await response.text();
+          const html = this.stringToHTML(text);
+          const newHeader = html.querySelector("#header");
+          const newMain = html.querySelector("#main");
+          const currentHeader = document.getElementById("header");
+          currentHeader.replaceWith(newHeader);
+          const updatedHeader = document.getElementById("header");
+          updatedHeader.insertAdjacentElement("afterend", newMain);
+        } catch (error) {
+          console.error(error);
+        }
+      }
+    }
+  }
+
   // Function to add event listeners to character cards and start button.
   addEventListeners() {
-    // Iterate over the character cards and add event listeners to each.
-    if (this.characterCards !== null) {
-      Array.from(this.characterCards).forEach((character) => {
-        character.addEventListener("click", this.getCharacterNames);
-        character.addEventListener("touch", this.getCharacterNames);
-        character.addEventListener("keydown", this.getCharacterNames);
-      });
-    }
-
-    if (this.startButton !== null) {
-      this.startButton.addEventListener("click", this.getCharacterQuotes);
-      this.startButton.addEventListener("touch", this.getCharacterQuotes);
-      this.startButton.addEventListener("keydown", this.getCharacterQuotes);
-    }
+    this.wrapperElement.addEventListener("click", this.loadCharactersPage);
+    this.wrapperElement.addEventListener("click", this.getCharacterNames);
+    this.wrapperElement.addEventListener("click", this.getCharacterQuotes);
   }
 
   // Event handler to get character names.
   getCharacterNames = (e) => {
-    if (e !== undefined) {
+    if (e.target && e.target.matches("picture")) {
       if (
         e.type === "click" ||
         e.type === "touchstart" ||
@@ -54,9 +98,6 @@ export class Character {
         this.name = characterName;
         this.getCharacterID(characterName);
       }
-    } else {
-      e.prevrntDefault();
-      e.stopPropagation();
     }
   };
 
@@ -84,7 +125,7 @@ export class Character {
 
   // Function to fetch character quotes from the One API.
   async getCharacterQuotes(e) {
-    if (e !== undefined) {
+    if (e.target && e.target.matches("#start-button")) {
       if (
         e.type === "click" ||
         e.type === "touchstart" ||
@@ -146,9 +187,6 @@ export class Character {
           );
           return await Promise.all(promises);
         }
-      } else {
-        e.prevrntDefault();
-        e.stopPropagation();
       }
     }
   }
