@@ -88,7 +88,10 @@
         id="main"
         class="container mb-auto max-w-[1260px] px-5 pb-10 sm:pb-12 lg:pb-16"
       >
-        <div class="character-grid flex flex-wrap justify-center">
+        <div
+          id="character-grid"
+          class="character-grid flex flex-wrap justify-center transition-opacity duration-200 ease-in-out"
+        >
           <div class="character relative">
             <picture
               class="w-full cursor-pointer saturate-0 duration-200 ease-in-out hover:saturate-100 focus:saturate-100"
@@ -257,6 +260,13 @@
               />
             </svg>
           </a>
+        </div>
+        <div id="spinner" class="hidden justify-center">
+          <img
+            src="./assets/images/ring-inscription.svg"
+            alt="Loading Spinner"
+            class="w-[200px] opacity-50"
+          />
         </div>
       </main>
       <!-- Footer -->

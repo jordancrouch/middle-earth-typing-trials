@@ -79,6 +79,15 @@
   }
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* Update root font size used */
 html {
   font-size: 20px;
@@ -116,6 +125,15 @@ html {
       opacity: 1;
     }
   }
+}
+
+/* Loading Spinner */
+#spinner img {
+  animation: rotate 5s linear infinite;
+}
+
+#spinner:not(.hidden) {
+  display: flex;
 }
 
 /* Start Button */

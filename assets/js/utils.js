@@ -18,11 +18,13 @@ export function stringToHTML(text, returnBody = true) {
 // Loading spinner function.
 export function loadingSpinner(show = true) {
   let spinner = document.getElementById("spinner");
-  spinner.classList.add("show");
-
-  if (show === false) {
-    if (spinner.classList.contains("show")) {
-      spinner.classList.remove("show");
+  if (show === true) {
+    if (spinner.classList.contains("hidden")) {
+      spinner.classList.remove("hidden");
+    }
+  } else if (show === false) {
+    if (!spinner.classList.contains("hidden")) {
+      spinner.classList.add("hidden");
     }
   }
 }

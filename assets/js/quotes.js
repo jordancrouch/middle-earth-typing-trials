@@ -1,4 +1,4 @@
-import { stringToHTML } from "./utils.js";
+import { loadingSpinner, stringToHTML } from "./utils.js";
 import { TypingTest } from "./typing-test.js";
 
 // Quotes Instance function.
@@ -114,6 +114,7 @@ export class Quotes {
   // Load typing test HTML and populate quotes.
   async loadTypingTest() {
     try {
+      // loadingSpinner();
       const response = await fetch("typing-test.html");
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);

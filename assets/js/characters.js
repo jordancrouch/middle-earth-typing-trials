@@ -1,4 +1,4 @@
-import { isProduction, stringToHTML } from "./utils.js";
+import { isProduction, loadingSpinner, stringToHTML } from "./utils.js";
 import { ONE_API } from "./config.js";
 import { getQuotesInstance } from "./quotes.js";
 
@@ -6,7 +6,6 @@ import { getQuotesInstance } from "./quotes.js";
 export class Character {
   constructor() {
     this.wrapperElement = document.getElementById("wrapper");
-    this.mainElement = document.getElementById("main");
     this.charactersButton = document.getElementById("characters-button");
     this.characterCards = document.getElementsByClassName("character");
     this.startButton = document.getElementById("start-button");
@@ -18,7 +17,7 @@ export class Character {
     this.addEventListeners();
   }
 
-  // Function to add event listeners to character cards and start button.
+  // Function to add event listeners to wrapper element.
   addEventListeners() {
     // Add event listeners to load characters page from index page.
     this.wrapperElement.addEventListener("click", this.loadCharactersPage);
@@ -156,6 +155,12 @@ export class Character {
 
         const fetchQuotes = async (name, id) => {
           try {
+            document.getElementById("header").classList.add("hidden");
+            document.getElementById("character-grid").classList.add("hidden");
+            document
+              .getElementById("start-button-container")
+              .classList.add("hidden");
+            loadingSpinner();
             const url = `https://the-one-api.dev/v2/character?name=${id}`;
             const response = await fetch(url, options);
             const data = await response.json();
@@ -163,23 +168,33 @@ export class Character {
             const characterURL = `https://the-one-api.dev/v2/character/${characterID}/quote`;
             const quoteResponse = await fetch(characterURL, options);
             const quoteData = await quoteResponse.json();
+
+            // Simulate a 1-second delay to show loading spinner.
+            await new Promise((resolve) => setTimeout(resolve, 1000));
+
             return new getQuotesInstance(quoteData);
           } catch (error) {
             console.error(error.message);
 
             // Fallback to local JSON data.
-            // TODO: create/update object property to show icon
-            // front-end that local data is being used.
             try {
               const localResponse = await fetch(
                 `./assets/js/data/${name}.json`,
               );
               const localData = await localResponse.json();
               console.log("Using local data:", localData);
+
+              // Simulate a 1-second delay to show loading spinner.
+              await new Promise((resolve) => setTimeout(resolve, 1000));
+
+              // TODO: create/update object property to show icon
+              // front-end that local data is being used.
               return new getQuotesInstance(localData);
             } catch (localError) {
               console.error(localError.message);
             }
+          } finally {
+            loadingSpinner(false);
           }
         };
 
