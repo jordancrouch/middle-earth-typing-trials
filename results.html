@@ -47,20 +47,20 @@
         id="navbar"
         class="container flex max-w-[1260px] items-center justify-between px-5 py-6"
       >
-        <a href="index.html" class="header-logo">
+        <a href="index.html" class="header-logo" tabindex="0">
           <img
             src="./assets/images/header-logo.svg"
             alt="MeTT: Middle-earth Typing Trials Logo Icon"
           />
         </a>
-        <div id="settings" class="flex items-center">
+        <div id="settings" class="flex items-center" tabindex="0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="stroke-gold-500 size-6"
+            class="size-6 stroke-white"
           >
             <path
               stroke-linecap="round"
@@ -137,6 +137,7 @@
               id="restart-test"
               href="typing-test.html"
               class="button button-outline"
+              tabindex="0"
             >
               Restart
               <svg
@@ -145,16 +146,22 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="size-5"
+                class="pointer-events-none size-5"
               >
                 <path
+                  class="pointer-events-none"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                 />
               </svg>
             </a>
-            <a id="new-characters-button" href="characters.html" class="button">
+            <a
+              id="new-characters-button"
+              href="characters.html"
+              class="button"
+              tabindex="0"
+            >
               New character
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -162,9 +169,10 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="size-5"
+                class="pointer-events-none size-5"
               >
                 <path
+                  class="pointer-events-none"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
@@ -183,6 +191,7 @@
             <a
               href="index.html"
               class="footer-logo flex justify-center sm:justify-start"
+              tabindex="0"
             >
               <img
                 src="./assets/images/footer-logo.svg"

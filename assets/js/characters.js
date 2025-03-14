@@ -70,9 +70,25 @@ export class Character {
 
   // Function to add event listeners to character cards and start button.
   addEventListeners() {
+    // Add event listeners to load characters page from index page.
     this.wrapperElement.addEventListener("click", this.loadCharactersPage);
+    this.wrapperElement.addEventListener("touch", this.loadCharactersPage);
+    this.wrapperElement.addEventListener("keydown", this.loadCharactersPage);
+    // Add event listeners to get character names.
     this.wrapperElement.addEventListener("click", this.getCharacterNames);
+    this.wrapperElement.addEventListener("touch", this.getCharacterNames);
+    this.wrapperElement.addEventListener("keydown", this.getCharacterNames);
+    // Add event listeners to get character quotes.
     this.wrapperElement.addEventListener("click", this.getCharacterQuotes);
+    this.wrapperElement.addEventListener("touch", this.getCharacterQuotes);
+    this.wrapperElement.addEventListener("keydown", this.getCharacterQuotes);
+    // Add event listener to prevent backspace key from navigating back when test ends and
+    // the results are displayed.
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Backspace" && !e.target.closest("input")) {
+        e.preventDefault();
+      }
+    });
   }
 
   // Event handler to get character names.

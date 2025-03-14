@@ -47,20 +47,20 @@
         id="navbar"
         class="container flex max-w-[1260px] items-center justify-between px-5 py-6"
       >
-        <a href="index.html" class="header-logo">
+        <a href="index.html" class="header-logo" tabindex="0">
           <img
             src="./assets/images/header-logo.svg"
             alt="MeTT: Middle-earth Typing Trials Logo Icon"
           />
         </a>
-        <div id="settings" class="flex items-center">
+        <div id="settings" class="flex items-center" tabindex="0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="stroke-gold-500 size-6"
+            class="size-6 stroke-white"
           >
             <path
               stroke-linecap="round"
@@ -101,13 +101,16 @@
               autocorrect="off"
               spellcheck="false"
               list="autocompleteOff"
+              tabindex="0"
             />
             <!-- Out of focus warning -->
             <div
               id="focus-warning"
               class="pointer-events-none absolute z-999 flex h-full w-full items-center justify-center opacity-0 transition duration-200 ease-in-out select-none"
             >
-              <p class="font-fira-mono text-2xl">Click/touch here to focus</p>
+              <p class="font-fira-mono text-2xl">
+                Click, touch, or use tab to focus.
+              </p>
             </div>
             <!-- Text container -->
             <div
@@ -127,6 +130,7 @@
             <a
               href="index.html"
               class="footer-logo flex justify-center sm:justify-start"
+              tabindex="0"
             >
               <img
                 src="./assets/images/footer-logo.svg"
