@@ -1,3 +1,4 @@
+import { stringToHTML } from "./utils.js";
 import { TypingTest } from "./typing-test.js";
 
 // Quotes Instance function.
@@ -20,18 +21,6 @@ export class Quotes {
       this.getRandomQuotes(this.getAllQuotes(), 10),
     );
     this.loadTypingTest(data);
-  }
-
-  // Function to convert a string to HTML. Return body by default.
-  stringToHTML(text, returnBody = true) {
-    let parser = new DOMParser();
-    let doc = parser.parseFromString(text, "text/html");
-
-    if (returnBody) {
-      return doc.body;
-    } else {
-      return Array.from(doc.body.childNodes);
-    }
   }
 
   // Function to create a random array up to the maximum number of remaining quotes,
@@ -131,7 +120,7 @@ export class Quotes {
       }
 
       const text = await response.text();
-      const html = this.stringToHTML(text);
+      const html = stringToHTML(text);
       const testWrapper = html.querySelector("#typing-test-wrapper");
       const currentHeader = document.getElementById("header");
       const currentMain = document.getElementById("main");

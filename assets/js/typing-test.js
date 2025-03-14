@@ -1,3 +1,4 @@
+import { stringToHTML } from "./utils.js";
 import { getQuotesInstance } from "./quotes.js";
 import { Results } from "./results.js";
 
@@ -324,7 +325,7 @@ export class TypingTest {
             const quotesInstance = getQuotesInstance();
             let randomQuote = quotesInstance.getOneUnusedQuote();
             if (randomQuote) {
-              randomQuote = quotesInstance.stringToHTML(randomQuote, false);
+              randomQuote = stringToHTML(randomQuote, false);
               randomQuote.forEach((word) => {
                 text.appendChild(word);
               });

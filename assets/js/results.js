@@ -1,15 +1,10 @@
+import { stringToHTML } from "./utils.js";
+
 // Results Class.
 export class Results {
   constructor(data) {
     this.results = [];
     this.loadResultsHTML(data);
-  }
-
-  // Convert string to HTML.
-  stringToHTML(text) {
-    let parser = new DOMParser();
-    let doc = parser.parseFromString(text, "text/html");
-    return doc.body;
   }
 
   // Load the results html file and replace the current header and main elements.
@@ -21,7 +16,7 @@ export class Results {
       }
 
       const text = await response.text();
-      const html = this.stringToHTML(text);
+      const html = stringToHTML(text);
       const newHeader = html.querySelector("#header");
       const newMain = html.querySelector("#main");
       const currentHeader = document.getElementById("header");

@@ -1,3 +1,4 @@
+import { isProduction, stringToHTML } from "./utils.js";
 import { ONE_API } from "./config.js";
 import { getQuotesInstance } from "./quotes.js";
 
@@ -15,57 +16,6 @@ export class Character {
     this.getCharacterNames = this.getCharacterNames.bind(this);
     this.getCharacterQuotes = this.getCharacterQuotes.bind(this);
     this.addEventListeners();
-  }
-
-  // Function to check if the current location is localhost.
-  isProduction() {
-    return location.hostname !== "localhost";
-  }
-
-  // Function to convert a string to HTML.
-  stringToHTML(text) {
-    let parser = new DOMParser();
-    let doc = parser.parseFromString(text, "text/html");
-    return doc.body;
-  }
-
-  // Fetch the characters page and replace the current page with the new page
-  async loadCharactersPage(e) {
-    if (e.target && e.target.matches("#characters-button")) {
-      if (
-        e.type === "click" ||
-        e.type === "touchstart" ||
-        (e.type === "keydown" && e.key === "Enter")
-      ) {
-        e.preventDefault();
-        // Get the href attribute of the characters button
-        let charactersLink = this.charactersButton.getAttribute("href");
-        // Check if the current location is localhost, else add repo path to the characters link
-        if (this.isProduction()) {
-          charactersLink = "/middle-earth-typing-trials/" + charactersLink;
-        } else {
-          charactersLink = "/" + charactersLink;
-        }
-        try {
-          const response = await fetch(charactersLink);
-
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-
-          const text = await response.text();
-          const html = this.stringToHTML(text);
-          const newHeader = html.querySelector("#header");
-          const newMain = html.querySelector("#main");
-          const currentHeader = document.getElementById("header");
-          currentHeader.replaceWith(newHeader);
-          const updatedHeader = document.getElementById("header");
-          updatedHeader.insertAdjacentElement("afterend", newMain);
-        } catch (error) {
-          console.error(error);
-        }
-      }
-    }
   }
 
   // Function to add event listeners to character cards and start button.
@@ -89,6 +39,45 @@ export class Character {
         e.preventDefault();
       }
     });
+  }
+
+  // Fetch the characters page and replace the current page with the new page
+  async loadCharactersPage(e) {
+    if (e.target && e.target.matches("#characters-button")) {
+      if (
+        e.type === "click" ||
+        e.type === "touchstart" ||
+        (e.type === "keydown" && e.key === "Enter")
+      ) {
+        e.preventDefault();
+        // Get the href attribute of the characters button
+        let charactersLink = this.charactersButton.getAttribute("href");
+        // Check if the current location is localhost, else add repo path to the characters link
+        if (isProduction()) {
+          charactersLink = "/middle-earth-typing-trials/" + charactersLink;
+        } else {
+          charactersLink = "/" + charactersLink;
+        }
+        try {
+          const response = await fetch(charactersLink);
+
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const text = await response.text();
+          const html = stringToHTML(text);
+          const newHeader = html.querySelector("#header");
+          const newMain = html.querySelector("#main");
+          const currentHeader = document.getElementById("header");
+          currentHeader.replaceWith(newHeader);
+          const updatedHeader = document.getElementById("header");
+          updatedHeader.insertAdjacentElement("afterend", newMain);
+        } catch (error) {
+          console.error(error);
+        }
+      }
+    }
   }
 
   // Event handler to get character names.
