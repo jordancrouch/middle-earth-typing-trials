@@ -447,6 +447,9 @@
   .h-full {
     height: 100%;
   }
+  .h-lvh {
+    height: 100lvh;
+  }
   .h-screen {
     height: 100vh;
   }
