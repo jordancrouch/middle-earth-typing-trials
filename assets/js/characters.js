@@ -167,7 +167,7 @@ export class Character {
               .getElementById("start-button-container")
               .classList.add("hidden");
             loadingSpinner();
-            // const url = `https://the-one-api.dev/v2/character?name=${id}`;
+            const url = `https://the-one-api.dev/v2/character?name=${id}`;
             const response = await fetch(url, options);
             const data = await response.json();
             const characterID = data.docs[0]._id;
