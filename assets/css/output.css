@@ -367,6 +367,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-0 {
+    margin-block: calc(var(--spacing) * 0);
+  }
   .my-auto {
     margin-block: auto;
   }
@@ -428,6 +431,9 @@
   }
   .h-\[20px\] {
     height: 20px;
+  }
+  .h-auto {
+    height: auto;
   }
   .h-full {
     height: 100%;
@@ -954,6 +960,11 @@
       opacity: 100%;
     }
   }
+  .\[\@media\(min-height\:850px\)\]\:my-auto {
+    @media (min-height: 850px) {
+      margin-block: auto;
+    }
+  }
   .\[\@media\(min-height\:850px\)\]\:mt-auto {
     @media (min-height: 850px) {
       margin-top: auto;
@@ -962,6 +973,16 @@
   .\[\@media\(min-height\:850px\)\]\:mb-0 {
     @media (min-height: 850px) {
       margin-bottom: calc(var(--spacing) * 0);
+    }
+  }
+  .\[\@media\(min-height\:850px\)\]\:h-auto {
+    @media (min-height: 850px) {
+      height: auto;
+    }
+  }
+  .\[\@media\(min-height\:850px\)\]\:h-fit {
+    @media (min-height: 850px) {
+      height: fit-content;
     }
   }
   .\[\@media\(min-height\:850px\)\]\:h-full {
