@@ -172,7 +172,7 @@ export class Character {
             // Simulate a 1-second delay to show loading spinner.
             await new Promise((resolve) => setTimeout(resolve, 1000));
 
-            return new getQuotesInstance(quoteData);
+            return new getQuotesInstance(quoteData, true);
           } catch (error) {
             console.error(error.message);
 
@@ -189,7 +189,7 @@ export class Character {
 
               // TODO: create/update object property to show icon
               // front-end that local data is being used.
-              return new getQuotesInstance(localData);
+              return new getQuotesInstance(localData, true);
             } catch (localError) {
               console.error(localError.message);
             }

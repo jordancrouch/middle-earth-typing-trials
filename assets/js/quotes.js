@@ -1,10 +1,10 @@
-import { loadingSpinner, stringToHTML } from "./utils.js";
+import { stringToHTML } from "./utils.js";
 import { TypingTest } from "./typing-test.js";
 
 // Quotes Instance function.
 let quotesInstance;
-export function getQuotesInstance(data) {
-  if (!quotesInstance) {
+export function getQuotesInstance(data, newInstance = false) {
+  if (!quotesInstance || newInstance) {
     quotesInstance = new Quotes(data);
   }
   return quotesInstance;

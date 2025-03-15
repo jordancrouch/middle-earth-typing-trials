@@ -18,13 +18,18 @@ export function stringToHTML(text, returnBody = true) {
 // Loading spinner function.
 export function loadingSpinner(show = true) {
   let spinner = document.getElementById("spinner");
-  if (show === true) {
-    if (spinner.classList.contains("hidden")) {
-      spinner.classList.remove("hidden");
-    }
-  } else if (show === false) {
-    if (!spinner.classList.contains("hidden")) {
-      spinner.classList.add("hidden");
+
+  if (spinner !== null) {
+    window.scrollTo(0, 0, { behavior: "smooth" });
+
+    if (show === true) {
+      if (spinner.classList.contains("hidden")) {
+        spinner.classList.remove("hidden");
+      }
+    } else if (show === false) {
+      if (!spinner.classList.contains("hidden")) {
+        spinner.classList.add("hidden");
+      }
     }
   }
 }

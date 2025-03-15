@@ -1,9 +1,13 @@
-import { stringToHTML } from "./utils.js";
+import { isProduction, stringToHTML } from "./utils.js";
+import { getQuotesInstance } from "./quotes.js";
+import { Character } from "./characters.js";
 
 // Results Class.
 export class Results {
   constructor(data) {
-    this.results = [];
+    this.wrapperElement = document.getElementById("wrapper");
+    this.restartTest = this.restartTest.bind(this);
+    this.loadCharactersPage = this.loadCharactersPage.bind(this);
     this.loadResultsHTML(data);
   }
 
@@ -23,14 +27,15 @@ export class Results {
       const currentMain = document.getElementById("main");
       currentHeader.replaceWith(newHeader);
       currentMain.replaceWith(newMain);
-      this.processResults(data);
+      await this.processResults(data);
+      this.addEventListeners();
     } catch (error) {
       console.error(error);
     }
   }
 
   // Process the results data.
-  processResults(data) {
+  async processResults(data) {
     let wpm = document.getElementById("wpm");
     let accuracy = document.getElementById("accuracy");
     let words = document.getElementById("words");
@@ -123,5 +128,76 @@ export class Results {
   // Calculate accuracy by dividing the correct characters by the total characters.
   calculateAccuracy(correct, total) {
     return Math.round((correct / total) * 100);
+  }
+
+  async addEventListeners() {
+    this.wrapperElement.addEventListener("click", this.restartTest);
+    this.wrapperElement.addEventListener("touch", this.restartTest);
+    this.wrapperElement.addEventListener("keydown", this.restartTest);
+
+    this.wrapperElement.addEventListener("click", this.loadCharactersPage);
+    this.wrapperElement.addEventListener("touch", this.loadCharactersPage);
+    this.wrapperElement.addEventListener("keydown", this.loadCharactersPage);
+  }
+
+  restartTest(e) {
+    if (e.target && e.target.matches("#restart-test")) {
+      console.log(e);
+      if (
+        e.type === "click" ||
+        e.type === "touchstart" ||
+        (e.type === "keydown" && e.key === "Enter")
+      ) {
+        e.preventDefault();
+        const quotesInstance = getQuotesInstance();
+      }
+    }
+  }
+
+  async loadCharactersPage(e) {
+    if (e.target && e.target.matches("#new-characters-button")) {
+      if (
+        e.type === "click" ||
+        e.type === "touchstart" ||
+        (e.type === "keydown" && e.key === "Enter")
+      ) {
+        e.preventDefault();
+
+        // Get the href attribute of the characters button
+        let charactersLink = "characters.html";
+        // Check if the current location is localhost, else add repo path to the characters link
+        if (isProduction()) {
+          charactersLink = "/middle-earth-typing-trials/" + charactersLink;
+        } else {
+          charactersLink = "/" + charactersLink;
+        }
+        try {
+          const response = await fetch(charactersLink);
+
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const text = await response.text();
+          const html = stringToHTML(text);
+          const newWrapper = html.querySelector("#wrapper");
+          const currentWrapper = document.getElementById("wrapper");
+          newWrapper.style.opacity = 0;
+          currentWrapper.replaceWith(newWrapper);
+
+          await new Promise((resolve) => {
+            newWrapper.style.transition = "opacity 1s ease-in-out";
+            newWrapper.style.opacity = 1;
+
+            newWrapper.addEventListener("transitionend", () => {
+              resolve({ once: true });
+            });
+          });
+          let characters = new Character();
+        } catch (error) {
+          console.error(error);
+        }
+      }
+    }
   }
 }
