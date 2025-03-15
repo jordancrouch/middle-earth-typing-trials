@@ -33,3 +33,20 @@ export function loadingSpinner(show = true) {
     }
   }
 }
+
+// Function to display a notice for local data.
+export function localDataActive(hide = false) {
+  let localDataNotice = document.getElementById("local-data");
+
+  if (localDataNotice !== null) {
+    if (hide === true) {
+      if (localDataNotice.classList.contains("active")) {
+        localDataNotice.classList.remove("active");
+      }
+    } else if (hide === false) {
+      if (!localDataNotice.classList.contains("active")) {
+        localDataNotice.classList.add("active");
+      }
+    }
+  }
+}

@@ -1,4 +1,9 @@
-import { isProduction, loadingSpinner, stringToHTML } from "./utils.js";
+import {
+  isProduction,
+  loadingSpinner,
+  stringToHTML,
+  localDataActive,
+} from "./utils.js";
 import { ONE_API } from "./config.js";
 import { getQuotesInstance } from "./quotes.js";
 
@@ -72,6 +77,7 @@ export class Character {
           currentHeader.replaceWith(newHeader);
           const updatedHeader = document.getElementById("header");
           updatedHeader.insertAdjacentElement("afterend", newMain);
+          localDataActive(true);
         } catch (error) {
           console.error(error);
         }
@@ -161,7 +167,7 @@ export class Character {
               .getElementById("start-button-container")
               .classList.add("hidden");
             loadingSpinner();
-            const url = `https://the-one-api.dev/v2/character?name=${id}`;
+            // const url = `https://the-one-api.dev/v2/character?name=${id}`;
             const response = await fetch(url, options);
             const data = await response.json();
             const characterID = data.docs[0]._id;
@@ -187,8 +193,8 @@ export class Character {
               // Simulate a 1-second delay to show loading spinner.
               await new Promise((resolve) => setTimeout(resolve, 1000));
 
-              // TODO: create/update object property to show icon
-              // front-end that local data is being used.
+              localDataActive();
+
               return new getQuotesInstance(localData, true);
             } catch (localError) {
               console.error(localError.message);
