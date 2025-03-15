@@ -462,6 +462,9 @@
   .max-h-dvh {
     max-height: 100dvh;
   }
+  .max-h-lvh {
+    max-height: 100lvh;
+  }
   .max-h-screen {
     max-height: 100vh;
   }
@@ -616,6 +619,9 @@
   }
   .bg-cover {
     background-size: cover;
+  }
+  .bg-fixed {
+    background-attachment: fixed;
   }
   .bg-center {
     background-position: center;
