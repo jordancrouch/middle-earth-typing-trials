@@ -369,6 +369,10 @@ export class TypingTest {
     let letters = currentWord.childNodes;
     let currentLetter = letters[letterIndex];
 
+    if (caret.classList.contains("hidden")) {
+      caret.classList.remove("hidden");
+    }
+
     caret.style.height = currentLetter.offsetHeight + "px";
     caret.style.left = currentWord.offsetLeft - caretWidth / 2 + "px";
     caret.style.top = currentWord.offsetTop + "px";
