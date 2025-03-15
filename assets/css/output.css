@@ -70,6 +70,7 @@
     --font-albert-sans: "Albert Sans", sans-serif;
     --font-fira-mono: "Fira Mono", monospace;
     --color-forest-green-500: oklch(0.24 0.06 134.81);
+    --color-gold-250: oklch(0.54 0.11 90.25);
     --color-gold-500: oklch(0.64 0.11 90.25);
   }
 }
@@ -806,6 +807,12 @@
     border-radius: 3px;
     padding: 12px 24px;
     font-weight: 600;
+    transition: all 0.2s ease-in-out;
+  }
+  .button:hover,
+  .button.button-outline:hover {
+    background-color: var(--color-gold-250);
+    border-color: var(--color-gold-250);
   }
   .button.button-outline {
     background-color: transparent;
