@@ -142,7 +142,6 @@ export class Results {
 
   restartTest(e) {
     if (e.target && e.target.matches("#restart-test")) {
-      console.log(e);
       if (
         e.type === "click" ||
         e.type === "touchstart" ||
@@ -150,6 +149,7 @@ export class Results {
       ) {
         e.preventDefault();
         const quotesInstance = getQuotesInstance();
+        quotesInstance.loadTypingTest();
       }
     }
   }
@@ -185,6 +185,7 @@ export class Results {
           newWrapper.style.opacity = 0;
           currentWrapper.replaceWith(newWrapper);
 
+          // New promise to wait for transition to complete before creating a new Character instance, so that the elements exist for the event listeners.
           await new Promise((resolve) => {
             newWrapper.style.transition = "opacity 1s ease-in-out";
             newWrapper.style.opacity = 1;

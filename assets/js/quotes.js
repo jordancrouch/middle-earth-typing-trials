@@ -60,13 +60,19 @@ export class Quotes {
 
   // Sort quote data into an array of quotes.
   getAllQuotes() {
-    const quotes = this.quoteData.docs;
-    const allQuotes = [];
-    if (quotes.length) {
-      quotes.forEach((quote, index) => {
-        this.remainingQuoteIndices.push(index);
-        allQuotes.push(quote.dialog);
-      });
+    let allQuotes = [];
+
+    if (this.allQuotes.length) {
+      allQuotes = this.allQuotes;
+    } else {
+      const quotes = this.quoteData.docs;
+      if (quotes.length) {
+        quotes.forEach((quote, index) => {
+          this.remainingQuoteIndices.push(index);
+          allQuotes.push(quote.dialog);
+        });
+      }
+      this.allQuotes = allQuotes;
     }
 
     return allQuotes;
