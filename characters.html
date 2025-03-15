@@ -53,7 +53,12 @@
             alt="MeTT: Middle-earth Typing Trials Logo Icon"
           />
         </a>
-        <div id="settings" class="flex items-center" tabindex="0">
+        <button
+          id="settings"
+          popovertarget="settings-popover"
+          class="flex cursor-pointer items-center"
+          tabindex="0"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -73,7 +78,7 @@
               d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
             />
           </svg>
-        </div>
+        </button>
       </nav>
       <!-- Header -->
       <header
@@ -295,6 +300,94 @@
             <p class="font-albert-sans text-center text-xs sm:text-left">
               Copyright &copy; 2025 Jordan Crouch
             </p>
+          </div>
+        </div>
+        <!-- Settings Popover -->
+        <div
+          popover
+          id="settings-popover"
+          class="mx-auto my-auto w-full max-w-[690px] bg-transparent px-5 py-6 opacity-0 transition-all [transition-behavior:allow-discrete] duration-500 ease-in-out [&:is([open],:popover-open)]:opacity-100 [@starting-style]:[&:is([open],:popover-open)]:opacity-0"
+          tabindex="-1"
+          aria-labelledby="settingsModal"
+        >
+          <div
+            class="popover-inner bg-forest-green-500 relative rounded-sm p-10 text-left text-white shadow-xl"
+          >
+            <div
+              id="popover-close"
+              tabindex="0"
+              class="absolute top-[20px] right-[20px] inline-block"
+              aria-label="Close"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="hover:stroke-gold-500 focus:stroke-gold-500 size-6 cursor-pointer stroke-white transition-colors duration-200 ease-in-out"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+            <h1 class="font-ringbearer mb-4" id="settingsModal">SettingS</h1>
+            <div class="flex gap-2">
+              <p class="font-albertus-mt-light text-lg">Time:</p>
+              <div id="time-select" class="font-albertus-mt-light text-lg">
+                <input
+                  type="radio"
+                  name="time"
+                  id="time-30"
+                  value="30"
+                  checked
+                />
+                <label for="time-30">30s</label>
+                <input type="radio" name="time" id="time-60" value="60" />
+                <label for="time-60">60s</label>
+              </div>
+            </div>
+            <div class="mt-4 border-t-1 border-t-white/50 pt-4">
+              <p class="font-albertus-mt-light mb-2 text-lg">Results Stats</p>
+              <p class="font-albert-sans mb-2 text-sm">
+                <strong class="text-gold-500">WPM:</strong> words-per-minute -
+                the total amount of correct characters typed in correct words,
+                including spaces, divided by 5, divided by the test time, and
+                multiplied by 60 to standardise to 1 minute, rounded to the
+                nearest whole number.
+              </p>
+              <p class="font-albert-sans mb-2 text-sm">
+                <strong class="text-gold-500">Accuracy:</strong> the total
+                correct characters, including spaces, divided by the total
+                characters typed, multiplied by 100 to give a percentage and
+                rounded to the nearest whole number.
+              </p>
+              <p class="font-albert-sans mb-2 text-sm">
+                <strong class="text-gold-500">Words:</strong> total number of
+                correctly typed characters, including spaces, divided by 5
+                (average word length), rounded to the nearest whole number.
+              </p>
+              <p class="font-albert-sans mb-2 text-sm">
+                <strong class="text-gold-500">Characters:</strong> total number
+                of correctly typed characters, including spaces, rounded to the
+                nearest whole number.
+              </p>
+              <p class="font-albert-sans mb-2 text-sm">
+                <strong class="text-gold-500">Errors:</strong> total number of
+                incorrectly pressed characters, including spaces.
+              </p>
+              <p class="font-albert-sans mb-2 text-sm">
+                <strong class="text-gold-500">Raw:</strong> the same calculation
+                used for WPM, but includes incorrect characters.
+              </p>
+              <p class="font-albert-sans mb-2 text-sm">
+                <strong class="text-gold-500">Time:</strong> the duration of the
+                test.
+              </p>
+            </div>
           </div>
         </div>
       </footer>
