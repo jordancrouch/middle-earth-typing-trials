@@ -11,9 +11,11 @@ export class TypingTest {
     this.textContainer = el.querySelector("#text-container");
     this.focusWarning = el.querySelector("#focus-warning");
     this.timerText = el.querySelector("#timer");
+    this.testTimer = document
+      .getElementById("time-select")
+      .querySelector('input[type="radio"]:checked').value;
     this.focusInterval = null;
     this.timerInterval = null;
-    this.testTimer = 30;
     this.timerRunning = false;
     this.intervalTime = 1000;
     this.inputEvents = 0;
@@ -26,10 +28,16 @@ export class TypingTest {
     this.removedWords = [];
     this.totalInputs = 0;
     this.correctInputs = 0;
+    this.setTimer();
     this.focusInputOnLoad();
     this.eventListeners();
     this.setFocusInterval();
     this.setCaretPosition();
+  }
+
+  // Set the timer.
+  setTimer() {
+    this.timerText.textContent = this.testTimer + "s";
   }
 
   // Set focus on input element.
