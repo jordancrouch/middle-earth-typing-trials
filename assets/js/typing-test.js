@@ -53,7 +53,7 @@ export class TypingTest {
   }
 
   // Event handler to focus back on input element when it's out of focus.
-  focusOnInput = (e) => {
+  focusOnInput = () => {
     this.textInput.focus();
     this.checkInputFocus();
   };
