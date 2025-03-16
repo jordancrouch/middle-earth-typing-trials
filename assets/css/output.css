@@ -335,6 +335,9 @@
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
+  .isolate {
+    isolation: isolate;
+  }
   .-z-1 {
     z-index: calc(1 * -1);
   }
@@ -605,6 +608,9 @@
   }
   .p-0 {
     padding: calc(var(--spacing) * 0);
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
@@ -1101,6 +1107,7 @@ html {
   flex-wrap: wrap;
   align-content: flex-start;
   scrollbar-width: 0;
+  position: relative;
   .word {
     margin: 0.25em 0.3em;
     .letter {
@@ -1118,6 +1125,21 @@ html {
       opacity: 0.5;
     }
   }
+}
+#text-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 20%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 #text-container.blur {
   filter: blur(5px);
