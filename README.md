@@ -1,10 +1,10 @@
 # Middle-earth Typing Trials
 
-![Middle-earth Typing Trials Mockups](https://jordancrouch.github.io/middle-earth-typing-trials/assets/mockups/middle-earth-typing-trials-responsive-mockups.jpg)
+![Middle-earth Typing Trials Mockups](https://jordancrouch.github.io/middle-earth-typing-trials/assets/mockups/middle-earth-typing-trials-mockups.jpg)
 
-Project intro to go here...
+A Lord of the Rings themed typing test, using quotes from the films.
 
-[View the website on GitHub Pages](https://jordancrouch.github.io/there-and-back-again/index.html).
+[View the website on GitHub Pages](https://jordancrouch.github.io/middle-earth-typing-trials/index.html).
 
 # Table of Contents
 
@@ -40,21 +40,21 @@ Project intro to go here...
 
 **First-time Visitor Goals**
 
-1.
-2.
-3.
+1. As a first time visitor, I want to be able to easily determine and understand the main purpose of the website.
+2. As a first time visitor, I want to be able complete an interactive typing test that is easy and intuitive to use, and also provides visual feedback to keep track of progress.
+3. As a first time visitor, I want to receive feedback on my typing performance in the form of data metrics, such as word per minute (WPM) and accuracy.
 
 **Returning Visitor Goals**
 
-1.
-2.
-3.
+1. As a returning visitor, I want additional metrics provided on my typing performance, including the total number of characters/words typed, errors, and 'raw' typing speed.
+2. As a returning visitor, I want to be able to have a range of different characters to select from, so that their quotes are used for the test.
+3. As a returning visitor, I want an option to be able to change the duration of the test, in order to assess my typing performance over a different period of time.
 
 **Frequent User Goals**
 
-1.
-2.
-3.
+1. As a frequest user, I want to be able to use the test as many times as possible without there being any issues with retrieving the quotes for the characters I select.
+2. As a frequent user, I want an easy way to be able to restart the previously finished test to be able to directly compare my score.
+3. As a frequent user, I also want an easy way to navigate back to the character select screen after I have completed a test.
 
 ## Scope
 
@@ -64,21 +64,15 @@ Project intro to go here...
 
 -
 -
--
-
-**Heading**
+- **Heading**
 
 -
 -
--
-
-**Heading**
+- **Heading**
 
 -
 -
--
-
-**Heading**
+- **Heading**
 
 -
 -
