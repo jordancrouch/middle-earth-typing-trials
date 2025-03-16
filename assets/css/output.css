@@ -296,6 +296,17 @@
   .visible {
     visibility: visible;
   }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
   .absolute {
     position: absolute;
   }
@@ -337,6 +348,9 @@
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
+  }
+  .isolate {
+    isolation: isolate;
   }
   .-z-1 {
     z-index: calc(1 * -1);
