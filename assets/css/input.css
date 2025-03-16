@@ -110,34 +110,32 @@ html {
 /* Character Grid */
 .character-grid {
   gap: 30px;
+}
 
-  .character {
-    flex: 0 1 100%;
-    border-radius: 6px;
-    overflow: hidden;
+.character-grid .character {
+  flex: 0 1 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
 
-    picture.active {
-      filter: saturate(1);
+.character-grid .character picture.active {
+  filter: saturate(1);
+}
 
-      + p {
-        opacity: 1;
-      }
-    }
-  }
+.character-grid .character picture.active + p {
+  opacity: 1;
+}
 
-  .character img {
-    pointer-events: none;
-  }
+.character-grid .character img {
+  pointer-events: none;
+}
 
-  .character:hover,
-  .character:focus,
-  .character:focus-visible,
-  .character:focus-within,
-  .character:target {
-    p {
-      opacity: 1;
-    }
-  }
+.character-grid .character:hover p,
+.character-grid .character:focus p,
+.character-grid .character:focus-visible p,
+.character-grid .character:focus-within p,
+.character-grid .character:target p {
+  opacity: 1;
 }
 
 /* Loading Spinner */
@@ -161,7 +159,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  scrollbar-width: 0;
+  scrollbar-width: none;
   position: relative;
 
   .word {
@@ -230,33 +228,31 @@ html {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-#time-select {
-  input[type="radio"] {
-    clip-path: polygon(0 0);
-  }
+#time-select input[type="radio"] {
+  clip-path: polygon(0 0);
+}
 
-  label {
-    opacity: 0.5;
-    transition: all 0.2s ease;
-  }
+#time-select label {
+  opacity: 0.5;
+  transition: all 0.2s ease;
+}
 
-  label:hover {
-    color: var(--color-gold-500);
-    opacity: 1;
-    cursor: pointer;
-  }
+#time-select label:hover {
+  color: var(--color-gold-500);
+  opacity: 1;
+  cursor: pointer;
+}
 
-  input[type="radio"]:checked + label,
-  input[type="radio"]:focus + label {
-    color: var(--color-gold-500);
-    opacity: 1;
-  }
+#time-select input[type="radio"]:checked + label,
+#time-select input[type="radio"]:focus + label {
+  color: var(--color-gold-500);
+  opacity: 1;
+}
 
-  input[type="radio"]:focus + label {
-    outline: 5px auto Highlight;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: 1px;
-  }
+#time-select input[type="radio"]:focus + label {
+  outline: 5px auto Highlight;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: 1px;
 }
 
 /* Local data icon/text */
