@@ -76,6 +76,7 @@
 
   .button svg {
     display: inline-block;
+    pointer-events: none;
   }
 }
 

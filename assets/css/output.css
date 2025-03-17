@@ -340,9 +340,6 @@
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
-  .isolate {
-    isolation: isolate;
-  }
   .-z-1 {
     z-index: calc(1 * -1);
   }
@@ -992,6 +989,7 @@
   }
   .button svg {
     display: inline-block;
+    pointer-events: none;
   }
 }
 @keyframes blink {
