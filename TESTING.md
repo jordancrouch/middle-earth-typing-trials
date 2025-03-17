@@ -100,69 +100,69 @@ As a result of using Tailwind CSS and some newer HTML elements (such as popover)
 - Warning: Possibly misspelled words (9, 5 unique): eartH (1x), SettingS (1x), LotR (2x), WPM (2x), MeTT (3x). Complete list.
   - Words with capital letters at the end have been done so stylistically, to achieve a similar effect as The Lord of the Rings titles used on movie posters (eartH, SettingS) and can be ignored.
   - Abbreviations used can also be ignored (LotR, WPM, and MeTT).
-- Warning: It is strongly recommended that both the "height" and "width" attributes be used with the <img> element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
+- Warning: It is strongly recommended that both the "height" and "width" attributes be used with the `<img>` element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
   - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
 - Warning: The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
-- An <h1> element has already been used. Avoid using multiple <h1> elements on one page because it is not best practice.
+- An `<h1>` element has already been used. Avoid using multiple `<h1>` elements on one page because it is not best practice.
   - The second instance of a H1 is within the popover element, which is hidden by default. This structure was taken from the modals used in Bootstrap, which I am happy with so this has also been ignored.
-- Void HTML elements like <input> don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
+- Void HTML elements like `<input>` don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
   - Prettier is used for code formatting on this project, and the philosophy it employs enforces trailing slash for self-closing tags. This can be ignored.
 
 #### Characters Page
 
 - Warning: Possibly misspelled words (24, 15 unique): Baggins (1x), Gamgee (1x), LotR (1x), MeTT (1x), selecT (1x), SettingS (1x), Aragorn (2x), Boromir (2x), Frodo (2x), Gandalf (2x), Gimli (2x), Gollum (2x), Legolas (2x), Samwise (2x), WPM (2x). Complete list.
   - Character names, abbreviations, and words with a trailing capital can all be ignored.
-- Warning in line 49 at character 12: (Grouped > Mobile) It is strongly recommended that both the "height" and "width" attributes be used with the <img> element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
+- Warning in line 49 at character 12: (Grouped > Mobile) It is strongly recommended that both the "height" and "width" attributes be used with the `<img>` element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
   - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
 - Warning in line 76 at character 13: (Grouped > General Compatibility) The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
 - This alt text ["Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum"] may be too short to be meaningful. This alt text is only (x) characters long and should be lengthened...
   - Character name alt text can be ignored, as provided in context of the character select screen/page makes sense following the title and following instruction to select a character, and can be ignored.
-- An <h1> element has already been used. Avoid using multiple <h1> elements on one page because it is not best practice.
+- An `<h1>` element has already been used. Avoid using multiple `<h1>` elements on one page because it is not best practice.
   - The second instance of a H1 is within the popover element, which is hidden by default. This structure was taken from the modals used in Bootstrap, which I am happy with so this has also been ignored.
-- Void HTML elements like <input> don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
+- Void HTML elements like `<input>` don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
   - Prettier is used for code formatting on this project, and the philosophy it employs enforces trailing slash for self-closing tags. This can be ignored.
 
 #### Typing Test Page
 
 - Warning: Possibly misspelled words (6, 5 unique): LotR (1x), MeTT (1x), SettingS (1x), traveler (1x), WPM (2x). Complete list.
   - Abbreviations and words with a trailing capital can be ignored. 'Traveler' incorrectly spelled using US English and can be changed to correct British spelling: traveller.
-- Warning: It is strongly recommended that both the "height" and "width" attributes be used with the <img> element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
+- Warning: It is strongly recommended that both the "height" and "width" attributes be used with the `<img>` element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
   - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
 - Warning: The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
-- An <h1> element has already been used. Avoid using multiple <h1> elements on one page because it is not best practice.
+- An `<h1>` element has already been used. Avoid using multiple `<h1>` elements on one page because it is not best practice.
   - The second instance of a H1 is within the popover element, which is hidden by default. This structure was taken from the modals used in Bootstrap, which I am happy with so this has also been ignored.
-- Void HTML elements like <input> don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
+- Void HTML elements like `<input>` don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
   - Prettier is used for code formatting on this project, and the philosophy it employs enforces trailing slash for self-closing tags. This can be ignored.
 
 #### Results Page
 
 - Warning: Possibly misspelled words (7, 5 unique): LotR (1x), MeTT (1x), ResultS (1x), SettingS (1x), WPM (3x). Complete list.
   - Abbreviations and words with a trailing capital can be ignored.
-- Warning: It is strongly recommended that both the "height" and "width" attributes be used with the <img> element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
+- Warning: It is strongly recommended that both the "height" and "width" attributes be used with the `<img>` element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
   - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
 - Warning: The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
-- An <h1> element has already been used. Avoid using multiple <h1> elements on one page because it is not best practice.
+- An `<h1>` element has already been used. Avoid using multiple `<h1>` elements on one page because it is not best practice.
   - The second instance of a H1 is within the popover element, which is hidden by default. This structure was taken from the modals used in Bootstrap, which I am happy with so this has also been ignored.
-- Void HTML elements like <input> don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
+- Void HTML elements like `<input>` don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
   - Prettier is used for code formatting on this project, and the philosophy it employs enforces trailing slash for self-closing tags. This can be ignored.
 
 #### 404 Page
 
 - Warning: Possibly misspelled words (8, 7 unique): founD (1x), LotR (1x), MeTT (1x), Mordor (1x), SettingS (1x), traveler (1x), WPM (2x). Complete list.
   - Abbreviations, words with a trailing capital, and location name (Mordor) can be ignored. 'Traveler' incorrectly spelled using US English and can be changed to correct British spelling: traveller.
-- Warning: It is strongly recommended that both the "height" and "width" attributes be used with the <img> element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
+- Warning: It is strongly recommended that both the "height" and "width" attributes be used with the `<img>`element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
   - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
 - Warning: The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
-- Warning in line 110 at character 25: (Grouped > Useless or Possibly Useless) Void HTML elements like <br> don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
+- Warning in line 110 at character 25: (Grouped > Useless or Possibly Useless) Void HTML elements like `<br>` don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
   - Prettier is used for code formatting on this project, and the philosophy it employs enforces trailing slash for self-closing tags. This can be ignored.
-- An <h1> element has already been used. Avoid using multiple <h1> elements on one page because it is not best practice.
+- An `<h1>` element has already been used. Avoid using multiple `<h1>` elements on one page because it is not best practice.
   - The second instance of a H1 is within the popover element, which is hidden by default. This structure was taken from the modals used in Bootstrap, which I am happy with so this has also been ignored.
-- Void HTML elements like <input> don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
+- Void HTML elements like `<input>` don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
   - Prettier is used for code formatting on this project, and the philosophy it employs enforces trailing slash for self-closing tags. This can be ignored.
 
 Most warnings have been ignored given the reasons stated above, other than spelling corrections. No errors are shown, confirming that all pages have been validated and contain no syntax errors.
@@ -204,7 +204,7 @@ All pages of the website were tested using Google PSI and produced the following
 
 [Desktop](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-index-html/tzvgsh0ujm?form_factor=desktop)
 
-![Homepage desktop psi results - first test](https://raw.githubusercontent.com/jordancrouch/there-and-back-again/refs/heads/main/assets/pagespeed/psi-home-desktop-1.png)
+![Homepage desktop psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-home-desktop-1.png)
 
 **Characters**
 
