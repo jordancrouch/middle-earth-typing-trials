@@ -101,7 +101,7 @@ As a result of using Tailwind CSS and some newer HTML elements (such as popover)
   - Words with capital letters at the end have been done so stylistically, to achieve a similar effect as The Lord of the Rings titles used on movie posters (eartH, SettingS) and can be ignored.
   - Abbreviations used can also be ignored (LotR, WPM, and MeTT).
 - Warning: It is strongly recommended that both the "height" and "width" attributes be used with the `<img>` element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
-  - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
+  - Explicit image dimensions have been added to each image element to resolve this warning.
 - Warning: The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
 - An `<h1>` element has already been used. Avoid using multiple `<h1>` elements on one page because it is not best practice.
@@ -114,7 +114,7 @@ As a result of using Tailwind CSS and some newer HTML elements (such as popover)
 - Warning: Possibly misspelled words (24, 15 unique): Baggins (1x), Gamgee (1x), LotR (1x), MeTT (1x), selecT (1x), SettingS (1x), Aragorn (2x), Boromir (2x), Frodo (2x), Gandalf (2x), Gimli (2x), Gollum (2x), Legolas (2x), Samwise (2x), WPM (2x). Complete list.
   - Character names, abbreviations, and words with a trailing capital can all be ignored.
 - Warning in line 49 at character 12: (Grouped > Mobile) It is strongly recommended that both the "height" and "width" attributes be used with the `<img>` element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
-  - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
+  - Explicit image dimensions have been added to each image element to resolve this warning.
 - Warning in line 76 at character 13: (Grouped > General Compatibility) The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
 - This alt text ["Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum"] may be too short to be meaningful. This alt text is only (x) characters long and should be lengthened...
@@ -129,7 +129,7 @@ As a result of using Tailwind CSS and some newer HTML elements (such as popover)
 - Warning: Possibly misspelled words (6, 5 unique): LotR (1x), MeTT (1x), SettingS (1x), traveler (1x), WPM (2x). Complete list.
   - Abbreviations and words with a trailing capital can be ignored. 'Traveler' incorrectly spelled using US English and can be changed to correct British spelling: traveller.
 - Warning: It is strongly recommended that both the "height" and "width" attributes be used with the `<img>` element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
-  - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
+  - Explicit image dimensions have been added to each image element to resolve this warning.
 - Warning: The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
 - An `<h1>` element has already been used. Avoid using multiple `<h1>` elements on one page because it is not best practice.
@@ -142,7 +142,7 @@ As a result of using Tailwind CSS and some newer HTML elements (such as popover)
 - Warning: Possibly misspelled words (7, 5 unique): LotR (1x), MeTT (1x), ResultS (1x), SettingS (1x), WPM (3x). Complete list.
   - Abbreviations and words with a trailing capital can be ignored.
 - Warning: It is strongly recommended that both the "height" and "width" attributes be used with the `<img>` element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
-  - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
+  - Explicit image dimensions have been added to each image element to resolve this warning.
 - Warning: The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
 - An `<h1>` element has already been used. Avoid using multiple `<h1>` elements on one page because it is not best practice.
@@ -155,7 +155,7 @@ As a result of using Tailwind CSS and some newer HTML elements (such as popover)
 - Warning: Possibly misspelled words (8, 7 unique): founD (1x), LotR (1x), MeTT (1x), Mordor (1x), SettingS (1x), traveler (1x), WPM (2x). Complete list.
   - Abbreviations, words with a trailing capital, and location name (Mordor) can be ignored. 'Traveler' incorrectly spelled using US English and can be changed to correct British spelling: traveller.
 - Warning: It is strongly recommended that both the "height" and "width" attributes be used with the `<img>`element so browsers can leave the correct amount of space for them while downloading the image (which can take more time on mobile networks and devices).
-  - Images have an auto height applied to allow them to behave better responsively across all devices without causing any issues with distorting/stretching the image, according to the specified width, and can be ignored.
+  - Explicit image dimensions have been added to each image element to resolve this warning.
 - Warning: The "popover", "popovertarget", and "popovertargetaction" attributes are relatively new and may not yet be widely supported. Visit https://caniuse.com/?search=popover%20attribute for more information.
   - These attributes are shown to have wide support across desktop devices and in Safari for iOS. They have only recently become available in the latest versions of Chrome and Firefox for Android (Feb 2025), so older browsers will not support the popover functionality. Whilst the popover provides some additional functionality to be able to change the test timer, and also result statistic information, this is not integral to the typing test itself and will not cause any issues with taking the test, so I am happy to ignore this warning.
 - Warning in line 110 at character 25: (Grouped > Useless or Possibly Useless) Void HTML elements like `<br>` don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
@@ -165,7 +165,7 @@ As a result of using Tailwind CSS and some newer HTML elements (such as popover)
 - Void HTML elements like `<input>` don't need a trailing slash (/). Using a trailing slash could interfere with unquoted attribute values. Consider removing the slash.
   - Prettier is used for code formatting on this project, and the philosophy it employs enforces trailing slash for self-closing tags. This can be ignored.
 
-Most warnings have been ignored given the reasons stated above, other than spelling corrections. No errors are shown, confirming that all pages have been validated and contain no syntax errors.
+Most warnings have been ignored given the reasons stated above, other than adding height and width attributes to images, and spelling corrections. No errors are shown, confirming that all pages have been validated and contain no syntax errors.
 
 #### Results
 
