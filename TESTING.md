@@ -53,9 +53,61 @@ The main README documentation can be found under [README.md](https://github.com/
 
 All feature testing was done manually, as outlined below:
 
-### Feature 1
+### Dynamic Page Loading
 
-- Feature 1 testing
+- Check that navigating through the site using the calls-to-action dynamically loads and replaces the current page content.
+- Click/touch/enter key events on 'choose a character' button loads the character select page.
+- Click/touch/enter key events on a character sets the active state and shows the 'start' button.
+- Click/touch/enter key events on the 'start' button loads the typing test.
+- On completion of a test, click/touch/enter key events on the 'restart' button re-loads the typing test.
+- On completion of a test, click/touch/enter key events on the 'new character' button loads the character select page.
+
+### Character Select
+
+- Click/touch events on a character sets the active state of the character.
+- Tab events navigate through the characters, with the enter key settings the active state and displaying the start button, which can also be navigated to by tab and selected with enter.
+- Navigating to the start of the test displays the selected character's quotes.
+
+### Test Timer Duration
+
+- By default, the test timer starts at 30s.
+- Click/touch events on the timer duration option in the settings popover changes the typing test duration.
+- Keyboard events (tab, arrow keys) within the settings popover allow users to select the test duration.
+
+### Typing Test
+
+- Typing a correct character on both standard and virtual keyboards changes the letter to a solid white and moves the position caret to the next letter.
+- Typing an incorrect character on both standard and virtual keyboards changes the letter to a solid red and moves the position caret to the next letter.
+- Typing an additional character at the end of a completed word using a standard or virtual keyboard adds that character to the end of the current word in an semi-transparent red, whilst also moving the caret position forward.
+- Pressing backspace on a standard or virtual keyboard sets the previous letter to a semi-transparent white, and moves the caret position backwards.
+- Pressing backspace on a standard or virtual keyboard when at the start of a word moves the caret position back to the end of the previous word, only if there are errors in that word.
+- Pressing space at the end of a completed word on a standard and virtual keyboard sets the caret position to the start of the following word.
+- Pressing space on a standard and virtual keyboard when a character should be typed next changes the character colour to red and moves the caret position forward to the next character.
+- When reaching the end of a line, pressing space on a standard or virtual keyboard moves the caret position to the start of the next word on the following line.
+- When the caret position reaches the start of the third line, the first row of words are removed and a new random quote not previously included is added to the end of the text container.
+- When the input field is not in focus, an out-of-focus message is displayed.
+- When the out-of-focus message is displayed, click/touch events on the message re-focus the input.
+- When the out-of-focus message is displayed, using tab navigation can re-focus the input field.
+- When the out-of-focus message is displayed, the test timer is paused.
+- When the input is re-focused, the test timer resumes on the next character input.
+
+### Results
+
+- When a test is completed, check that the total amount of correct characters in correct words, including spaces, divided by 5, divided by the test time, and multiplied by 60 equals to the returned value.
+- When a test is completed, check that the raw result value equals the total number of characters divided by 5, divided by the test time, multiplied by 60.
+- When a test is completed, check that the accuracy value is equal to the total correct characters including spaces divided by the total number of characters typed, multiplied by 100.
+- When a test is completed, check that the total number of correctly typed characters including spaces equals to the characters value, as well as dividing this number by 5 equals the words value.
+- When a test is completed, check that the total number of incorrectly input characters is equal to the errors value.
+
+### Restart Test
+
+- Once a test has completed, click/touch events on the restart button will re-load the previously completed test.
+- Once a test has completed, pressing the enter key whilst the restart button is in focus will re-load the previously completed test.
+
+### API Key and Local Data
+
+- Select lots of characters in a short amount of time to hit the rate limit of the API key, leading to local data being used and display an icon/text to inform the user.
+- Comment out random parts of the initial API call to create a different error, ensuring that local data is used and an icon/text is displayed to inform the user.
 
 ## Cross-browser Testing
 
@@ -262,7 +314,7 @@ Due to the static nature of this project, a cache has not been implemented, and 
 
 #### Background and foreground colors do not have a sufficient contrast ratio
 
-This message is in relation to the gold button with white text. Checking the contrast ratio using this [Contrast Ratio Tool](https://www.siegemedia.com/contrast-ratio#%23ffffff-on-%23A68932) on SiegeMedia reports a ratio of 3.36, which passes AA level accessibility 2.1. Whilst increasing this ratio further would help to pass AAA level accessibility to be accessible to the largest amount of users, it would also require revisting the colour scheme used, which has been produced through the use of a scene in the film to fit the theme of the project.
+This message is in relation to the gold button with white text. Checking the contrast ratio using this [Contrast Ratio Tool](https://www.siegemedia.com/contrast-ratio#%23ffffff-on-%23A68932) on SiegeMedia reports a ratio of 3.36, which passes AA level accessibility 2.1. Whilst increasing this ratio further would help to pass AAA level accessibility to be accessible to the largest amount of users, it would also require revisting the colour scheme used, which has been produced through the use of a scene in the film to fit the theme of the project. In addition to this, the contrast ratio was not detected as an issue in the [web accessibility evaluation tool (WAVE)](https://wave.webaim.org) when testing accessibiility.
 
 #### Serve images in next-gen formats
 

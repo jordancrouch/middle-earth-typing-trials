@@ -188,6 +188,10 @@ As the test relies on input checking, when the test loads, the input field is fo
 
 When the test loads initially, 10 random quotes from the selected character are used. If a user is particularly fast at typing, or they opt for the longer 60 second test, it could be possible that they would reach the end of these quotes. As a result, when the user reaches the start of the third line, the first line of words is removed so that more of the text becomes visible. In addition, one more random quote that hasn't been previously included gets added to the end of the text.
 
+#### Results
+
+A range of data is supplied to the user upon test completion. These metrics and calculations are explained in the settings popover, to provide the user with a clear understanding on how the results are calculated.
+
 #### Restart Test
 
 Once a test has been completed, the results are shown to the user. Restarting the test references the previous test data, so the exact same quotes can be typed. Alternatively, the user can also choose to select a different character to use a different set of quotes for the next test.
