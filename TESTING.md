@@ -87,6 +87,8 @@ All features work as intended.
 
 ## Automated Testing
 
+Due to the scope of this project and time constraints, it was not possible to incorporate automated testing. However, due to the size and logic involved, it certainly would have been beneficial, and in an ideal scenario unit testing would be used. As a result, manual testing was conducted for this project and is outlined below.
+
 ### A Note on Validation
 
 As a result of using Tailwind CSS and some newer HTML elements (such as popover), previous validation services I've used are not necessarily up to date to include such uses and returned errors that wouldn't be able to be fixed without a considerable amount of work. As a result, I searched for an alternative validation service that is regularly updated and includes CSS framework definitions and latest HTML elements/attributes. This led me to use the [CSS HTML Validator](https://www.htmlvalidator.com) Pro trial version, which can validate to W3C and WHATWG standards, but also based on what works with real-world browsers. More information on this can be [found here](https://www.htmlvalidator.com/current/docs/validate_to_w3c_standards.htm).
@@ -246,11 +248,29 @@ All pages of the website were tested using Google PSI and produced the following
 
 ![Contact page desktop psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-404-desktop-1.png)
 
-#### Heading
+#### Eliminate render-blocking resources
+
+This message is in relation to Google Fonts usage, and as it is imported via CSS, it would need to be removed for this to be resolved. As the fonts have been selected specifically and the transfer size is only small (1.5KiB), this has been ignored.
+
+#### Image elements do not have explicit width and height
+
+As previously picked up during HTML validation, image heights and widths were implemented to resolve this message.
+
+#### Serve static assets with an efficient cache policy
+
+Due to the static nature of this project, a cache has not been implemented, and all assets have been optimised, where possible.
+
+#### Background and foreground colors do not have a sufficient contrast ratio
+
+This message is in relation to the gold button with white text. Checking the contrast ratio using this [Contrast Ratio Tool](https://www.siegemedia.com/contrast-ratio#%23ffffff-on-%23A68932) on SiegeMedia reports a ratio of 3.36, which passed AA accessibility. Whilst increasing this ratio further would help to pass AAA level accessibility to be accessible to the largest amount of users, it would also require revisting the colour scheme used, which has been produced through the use of a scene in the film to fit the theme of the project.
+
+#### Serve images in next-gen formats
+
+Whilst images had been processed and optimised as in WebP format, this message helped to identify an issue where the source/img order used was incorrect (using jpg first, as opposed to webp), or cases where the jpg was being used for both the first source and the fallback image. These errors were fixed to help resolve this message.
 
 #### Final Results
 
-Each page was re-tested after implemented the above steps with the following results:
+Each page was re-tested after implementing the above steps, with the following results:
 
 ## Significant Bugs
 
