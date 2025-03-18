@@ -83,7 +83,7 @@ All features work as intended.
 
 #### Safari/Firefox/Chrome
 
-All features work as intended.
+All features work as intended. On iPad, there are some instances where the background overlay doesn't stretch completely down to the bottom of the screen. Attempts have been made to alter the Tailwind CSS classes to resolve this, but to no avail. In an ideal scenario this would be resolved, but as this is only a minor cosmetic issue and does not have any effect on the usability of the test, it has been left for the time being, as the issue is also not visible on mobile or desktop devices.
 
 ## Automated Testing
 
@@ -262,11 +262,20 @@ Due to the static nature of this project, a cache has not been implemented, and 
 
 #### Background and foreground colors do not have a sufficient contrast ratio
 
-This message is in relation to the gold button with white text. Checking the contrast ratio using this [Contrast Ratio Tool](https://www.siegemedia.com/contrast-ratio#%23ffffff-on-%23A68932) on SiegeMedia reports a ratio of 3.36, which passed AA accessibility. Whilst increasing this ratio further would help to pass AAA level accessibility to be accessible to the largest amount of users, it would also require revisting the colour scheme used, which has been produced through the use of a scene in the film to fit the theme of the project.
+This message is in relation to the gold button with white text. Checking the contrast ratio using this [Contrast Ratio Tool](https://www.siegemedia.com/contrast-ratio#%23ffffff-on-%23A68932) on SiegeMedia reports a ratio of 3.36, which passes AA level accessibility 2.1. Whilst increasing this ratio further would help to pass AAA level accessibility to be accessible to the largest amount of users, it would also require revisting the colour scheme used, which has been produced through the use of a scene in the film to fit the theme of the project.
 
 #### Serve images in next-gen formats
 
 Whilst images had been processed and optimised as in WebP format, this message helped to identify an issue where the source/img order used was incorrect (using jpg first, as opposed to webp), or cases where the jpg was being used for both the first source and the fallback image. These errors were fixed to help resolve this message.
+
+### Accessibility
+
+Further to the PSI message regarding background and foreground colour aspect ratio, accessibility testing was also conducted with the [web accessibility evaluation tool (WAVE)](https://wave.webaim.org), with the following updates implemented to fix warnings:
+
+- Replacing some paragraph tags with headings where it was identified text could potentially be headings, including character names.
+- Wrapping popover radio inputs in a fieldset element, and adding a legend within the fieldset.
+- Adding text inside the settings icon button.
+- Adding a label to the typing test input field.
 
 #### Final Results
 
@@ -325,6 +334,12 @@ Each page was re-tested after implementing the above steps, with the following r
 ## Significant Bugs
 
 ### Character image saturation filter
+
+When testing in Safari on macOS, I noticed that the character images were displaying as full colour, without the saturation filter applied. After some testing in dev tools, I noticed that the filter worked when applied directly to the img, as opposed to the parent picture element. Removing the filter from the parent and applying it to the image, and updating active/hover/focus styles resolved this issue and works as intended across all browsers and operating systems used for testing.
+
+### Quote text errors
+
+In some instances, there may be what appear to be errors in the quote text used for the typing test. However, this is a result of the data returned from the API and not with the processing of the data, as can be seen in the local data files. As the quotes are fetched from an external API, these issues can not be fixed directly within the scope of this project, and would require additional work from the API developers themselves.
 
 ---
 
