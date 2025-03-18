@@ -272,6 +272,56 @@ Whilst images had been processed and optimised as in WebP format, this message h
 
 Each page was re-tested after implementing the above steps, with the following results:
 
+**Home**
+
+[Mobile](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-index-html/lnwvhgekiw?form_factor=mobile)
+
+![Homepage mobile psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-home-mobile-2.png)
+
+[Desktop](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-index-html/lnwvhgekiw?form_factor=desktop)
+
+![Homepage desktop psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-home-desktop-2.png)
+
+**Characters**
+
+[Mobile](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-characters-html/whlc3iquga?form_factor=mobile)
+
+![Journals page mobile psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-characters-mobile-2.png)
+
+[Desktop](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-characters-html/whlc3iquga?form_factor=desktop)
+
+![Journals page desktop psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-characters-desktop-2.png)
+
+**Typing Test**
+
+[Mobile](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-typing-test-html/r6vvny8mqb?form_factor=mobile)
+
+![Gallery page mobile psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-typing-test-mobile-2.png)
+
+[Desktop](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-typing-test-html/r6vvny8mqb?form_factor=desktop)
+
+![Gallery page desktop psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-typing-test-desktop-2.png)
+
+**Results**
+
+[Mobile](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-results-html/mjdbirvgoj?form_factor=mobile)
+
+![Contact page mobile psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-results-mobile-2.png)
+
+[Desktop](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-results-html/mjdbirvgoj?form_factor=desktop)
+
+![Contact page desktop psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-results-desktop-2.png)
+
+**404**
+
+[Mobile](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-404-html/6z7wfzvlru?form_factor=mobile)
+
+![Contact page mobile psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-404-mobile-2.png)
+
+[Desktop](https://pagespeed.web.dev/analysis/https-jordancrouch-github-io-middle-earth-typing-trials-404-html/6z7wfzvlru?form_factor=desktop)
+
+![Contact page desktop psi results - first test](https://raw.githubusercontent.com/jordancrouch/middle-earth-typing-trials/refs/heads/main/assets/pagespeed/psi-404-desktop-2.png)
+
 ## Significant Bugs
 
 ### Character image saturation filter
