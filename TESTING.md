@@ -1,4 +1,4 @@
-# There & Back Again - Testing Documentation
+# Middle-earth Typing Trials - Testing Documentation
 
 The main README documentation can be found under [README.md](https://github.com/jordancrouch/middle-earth-typing-trials/blob/main/README.md)
 
