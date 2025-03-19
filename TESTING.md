@@ -16,15 +16,15 @@ The main README documentation can be found under [README.md](https://github.com/
 
 **First Time Visitor Goals**
 
-1.  As a first time visitor, I want to be able to easily determine and understand the main purpose of the website.
+1.  As a first-time visitor, I want to be able to easily determine and understand the main purpose of the website.
     1. When first landing on the website, there is a large H1 heading that states: "Test your keyboard skills with quotes from Middle-earth". This, along with the supporting subtitle providing more information, as well as the 'Choose a character' call-to-action button immediately helps provide the user with what they can expect from the site.
     2. Throughout the rest of the site, there are clear, hierarchical headings, supporting text, and calls to action, in order to provide clear and direct instructions to guide the user through the site and to the interactive typing test.
     3. When completing a test and the results are displayed, there are two clear call to action buttons displayed, signifying the test has ended and providing the user with an opportunity to restart the test, or select a new character.
-2.  As a first time visitor, I want to be able complete an interactive typing test that is easy and intuitive to use, and also provides visual feedback to keep track of progress.
+2.  As a first-time visitor, I want to be able complete an interactive typing test that is easy and intuitive to use, and also provides visual feedback to keep track of progress.
     1. There is a caret in place on the typing test, in order to provide the user with visual feedback on what position they are in, to make it easy to identify what the next character is, or where they are going if they are deleting text or adding a space to move to the next word, for example. This allows the user to feel comfortable knowing where they are at any given point during the test.
     2. Correctly typed letters are a solid white, and letters that haven't been typed have an opacity applied, which helps to create a difference between typed and untyped letters. Incorrect letters turn red in colour to help make clear when an error has been made, and any additional letters that have been typed at an end of a word are red with an opacity applied, to help separate them from the original word and make it clear for the user that these are added additional words. The combination of these colours and opacity styles further aids to visually represent user progress, providing instant per-letter feedback.
     3. When the typing input is not in focus, an out-of-focus element appears with instructions on how to focus on the typing input again. This helps to prevent any unnecessary wasted input, whilst guiding the user on how to continue with the test in any instance where the focus of the typing test has been taken by another event.
-3.  As a first time visitor, I want to receive feedback on my typing performance in the form of data metrics, such as word per minute (WPM) and accuracy.
+3.  As a first-time visitor, I want to receive feedback on my typing performance in the form of data metrics, such as word per minute (WPM) and accuracy.
     1. When a typing test concludes, a results page is loaded provided the user with data on their performance, including words per minute (WPM) and accuracy. Words per minute is calculated by taking the total amount of correctly typed characters (including spaces) from correct words, divided by 5 for the average word length, divided by the time of the test, and multiplied by 60 to standardise the result to one minute. Accuracy is calculated by dividing the total correct characters (including spaces) by the total number of characters typed, multiplied by 100 to get a percentage.
     2. In the settings popover located throughout the site, there is an explanation of these data metrics to help the user to understand how these results are calculated, to get a better understanding of their performance.
 
@@ -41,7 +41,7 @@ The main README documentation can be found under [README.md](https://github.com/
 
 **Frequent User Goals**
 
-1.  As a frequest user, I want to be able to use the test as many times as possible without there being any issues with retrieving the quotes for the characters I select.
+1.  As a frequent user, I want to be able to use the test as many times as possible without there being any issues with retrieving the quotes for the characters I select.
     1. Due to the nature of the API used, requests are limited to 100 every 10 minutes. As a result, this could lead to errors fetching the data if these rate limits are exceeded. The quote data for each character has been saved and stored locally, so that it can be used in such cases, allowed frequent users to take the test as much as they would like.
     2. When local data is used, an icon and text is displayed in the navigation bar to inform the user that the local data is currently being used.
 2.  As a frequent user, I want an easy way to be able to restart the previously finished test to be able to directly compare my score.
@@ -78,13 +78,13 @@ All feature testing was done manually, as outlined below:
 
 - Typing a correct character on both standard and virtual keyboards changes the letter to a solid white and moves the position caret to the next letter.
 - Typing an incorrect character on both standard and virtual keyboards changes the letter to a solid red and moves the position caret to the next letter.
-- Typing an additional character at the end of a completed word using a standard or virtual keyboard adds that character to the end of the current word in an semi-transparent red, whilst also moving the caret position forward.
+- Typing an additional character at the end of a completed word using a standard or virtual keyboard adds that character to the end of the current word in a semi-transparent red, whilst also moving the caret position forward.
 - Pressing backspace on a standard or virtual keyboard sets the previous letter to a semi-transparent white, and moves the caret position backwards.
 - Pressing backspace on a standard or virtual keyboard when at the start of a word moves the caret position back to the end of the previous word, only if there are errors in that word.
 - Pressing space at the end of a completed word on a standard and virtual keyboard sets the caret position to the start of the following word.
 - Pressing space on a standard and virtual keyboard when a character should be typed next changes the character colour to red and moves the caret position forward to the next character.
 - When reaching the end of a line, pressing space on a standard or virtual keyboard moves the caret position to the start of the next word on the following line.
-- When the caret position reaches the start of the third line, the first row of words are removed and a new random quote not previously included is added to the end of the text container.
+- When the caret position reaches the start of the third line, the first row of words is removed and a new random quote not previously included is added to the end of the text container.
 - When the input field is not in focus, an out-of-focus message is displayed.
 - When the out-of-focus message is displayed, click/touch events on the message re-focus the input.
 - When the out-of-focus message is displayed, using tab navigation can re-focus the input field.
@@ -314,7 +314,7 @@ Due to the static nature of this project, a cache has not been implemented, and 
 
 #### Background and foreground colors do not have a sufficient contrast ratio
 
-This message is in relation to the gold button with white text. Checking the contrast ratio using this [Contrast Ratio Tool](https://www.siegemedia.com/contrast-ratio#%23ffffff-on-%23A68932) on SiegeMedia reports a ratio of 3.36, which passes AA level accessibility 2.1. Whilst increasing this ratio further would help to pass AAA level accessibility to be accessible to the largest amount of users, it would also require revisting the colour scheme used, which has been produced through the use of a scene in the film to fit the theme of the project. In addition to this, the contrast ratio was not detected as an issue in the [web accessibility evaluation tool (WAVE)](https://wave.webaim.org) when testing accessibiility.
+This message is in relation to the gold button with white text. Checking the contrast ratio using this [Contrast Ratio Tool](https://www.siegemedia.com/contrast-ratio#%23ffffff-on-%23A68932) on SiegeMedia reports a ratio of 3.36, which passes AA level accessibility 2.1. Whilst increasing this ratio further would help to pass AAA level accessibility to be accessible to the largest amount of users, it would also require revisiting the colour scheme used, which has been produced through the use of a scene in the film to fit the theme of the project. In addition to this, the contrast ratio was not detected as an issue in the [web accessibility evaluation tool (WAVE)](https://wave.webaim.org) when testing accessibility.
 
 #### Serve images in next-gen formats
 
@@ -391,7 +391,7 @@ When testing in Safari on macOS, I noticed that the character images were displa
 
 ### Quote text errors
 
-In some instances, there may be what appear to be errors in the quote text used for the typing test. However, this is a result of the data returned from the API and not with the processing of the data, as can be seen in the local data files. As the quotes are fetched from an external API, these issues can not be fixed directly within the scope of this project, and would require additional work from the API developers themselves.
+In some instances, there may be what appear to be errors in the quote text used for the typing test. However, this is a result of the data returned from the API and not with the processing of the data, as can be seen in the local data files. As the quotes are fetched from an external API, these issues cannot be fixed directly within the scope of this project, and would require additional work from the API developers themselves.
 
 ---
 
